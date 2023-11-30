@@ -1,0 +1,28 @@
+function Page4No3() {
+  const styles = {
+    'backgroundImage':'url("/images/tengok-ragam/bg/Page 3.png")',
+    'backgroundPosition':'center',
+    'backgroundColor' :'#f4f3d3',
+    'backgroundSize':'100% 100%',
+    'padding':'20px'
+  }
+  const empty = {
+    'width': '40%',
+    'height':'100%'
+  }
+
+
+  return(
+    <div class='page flex-row justify-center' style={styles}>
+      <div class='empty' style={empty}></div>
+      <div class='flex-column '>
+        <img src='/images/tengok-ragam/Text/Page 3/Asset 18.png'></img>
+        <img src='/images/tengok-ragam/Text/Page 3/Asset 19.png'></img>
+
+      </div>
+    </div>
+  )
+}
+
+
+export default Page4No3;
