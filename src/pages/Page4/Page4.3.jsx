@@ -4,18 +4,19 @@ function Page4No3() {
     'backgroundPosition':'center',
     'backgroundColor' :'#f4f3d3',
     'backgroundSize':'100% 100%',
-    'padding':'20px'
+    'padding':'40px'
   }
+
   const empty = {
     'width': '40%',
     'height':'100%'
   }
 
-
+ 
   return(
     <div class='page flex-row justify-center' style={styles}>
       <div class='empty' style={empty}></div>
-      <div class='flex-column '>
+      <div class='page4no3-images flex-column justify-center'>
         <img src='/images/tengok-ragam/Text/Page 3/Asset 18.png'></img>
         <img src='/images/tengok-ragam/Text/Page 3/Asset 19.png'></img>
 

@@ -3,15 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .App {
   width: 100vw;
 }
 
-
 .page {
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
 
 }
 
@@ -25,9 +23,13 @@
 }
 
 .justify-center {
-  justify-content:'center'
+  justify-content:center;
 }
 
 .justify-start {
-  justify-content: 'start';
+  justify-content: start;
+}
+
+.page4no3-images > * {
+  transform: scale(0.8);
 }
