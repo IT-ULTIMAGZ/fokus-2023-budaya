@@ -8,16 +8,12 @@ import Page4No4 from './pages/Page4/Page4.4';
 import Page4No5 from './pages/Page4/Page4.5';
 import Page4No6 from './pages/Page4/Page4.6';
 import Page4No7 from './pages/Page4/Page4.7';
+import Page4 from './pages/Page4/Page4';
+import Page5 from './pages/page5/Page5';
 function App() {
   return (
     <div className="App">
-      <Page4No1></Page4No1>
-      <Page4No2></Page4No2>
-      <Page4No3></Page4No3>
-      <Page4No4></Page4No4>
-      <Page4No5></Page4No5>
-      {/* <Page4No6></Page4No6> */}
-      <Page4No7></Page4No7>
+      <Page5></Page5>
     </div>
   );
 }

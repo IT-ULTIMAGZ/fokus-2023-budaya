@@ -1,7 +1,13 @@
+@font-face {
+  font-family: 'National 2';
+  src: local('National 2') url('pages/page5/Fonts/National 2 Black.otf');
+
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'National 2', sans-serif;
 }
 .App {
   width: 100vw;
@@ -10,7 +16,6 @@
 .page {
   height: 100vh;
   width: 100vw;
-
   background-size: cover;
   background-position: center;
 
@@ -32,6 +37,9 @@
   justify-content:center;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
 .align-center {
   align-items: center;
 }
@@ -52,17 +60,75 @@
 }
 
 .bg-img {
-
+  width: 100vw;
   position: absolute;
-  top: 0;
-  left: 0;
+  top:0px;
+
 }
 
 .detail-text-2 {
   width: 450px;
 }
+.detail-text-3 {
+  width: 465px;
+}
 
 .text-section {
   justify-content: space-around;
   gap:20px;
+}
+
+.halobali {
+  width: 1155px;
+}
+
+.text-section {
+  margin-top: 40px;
+}
+
+.sidescroll-page {
+  height: 100vh;
+  min-width: 150vw;
+  overflow-y:hidden;
+  display: flex;
+  flex-direction: row;
+  background: url("../public/images/tengok-ragam-real/Page 1/bg pg1.png") center/cover fixed;
+  /* background-size: cover;
+  background-position: center; */
+  
+}
+
+.empty {
+  height: 50vh;
+  width: 100vw;
+  padding: 20px;
+}
+.empty-pg5 {
+  height: 50vh;
+  width: 120vw;
+  padding: 20px;
+}
+
+.pg5-content-list {
+  min-width: 30vw;
+  position:relative;
+}
+
+.pg5-content-list > img {
+  position: absolute;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top:0;
+  left:0;
+  width: 170px;
+}
+
+#pg5-judul {
+  transform: scale(0.8);
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+  color:black;
 }
