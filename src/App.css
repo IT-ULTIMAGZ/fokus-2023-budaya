@@ -60,11 +60,25 @@
 }
 
 .bg-img {
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   position: absolute;
   top:0px;
+  left:0px;
+  z-index: -1;
 
 }
+
+.bg-img-sidescroll {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0px;
+  left:0px;
+  z-index: -1;
+}
+
+
 
 .detail-text-2 {
   width: 450px;
@@ -88,14 +102,63 @@
 
 .sidescroll-page {
   height: 100vh;
-  min-width: 150vw;
+  min-width: 160vw;
   overflow-y:hidden;
   display: flex;
   flex-direction: row;
-  background: url("../public/images/tengok-ragam-real/Page 1/bg pg1.png") center/cover fixed;
+
+  /* background: url("../public/images/tengok-ragam-real/Page 1/bg pg1.png") center/cover fixed; */
   /* background-size: cover;
-  background-position: center; */
+  background-position: center; */  
+}
+
+.content-img {
+  height: 200px;
+  width: 1000px;
+
+}
+.sidescroll-content {
+  position: relative;
+  min-width: 200vw;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+}
+.sidescroll-content-page {
+  width: 100vw;
   
+}
+
+.sidescroll-content-desc {
+  max-width: 800px;
+  text-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 3rem;
+}
+.sidescroll-content > .content-preview {
+  position: absolute;
+  top:0;
+  left:0;
+  height: 100%;
+}
+
+.sidescroll-hero {
+  position: relative;
+  width: 180vw;
+}
+
+.master {
+  overflow-y: hidden;
+}
+
+.master-left {
+  width: 160vw;
+  height:100vh;
+  /* background-color: red; */
 }
 
 .empty {
@@ -103,26 +166,23 @@
   width: 100vw;
   padding: 20px;
 }
+
 .empty-pg5 {
   height: 50vh;
-  width: 120vw;
   padding: 20px;
 }
 
 .pg5-content-list {
-  min-width: 30vw;
-  position:relative;
+  /* width: fit-content; */
+  min-width: 50vw;
 }
 
-.pg5-content-list > img {
-  position: absolute;
+.content-preview {
   height: 100%;
-  margin: 0;
-  padding: 0;
-  top:0;
-  left:0;
-  width: 170px;
+  width: 150px;
+  transition: 1s;
 }
+
 
 #pg5-judul {
   transform: scale(0.8);

@@ -1,68 +1,119 @@
 import MuaraTakus from "./components/MuaraTakus";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+
 function Page5() {
-  function spreadDivs() {
-    const stack = Array.from(document.getElementsByClassName('content-preview'));
-    console.log(stack.length);
-
-    for (let i = 0; i < stack.length; i++) {
-      const shift = 90;
-      stack[i].style.transform = `translateX(${shift*i}%)`;
-
-      console.log(shift * i);
-    }
-  }
-
+ 
   function convertScrolling() {
-    const container = document.querySelector('.sidescroll-page');
+    const container = document.querySelector('.master');
     container.addEventListener('wheel', (e) => {
       e.preventDefault();
-      container.scrollLeft += e.deltaY;
-      
+      container.scrollLeft += (e.deltaY + e.deltaX);
       console.log(e.deltaY);
-      console.log(document.body.scrollLeft)
-    })
-  }
-
-  function animateScroll() {
-    const element = document.getElementById("first-content");
-    var tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: element,
-        start: "center center", // Trigger when the center of the element hits the center of the viewport
-        scrub: 0.5              // Smoothly animate the properties
-      }
     });
 
+  }
 
-    tl.to(element, { 
-      opacity: 1, duration: 2,
-      x:400
-     });
-  
+  function expandWhenClicked() {
+    const stack = Array.from(document.getElementsByClassName('content-preview'));
     
+    stack.forEach(item => {
+      item.addEventListener('click', function (e) {
+        alert('test')    
+        item.style.display = `scale(80%)`;
+      });
+    });
+  }
+  
+  
+
+  function animateScroll() {
+    const slider = document.querySelector('.sidescroll-page');
+    const element = document.getElementById("first-content");
+    // let tl = gsap.timeline({
+    //   defaults : {
+    //     ease: "none"
+    //   },
+    //   scrollTrigger: {
+    //     trigger: slider,
+    //     pin:true,
+    //     start: "center center", // Trigger when the center of the element hits the center of the viewport
+    //     scrub: 0.5,
+    //     end: ()=> "+=" + slider.offsetWidth
+    //                   // Smoothly animate the properties
+    //   }
+    // });
+
+    // tl.to(slider, {
+    //   xPercent: -66,
+    // });
+  }
+
+  const [backgrounds, setBgs] = useState([]);
+
+  function getBackgrounds() {
+    let bgs = [];
+    const baseDir = './images/tengok-ragam-real';
+
+    for (let i = 1; i < 8; i++) {
+      bgs.push(`${baseDir}/Page ${i}/ bg pg${i}.png`);
+    }
+
+    setBgs(bgs);
+  }
+
+  function smoothScroll() {
+    const lenis = new Lenis()
+
+    lenis.on('scroll', (e) => {
+      console.log(e)
+    })
+
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+  }
+
+requestAnimationFrame(raf)
   }
   useEffect(()=> {
-    convertScrolling();
-    spreadDivs();
+    // convertScrolling();
+    // spreadDivs();
+
+    // smoothScroll();
     animateScroll();
-  }, [])
+    expandWhenClicked();
+    getBackgrounds();
+    console.log(backgrounds);
+
+  }, []);
+
+
   return (
-    <div className='sidescroll-page'>
-      <div className='page5-hero-text'>
-        <div className='empty-pg5' >
-          <img id='pg5-judul' src='./images/tengok-ragam-real/Page 1/judul pg1.png'></img>
+    <div className='master flex-row justify-start'>
+        <div className='sidescroll-page'>
+            <div className="sidescroll-hero flex-row">
+              <img className='bg-img-sidescroll' src='./images/tengok-ragam-real/Page 1/bg pg1.png'></img>
+              {/* <div style={{width: '100vw', height:'100vh'}></div> */}
+              <div className='page5-hero-text'>
+                <div className='empty-pg5'>
+                  <img id='pg5-judul' src='./images/tengok-ragam-real/Page 1/judul pg1.png'></img>
+                </div>
+              </div>
+              <div className="master-left"></div>
+              <div className='pg5-content-list'>
+                <img id='first-content' className='content-preview' src='./images/tengok-ragam-real/Page 1/Asset 1 pg1.png'></img>
+                <img className='content-preview' src='./images/tengok-ragam-real/Page 1/aset2 pg1.png'></img>
+                <img className='content-preview' src='./images/tengok-ragam-real/Page 1/aset3 pg1.png'></img>
+                <img className='content-preview' src='./images/tengok-ragam-real/Page 1/aset4 pg1.png'></img>
+                <img className='content-preview' src='./images/tengok-ragam-real/Page 1/aset5 pg 1.png'></img>
+                <img className='content-preview' src='./images/tengok-ragam-real/Page 1/aset6 pg1.png'></img>
+              </div> 
+            </div>
+           
         </div>
-      </div>
-      <div className='pg5-content-list'>
-        <img id='first-content' class='content-preview' src='./images/tengok-ragam-real/Page 1/Asset 1 pg1.png'></img>
-        <img class='content-preview' src='./images/tengok-ragam-real/Page 1/aset2 pg1.png'></img>
-        <img class='content-preview' src='./images/tengok-ragam-real/Page 1/aset3 pg1.png'></img>
-        <img class='content-preview' src='./images/tengok-ragam-real/Page 1/aset4 pg1.png'></img>
-        <img class='content-preview' src='./images/tengok-ragam-real/Page 1/aset5 pg 1.png'></img>
-        <img class='content-preview' src='./images/tengok-ragam-real/Page 1/aset6 pg1.png'></img>
-      </div>
-      <MuaraTakus></MuaraTakus>
+
+      {/* <MuaraTakus></MuaraTakus> */}
+
     </div>
   )
 }

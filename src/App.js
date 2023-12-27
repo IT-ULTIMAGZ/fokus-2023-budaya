@@ -10,10 +10,12 @@ import Page4No6 from './pages/Page4/Page4.6';
 import Page4No7 from './pages/Page4/Page4.7';
 import Page4 from './pages/Page4/Page4';
 import Page5 from './pages/page5/Page5';
+import MuaraTakus from './pages/page5/components/MuaraTakus';
 function App() {
   return (
     <div className="App">
-      <Page5></Page5>
+      <MuaraTakus></MuaraTakus>
+
     </div>
   );
 }
