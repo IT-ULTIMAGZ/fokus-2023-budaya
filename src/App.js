@@ -14,8 +14,7 @@ import MuaraTakus from './pages/page5/components/MuaraTakus';
 function App() {
   return (
     <div className="App">
-      <MuaraTakus></MuaraTakus>
-
+      <Page5></Page5>
     </div>
   );
 }

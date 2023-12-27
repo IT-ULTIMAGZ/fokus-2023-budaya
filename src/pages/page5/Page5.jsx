@@ -62,7 +62,7 @@ function Page5() {
   }
 
   function smoothScroll() {
-    const lenis = new Lenis()
+    const lenis = new Lenis();
 
     lenis.on('scroll', (e) => {
       console.log(e)
