@@ -1,16 +1,15 @@
 import '../rubrik5.css'
 function MuaraTakus() {
   return(
-    <div className='sidescroll-content flex-row'>
+    <div className='sidescroll-content flex-row justify-center align-center'>
       {/* <img src='./images/tengok-ragam-real/Links/Candi Muara Takus.png'></img> */}
-      <img style={{position:'absolute', top:'2%', left:'-0.5%', zIndex:'0'}}src='./images/tengok-ragam-real/Page 2/aset bg pg2.png'></img>
+      <img style={{position:'absolute', zIndex:'0'}}src='./images/tengok-ragam-real/Page 2/aset bg pg2.png'></img>
 
       <img className='bg-img-sidescroll' src='./images/tengok-ragam-real/Page 2/bg pg2.png'></img>
-
       <div  style={{height:'80vh'}}className='sidescroll-content-page flex-column justify-around align-center'>
         <img className='content-img' src='./images/tengok-ragam-real/Page 2/aset 1 pg2.png'></img>
 
-        <div style={{textAlign:'center', gap:'20px'}} class='flex-column justify-center align-center'>
+        <div style={{textAlign:'center', width:'90vw'}} class='flex-column justify-center align-center'>
           <p className='sidescroll-content-desc'>Destinasi sejarah budaya Indonesia kuno yang berada di pinggir sungai
           Kampar, Desa Muara Takus, Riau. Melansir dari <i>kompas.com</i>, nama
           <b style={{fontWeight:500}}> <i>MUARA</i></b> <strong style={{fontWeight:800}}>TAKUS</strong> memiliki arti candi tua yang berada di muara sungai.</p>
@@ -22,26 +21,23 @@ function MuaraTakus() {
       </div>
 
 
-      <div  style={{height:'80vh'}}className='sidescroll-content-page flex-row justify-between'>
-        <div style={{width:'43vw',height:'80vh',padding:'3rem'}} className='flex-column justify-around align-center'>
+      <div style={{height:'80vh'}}className='sidescroll-content-page flex-row justify-between'>
+        <div style={{width:'45vw',height:'80vh'}} className='flex-column justify-around align-center'>
           <p class='sidescroll-content-hero'>CANDI <b style={{fontWeight:500}}><i>MUARA</i></b> <b style={{fontWeight:800}}>TAKUS</b>
-                diketahui dibangun pada sekitar
+            diketahui dibangun pada sekitar
             abad ke – 4 hingga abad ke – 11, <br></br>
             yakni pada masa kerajaan Sriwijaya.
           </p>
 
           <img src='./images/tengok-ragam-real/Page 2/aset2 pg2.png'></img>
-
           <p class='sidescroll-content-desc'> Ultimates dapat melihat bentuk
             stupa sebagai lambang dari
             Buddha Gautama di CANDI
             <b style={{fontWeight:500}}><i>MUARA</i></b> <strong style={{fontWeight:800}}>TAKUS</strong>
           </p>
-
-
         </div>
 
-        <div style={{width:'57vw', height:'80vh'}} class='flex-column justify-around align-center'>
+        <div style={{width:'65vw', height:'80vh'}} class='flex-column justify-around align-center'>
           <p class='sidescroll-content-hero'>CANDI <b style={{fontWeight:500}}><i>MUARA</i></b> <em style={{fontWeight:800}}>TAKUS</em>
           sendiri memiliki empat candi, yaitu</p>
 
@@ -66,9 +62,9 @@ function MuaraTakus() {
           </div>
 
           <p class='sidescroll-content-desc'>CANDI <strong>PALANGKA</strong> pun diperkirakan sebagai tempat altar untuk
-menaruhkan sesajen bagi para dewa kepercayaan Buddha. Sebab,
-memang pada mulanya, CANDI <b style={{fontWeight:500}}><i>MUARA</i></b> <strong style={{fontWeight:800}}>TAKUS</strong> dibangun sebagai
-pusat keagamaan Buddha Mahayana.</p>
+            menaruhkan sesajen bagi para dewa kepercayaan Buddha. Sebab,
+            memang pada mulanya, CANDI <b style={{fontWeight:500}}><i>MUARA</i></b> <strong style={{fontWeight:800}}>TAKUS</strong> dibangun sebagai
+            pusat keagamaan Buddha Mahayana.</p>
 
           <p class='sidescroll-content-desc'>Selain pesona arsitektur, CANDI <b style={{fontWeight:500}}><i>MUARA</i></b> <strong style={{fontWeight:800}}>TAKUS</strong> dapat menjadi salah
           satu destinasi bagi wisatawan yang ingin mengetahui tentang
