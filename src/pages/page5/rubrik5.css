@@ -56,6 +56,8 @@
   left:0px;
   z-index: -1;
 
+  object-fit: cover;
+
 }
 
 .bg-img-sidescroll {
@@ -65,6 +67,9 @@
   top:0px;
   left:0px;
   z-index: -1;
+
+  object-fit: cover;
+
 }
 
 
@@ -92,7 +97,7 @@
 .sidescroll-page {
   height: 100vh;
   min-width: 160vw;
-  overflow-y:hidden;
+  /* overflow-y: hidden; */
   display: flex;
   flex-direction: row;
 
@@ -133,11 +138,14 @@
   top:0;
   left:0;
   height: 100%;
+
+
 }
 
 .sidescroll-hero {
   position: relative;
-  width: 180vw;
+  width: 200vw;
+  height: 100vh;
 }
 
 .master {
@@ -145,7 +153,7 @@
 }
 
 .master-left {
-  width: 160vw;
+  width: 180vw;
   height:100vh;
   /* background-color: red; */
 }
@@ -164,6 +172,7 @@
 .pg5-content-list {
   /* width: fit-content; */
   min-width: 50vw;
+  
 }
 
 .content-preview {

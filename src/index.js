@@ -20,7 +20,7 @@ const router = createBrowserRouter([
   },
   {
     path: "Rubrik5",
-    element: <MuaraTakus />
+    element: <Page5 />
   }
 ]);
 
