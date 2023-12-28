@@ -1,5 +1,6 @@
 import MuaraTakus from "./components/MuaraTakus";
 import { useEffect, useState } from "react";
+import './rubrik5.css';
 
 function Page5() {
  
@@ -26,29 +27,7 @@ function Page5() {
   
   
 
-  function animateScroll() {
-    const slider = document.querySelector('.sidescroll-page');
-    const element = document.getElementById("first-content");
-    // let tl = gsap.timeline({
-    //   defaults : {
-    //     ease: "none"
-    //   },
-    //   scrollTrigger: {
-    //     trigger: slider,
-    //     pin:true,
-    //     start: "center center", // Trigger when the center of the element hits the center of the viewport
-    //     scrub: 0.5,
-    //     end: ()=> "+=" + slider.offsetWidth
-    //                   // Smoothly animate the properties
-    //   }
-    // });
-
-    // tl.to(slider, {
-    //   xPercent: -66,
-    // });
-  }
-
-  const [backgrounds, setBgs] = useState([]);
+  
 
   function getBackgrounds() {
     let bgs = [];
@@ -76,14 +55,8 @@ function Page5() {
 requestAnimationFrame(raf)
   }
   useEffect(()=> {
-    // convertScrolling();
-    // spreadDivs();
-
-    // smoothScroll();
-    animateScroll();
+    convertScrolling();
     expandWhenClicked();
-    getBackgrounds();
-    console.log(backgrounds);
 
   }, []);
 
@@ -112,7 +85,7 @@ requestAnimationFrame(raf)
            
         </div>
 
-      {/* <MuaraTakus></MuaraTakus> */}
+      <MuaraTakus></MuaraTakus>
 
     </div>
   )
