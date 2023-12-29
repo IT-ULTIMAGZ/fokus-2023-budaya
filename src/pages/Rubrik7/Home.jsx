@@ -38,6 +38,12 @@ const Home =()=> {
         const menu06_hover = document.querySelector('.menu06_hover');
 
         const mulaiButton = document.querySelector('.mulaiButton');
+        mulaiButton.addEventListener('click', () => {
+            bgHome.scrollIntoView({ behavior: 'smooth' });
+        });
+        mulaiButton.addEventListener('mouseover', () => {
+            mulaiButton.style.cursor="pointer";
+        });
 
 
         const bgHome = document.querySelector('.bgHome');
@@ -214,7 +220,7 @@ const Home =()=> {
                 <img src="./images/home/budaya_budaya_indonesia.png" alt="" />
                 <button className="mulaiButton">Mulai dari sini</button>
             </div>
-            <div alt="" className="bgHome" >
+            <div alt="" className="bgHome" id="bgHome">
                 <div className="bgHomeContent">
                     <div className="menuAtas">
                         <img src="./images/home/menu03.png" alt="" className="menu03"/>   
