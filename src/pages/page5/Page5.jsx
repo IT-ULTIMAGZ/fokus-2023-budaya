@@ -1,6 +1,7 @@
 import MuaraTakus from "./components/MuaraTakus";
 import { useEffect, useState } from "react";
 import './rubrik5.css';
+// import AOS from 'aos';
 
 function Page5() {
  
@@ -29,12 +30,12 @@ function Page5() {
     });
   }
   
-  useEffect(()=> {
-    AOS.init();
-    convertScrolling();
-    scrollToSection();
+  // useEffect(()=> {
+  //   AOS.init();
+  //   convertScrolling();
+  //   scrollToSection();
 
-  }, []);
+  // }, []);
 
 
   return (
