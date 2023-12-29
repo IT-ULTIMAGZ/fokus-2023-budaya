@@ -4,26 +4,6 @@ import { useEffect, React } from 'react';
 
 const Home =()=> {
     useEffect(() => {
-        console.log(window.screen.orientation.type);
-        const lockOrientation = async () => {
-            if (window.screen.orientation.type === 'portrait-primary') {
-            
-                await window.screen.orientation.lock('landscape-primary')
-                .then(() => {
-                    console.log('Orientation locked successfully');
-                })
-                .catch((error) => {
-                    console.error('An error occurred: ', error);
-                });
-                    
-                 
-            } else {
-              console.error('Screen Orientation API is not supported');
-            }
-          };
-          lockOrientation();
-
-
         const menu01 = document.querySelector('.menu01');
         const menu01_hover = document.querySelector('.menu01_hover');
         const menu02 = document.querySelector('.menu02');
@@ -227,9 +207,9 @@ const Home =()=> {
                         <img src="./images/home/menu01.png" alt="" className="menu01"/>
                         <img src="./images/home/menu05.png" alt="" className="menu05"/>
 
-                        <img src="./images/home/menu03_1_hover.png" alt="" className="menu03_hover"/>   
-                        <img src="./images/home/menu01_1_hover.png" alt="" className="menu01_hover"/>
-                        <img src="./images/home/menu05_1_hover.png" alt="" className="menu05_hover"/>
+                        <img src="./images/home/Menu03_1_hover.png" alt="" className="menu03_hover"/>   
+                        <img src="./images/home/Menu01_1_hover.png" alt="" className="menu01_hover"/>
+                        <img src="./images/home/Menu05_1_hover.png" alt="" className="menu05_hover"/>
 
                     </div>
                     <div className="menuBawah"> 
@@ -237,9 +217,9 @@ const Home =()=> {
                         <img src="./images/home/menu04.png" alt="" className="menu04"/>
                         <img src="./images/home/menu06.png" alt="" className="menu06"/>
 
-                        <img src="./images/home/menu02_1_hover.png" alt="" className="menu02_hover"/>   
-                        <img src="./images/home/menu04_1_hover.png" alt="" className="menu04_hover"/>
-                        <img src="./images/home/menu06_1_hover.png" alt="" className="menu06_hover"/>
+                        <img src="./images/home/Menu02_1_hover.png" alt="" className="menu02_hover"/>   
+                        <img src="./images/home/Menu04_1_hover.png" alt="" className="menu04_hover"/>
+                        <img src="./images/home/Menu06_1_hover.png" alt="" className="menu06_hover"/>
 
                     </div>
                 </div>
