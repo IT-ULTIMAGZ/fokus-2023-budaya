@@ -11,23 +11,28 @@ function Page5() {
       document.querySelector('.sidescroll-page').scrollLeft += (e.deltaY + e.deltaX);
       container.scrollLeft += (e.deltaY + e.deltaX);
       console.log(e.deltaY);
+
+
     });
 
   }
 
-  function expandWhenClicked() {
+  function scrollToSection() {
     const stack = Array.from(document.getElementsByClassName('content-preview'));
     stack.forEach(item => {
-      item.addEventListener('click', function (e) {
-        alert('test')    
-        item.style.display = `scale(80%)`;
+      item.addEventListener('click',  ()=> {
+        const id = item.dataset.section;
+        const element = document.getElementById(id);
+        element.scrollIntoView({behavior:'smooth'})
+        
       });
     });
   }
   
   useEffect(()=> {
+    AOS.init();
     convertScrolling();
-    expandWhenClicked();
+    scrollToSection();
 
   }, []);
 
@@ -52,20 +57,20 @@ function Page5() {
                     </div>
                   </div>
                 </div>
-
-                
               </div>
               <div className="master-left"></div>
-              <div className='pg5-content-list'>
-                <img id='first-content' className='content-preview' src='./images/tengok-ragam-real/Page 1/Asset 1 pg1.png'></img>
-                <img className='content-preview' src='./images/tengok-ragam-real/Page 1/aset2 pg1.png'></img>
-                <img className='content-preview' src='./images/tengok-ragam-real/Page 1/aset3 pg1.png'></img>
-                <img className='content-preview' src='./images/tengok-ragam-real/Page 1/aset4 pg1.png'></img>
-                <img className='content-preview' src='./images/tengok-ragam-real/Page 1/aset5 pg 1.png'></img>
-                <img className='content-preview' src='./images/tengok-ragam-real/Page 1/aset6 pg1.png'></img>
+              <div data-aos='fade-in' className='pg5-content-list'>
+                <img  data-section ='muaratakus' id='first-content' className='content-preview' src='./images/tengok-ragam-real/Page 1/Asset 1 pg1.png'></img>
+                <img data-section ='desapenglipuran' className='content-preview' src='./images/tengok-ragam-real/Page 1/aset2 pg1.png'></img>
+                <img data-section ='desatomok' className='content-preview' src='./images/tengok-ragam-real/Page 1/aset3 pg1.png'></img>
+                <img data-section='cenderawasih' className='content-preview' src='./images/tengok-ragam-real/Page 1/aset4 pg1.png'></img>
+                <img data-section='wakatobi' className='content-preview' src='./images/tengok-ragam-real/Page 1/aset5 pg 1.png'></img>
+                <img data-section='end' className='content-preview' src='./images/tengok-ragam-real/Page 1/aset6 pg1.png'></img>
               </div> 
             </div>
             <MuaraTakus></MuaraTakus>
+
+            
 
         </div>
 

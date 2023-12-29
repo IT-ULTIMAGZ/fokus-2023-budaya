@@ -111,6 +111,10 @@
   width: 1000px;
 
 }
+
+.content-preview {
+  cursor:pointer;
+}
 .sidescroll-content {
   position: relative;
   min-width: 200vw;

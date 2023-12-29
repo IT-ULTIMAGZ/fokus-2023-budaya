@@ -1,7 +1,7 @@
 import '../rubrik5.css'
 function MuaraTakus() {
   return(
-    <div className='sidescroll-content flex-row justify-center align-center'>
+    <div data-aos='fade-in' data-aos-duration= '1000'id='muaratakus' className='sidescroll-content flex-row justify-center align-center'>
       {/* <img src='./images/tengok-ragam-real/Links/Candi Muara Takus.png'></img> */}
       <img style={{position:'absolute', zIndex:'0'}}src='./images/tengok-ragam-real/Page 2/aset bg pg2.png'></img>
 
