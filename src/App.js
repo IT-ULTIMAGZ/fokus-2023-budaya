@@ -11,14 +11,12 @@ import Page4No7 from './pages/Page4/Page4.7';
 function App() {
   return (
     <div className="App">
-      <Page1/>
-      <Page4No1></Page4No1>
+      {/* <Page4No1></Page4No1>
       <Page4No2></Page4No2>
       <Page4No3></Page4No3>
       <Page4No4></Page4No4>
       <Page4No5></Page4No5>
-      {/* <Page4No6></Page4No6> */}
-      <Page4No7></Page4No7>
+      <Page4No7></Page4No7> */}
     </div>
   );
 }

@@ -23,6 +23,14 @@ const Home =()=> {
         });
         mulaiButton.addEventListener('mouseover', () => {
             mulaiButton.style.cursor="pointer";
+            mulaiButton.style.width="220px";
+            mulaiButton.style.height="44px";
+            mulaiButton.style.fontSize="27px";
+        });
+        mulaiButton.addEventListener('mouseout', () => {
+            mulaiButton.style.width="200px";
+            mulaiButton.style.height="40px";
+            mulaiButton.style.fontSize="24px";
         });
 
 
@@ -44,14 +52,12 @@ const Home =()=> {
             menu01_hover.style.width = menuWidth;
             menu01_hover.style.display = 'block';
 
-            
-            menu01.style.filter="brightness(120%)";
             menu01.style.transform="scale(1.1)";
             bgHome.classList.add('hover');
             bgHomeCover.classList.add('hover');
         });
         menu01.addEventListener('click', () => {
-            window.location.href = '/rubrik1';
+            window.location.href = './Budaya-Bangsa-Yang-Tidak-Lekang-Oleh-Waktu';
         });
         menu01.addEventListener('mouseout', () => {
             menu01.style.filter="brightness(100%)";
@@ -72,8 +78,6 @@ const Home =()=> {
             menu02_hover.style.top = "26%";
             menu02_hover.style.width = menuWidth;
             menu02_hover.style.display = 'block';
-
-            menu02.style.filter="brightness(120%)";
             menu02.style.transform="scale(1.1)";
             bgHome.classList.add('hover');
             bgHomeCover.classList.add('hover');
@@ -84,6 +88,9 @@ const Home =()=> {
             bgHome.classList.remove('hover');
             menu02_hover.style.display = 'none';
             bgHomeCover.classList.remove('hover');
+        });
+        menu02.addEventListener('click', () => {
+            window.location.href = "./Seberapa-Dekat-Ultimates-Dengan-Sejarah";
         });
 
         menu03.addEventListener('mouseover', () => {
@@ -100,7 +107,6 @@ const Home =()=> {
             menu03_hover.style.display = 'block';
 
             
-            menu03.style.filter="brightness(120%)";
             menu03.style.transform="scale(1.1)";
             bgHome.classList.add('hover');
             bgHomeCover.classList.add('hover');
@@ -111,6 +117,9 @@ const Home =()=> {
             bgHome.classList.remove('hover');
             menu03_hover.style.display = 'none';
             bgHomeCover.classList.remove('hover');
+        });
+        menu03.addEventListener('click', () => {
+            window.location.href = "./Lihat-Semangat-5-Pelestari";
         });
 
         menu04.addEventListener('mouseover', () => {
@@ -138,6 +147,9 @@ const Home =()=> {
             menu04_hover.style.display = 'none';
             bgHomeCover.classList.remove('hover');
         });
+        menu04.addEventListener('click', () => {
+            window.location.href = "./Telisik-5-Warisan-Budaya";
+        });
 
         menu05.addEventListener('mouseover', () => {
             const rect = menu05.getBoundingClientRect();
@@ -152,8 +164,6 @@ const Home =()=> {
             menu05_hover.style.width = "30%";
             menu05_hover.style.display = 'block';
 
-            
-            menu05.style.filter="brightness(120%)";
             menu05.style.transform="scale(1.1)";
             bgHome.classList.add('hover');
             bgHomeCover.classList.add('hover');
@@ -165,6 +175,10 @@ const Home =()=> {
             menu05_hover.style.display = 'none';
             bgHomeCover.classList.remove('hover');
         });
+        menu05.addEventListener('click', () => {
+            window.location.href = "./Warisan-Agung-nan-Luhur-Nusantara";
+        });
+        
 
         menu06.addEventListener('mouseover', () => {
             const rect = menu06.getBoundingClientRect();
@@ -178,8 +192,6 @@ const Home =()=> {
             menu06_hover.style.width = "30%";
             menu06_hover.style.display = 'block';
 
-            
-            menu06.style.filter="brightness(120%)";
             menu06.style.transform="scale(1.1)";
             bgHome.classList.add('hover');
             bgHomeCover.classList.add('hover');
@@ -191,7 +203,9 @@ const Home =()=> {
             menu06_hover.style.display = 'none';
             bgHomeCover.classList.remove('hover');
         });
-
+        menu06.addEventListener('click', () => {
+            window.location.href = "./Tengok-Ragam-Budaya-Unik-Indonesia";
+        });
     },);
 
     return (
