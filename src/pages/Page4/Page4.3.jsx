@@ -12,7 +12,6 @@ function Page4No3() {
     'height':'100%'
   }
 
- 
   return(
     <div class='page flex-row justify-center' style={styles}>
       <div class='empty' style={empty}></div>

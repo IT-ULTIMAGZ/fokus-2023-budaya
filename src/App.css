@@ -18,11 +18,8 @@
   width: 100vw;
   background-size: cover;
   background-position: center;
-
 }
 
-.page> img {
-}
 
 .flex-column {
   display:flex;

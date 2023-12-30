@@ -1,0 +1,102 @@
+.boxx {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/page1.png);
+  background-size: 100vw 100vh;
+  padding: 1.5%;
+  display: flex;
+}
+
+.bungkus {
+  margin: auto;
+  padding-right: 10%;
+  width: 90%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.daun {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 18%;
+  z-index: 0;
+  margin-top: -8%;
+}
+
+.daun img {
+  /* top: 20rem; */
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.kaki {
+  margin: 0;
+  display: flex;
+  width: 100%;
+  z-index: 0;
+}
+
+.kaki img {
+  /* top: 20rem; */
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.kain {
+  margin: 0;
+  margin-left: -17.5%;
+  display: flex;
+  z-index: 99;
+  width: 120%;
+}
+
+.kain img {
+  /* top: 20rem; */
+  width: 100%;
+  height: auto;
+  z-index: 99;
+}
+
+.tas {
+  margin: 0;
+  display: flex;
+  width: 100%;
+  z-index: 0;
+}
+
+.tas img {
+  /* top: 20rem; */
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.batik {
+  margin: 0;
+  margin-top: -38%;
+  margin-left: 2%;
+  display: flex;
+  z-index: 99;
+  width: 180%;
+}
+
+.batik img {
+  /* top: 20rem; */
+  width: 100%;
+  height: auto;
+  z-index: 99;
+}
+
+.baris3_1 {
+  margin: 0;
+  width: 16%;
+}
+
+.baris2_1 {
+  margin: 0;
+  width: 16%;
+}

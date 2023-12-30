@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "National2Bold"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Condensed Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2regular"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Condensed Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2light"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2bolditalic"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Condensed Bold Italic.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pembungkuspage9 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/page9.png);
+  background-size: 100vw 100vh;
+  padding: 0px;
+  /* display: flex; */
+}
+
+.page9atas {
+  width: 100%;
+  height: 13%;
+  /* opacity: 0.5; */
+  /* background-color: aqua; */
+}
+
+.page9isi {
+  width: 100%;
+  height: 74%;
+  /* opacity: 0.5; */
+  /* background-color: aqua; */
+  padding: 4% 3.7% 3.7% 3.7%;
+}
+
+.page9isi h1 {
+  font-family: National2bold;
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: 3.2px;
+  /* font-weight: bolder; */
+  color: #096b48;
+  margin-top: 5%;
+}
+
+.page9isi p {
+  font-family: National2;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 1px;
+  /* font-weight: bolder; */
+  color: #096b48;
+}
+
+.isibagianbawah {
+  font-family: National2;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 1px;
+  /* font-weight: bolder; */
+  color: #096b48;
+  margin-top: 11.8%;
+  margin-left: 39%;
+}
+
+@media screen and (min-width: 1600px){
+  .isibagianbawah{
+    margin-top: 13.5% !important;
+  }
+  .page9isi p{
+    font-size: 20px !important;
+  }
+
+  .page9isi h1{
+    font-size: 60px !important;
+    margin-top: 6% !important;
+  }
+}

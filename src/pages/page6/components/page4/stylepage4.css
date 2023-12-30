@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "National2Bold"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Condensed Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2regular"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Condensed Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2light"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.boxxess {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/page4.png);
+  background-size: 100vw 100vh;
+  padding: 0px;
+  display: flex;
+}
+
+.kiri {
+  /* background: black;
+  opacity: 0.5; */
+  width: 69.5%;
+}
+
+.kiriatas {
+  /* background: aqua; */
+  width: 100%;
+  height: 63%;
+  padding: 3.5%;
+}
+
+.kiriatas h1 {
+  font-family: National2Bold;
+  font-size: 93px;
+  line-height: 1;
+  letter-spacing: 1.2px;
+  font-weight: bolder;
+  color: #f4f3d2;
+}
+
+.kiriatas p {
+  margin-top: 4%;
+  margin-bottom: 0;
+  font-family: National2;
+  font-size: 15px;
+  line-height: 1.3;
+  letter-spacing: 2px;
+  /* font-weight: bolder; */
+  color: #f4f3d2;
+}
+
+.kiribawah {
+  /* background: aqua; */
+  width: 100%;
+  height: 37%;
+}
+
+.kanan {
+  /* background: aqua; */
+  width: 30.5%;
+  height: 100%;
+}
+
+.kananatas {
+  /* background: aqua; */
+  width: 100%;
+  height: 63%;
+  padding: 9%;
+  padding-left: 30px;
+}
+
+.kananatas h5 {
+  font-family: National2;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #2b7f5c;
+  margin: 0;
+  height: fit-content;
+}
+
+.kananatas h1 {
+  font-family: National2bold;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #096b48;
+  margin: 0;
+  margin-bottom: 3%;
+}
+
+.kananatas p {
+  font-family: National2light;
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #64a07d;
+  margin: 0;
+}
+
+.kananbawah {
+  /* background: aqua; */
+  width: 100%;
+  height: 37%;
+}
+
+.aaa {
+  height: fit-content;
+}
+
+@media screen and (min-width: 1600px) {
+  .kiriatas h1{
+    font-size: 110px !important;
+  }
+
+  .kiriatas p{
+    font-size: 20px !important;
+  }
+
+  .kananatas h5{
+    font-size: 20px !important;
+  }
+
+  .kananatas h1{
+    font-size: 80px !important;
+  }
+
+  .kananatas p{
+    font-size: 12px !important;
+  }
+}

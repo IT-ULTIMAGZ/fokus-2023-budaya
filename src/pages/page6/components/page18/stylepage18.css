@@ -1,0 +1,36 @@
+.page18 {
+  background-image: url(../../assets/page18.png);
+  background-position: center;
+  background-size: 100vw 100vh;
+  width: 100vw;
+  height: 100vh;
+  color: #f3f3d3;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
+.kalimatisi183 {
+  color: #ed5455;
+}
+
+@media screen and (max-width: 1600px) {
+  .kalimatisi181 {
+    font-size: 90px !important;
+  }
+
+  .kalimatisi182 {
+    font-size: 16px !important;
+  }
+
+  .kalimatisi183 {
+    font-size: 16px !important;
+    margin-top: 5.5%;
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .kalimatisi183 {
+    font-size: 16px !important;
+    margin-top: 8.5%;
+  }
+}

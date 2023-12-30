@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "National2CondensedBold"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 XBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2regular"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/cover_bg.png);
+  background-size: 100vw 100vh;
+  padding: 20px;
+}
+
+.baris {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.baris1 {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 25%;
+}
+
+.baris2 {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 25%;
+}
+
+.baris3 {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 25%;
+}
+
+.baris4 {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 25%;
+}
+
+.telisik5 {
+  /* background: aqua; */
+  margin: 0;
+  width: 55%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: National2CondensedBold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.telisik5 h1 {
+  font-size: 95px;
+  font-weight: bolder;
+  color: #dddcbf;
+  text-shadow: 1px 0px 1px #000, 0px 1px 1px #000, 2px 1px 1px #000,
+    1px 2px 1px #000, 3px 2px 1px #000, 2px 3px 1px #000, 4px 3px 1px #000,
+    3px 4px 1px #000, 5px 4px 1px #000, 4px 5px 1px #000;
+}
+
+.budaya {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: National2CondensedBold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.budaya h1 {
+  font-size: 95px;
+  font-weight: bolder;
+  color: #dddcbf;
+  text-shadow: 1px 0px 1px #000, 0px 1px 1px #000, 2px 1px 1px #000,
+    1px 2px 1px #000, 3px 2px 1px #000, 2px 3px 1px #000, 4px 3px 1px #000,
+    3px 4px 1px #000, 5px 4px 1px #000, 4px 5px 1px #000;
+}
+
+.batik1 {
+  /* background: aqua; */
+  margin: 0;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benda {
+  /* background: black; */
+  margin: 0;
+  width: 55.5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: National2CondensedBold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.benda h1 {
+  font-size: 95px;
+  font-weight: bolder;
+  color: #dddcbf;
+  text-shadow: 1px 0px 1px #000, 0px 1px 1px #000, 2px 1px 1px #000,
+    1px 2px 1px #000, 3px 2px 1px #000, 2px 3px 1px #000, 4px 3px 1px #000,
+    3px 4px 1px #000, 5px 4px 1px #000, 4px 5px 1px #000;
+}
+
+.namaorg {
+  width: 14.5%;
+  height: 100%;
+  padding-left: 1.5%;
+}
+
+.namapenulis {
+  height: 50%;
+  width: 100%;
+  /* background: aqua; */
+  padding-top: 10%;
+}
+
+.namapenulis p {
+  font-family: National2regular;
+  /* font-size: 15px; */
+  line-height: 1;
+  letter-spacing: 2px;
+  /* font-weight: bolder; */
+  color: bisque;
+  margin: 0%;
+  /* margin-top: 1%; */
+}
+
+.namapenulis h5 {
+  font-size: 20px;
+  /* font-weight: bolder; */
+  font-family: National2;
+  color: beige;
+}
+
+.indonesia {
+  /* background: rgb(212, 108, 108); */
+  margin: 0;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: National2CondensedBold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.indonesia h1 {
+  font-size: 95px;
+  font-weight: bolder;
+  color: #ee4f54;
+  text-shadow: 0 1px #000, -1px 0 #000, -1px 2px #000, -2px 1px #000,
+    -2px 3px #000, -3px 2px #000, -3px 4px #000, -4px 3px #000, -4px 5px #000,
+    -5px 4px #000, -5px 6px #000;
+}
+
+.untuk {
+  /* background: aqua; */
+  margin: 0;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: National2CondensedBold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.untuk h1 {
+  font-size: 95px;
+  font-weight: bolder;
+  color: #dddcbf;
+  text-shadow: 0 1px #000, -1px 0 #000, -1px 2px #000, -2px 1px #000,
+    -2px 3px #000, -3px 2px #000, -3px 4px #000, -4px 3px #000, -4px 5px #000,
+    -5px 4px #000, -5px 6px #000;
+}
+
+.batik2 {
+  /* background: aqua; */
+  margin: 0;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kehidupan {
+  /* background: rgb(255, 255, 255); */
+  margin: 0;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: National2CondensedBold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.kehidupan h1 {
+  font-size: 95px;
+  font-weight: bolder;
+  color: #dddcbf;
+  text-shadow: 1px 0px 1px #000, 0px 1px 1px #000, 2px 1px 1px #000,
+    1px 2px 1px #000, 3px 2px 1px #000, 2px 3px 1px #000, 4px 3px 1px #000,
+    3px 4px 1px #000, 5px 4px 1px #000, 4px 5px 1px #000;
+}

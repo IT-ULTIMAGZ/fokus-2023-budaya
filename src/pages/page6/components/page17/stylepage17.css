@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "National 2 Bold";
+  src: local("National 2 Bold"), url("../../Fonts/National2Bold.otf");
+}
+
+.bold {
+  font-family: "National 2 Bold";
+}
+
+.page17 {
+  background-image: url(../../assets/page17.png);
+  background-position: center;
+  background-size: 100vw 100vh;
+  width: 100vw;
+  height: 100vh;
+  color: #056b48;
+  display: flex;
+}
+
+.header17 {
+  width: 32.5%;
+  height: 18%;
+  padding-top: 9%;
+  padding-left: 10%;
+}
+
+.isi17 {
+  margin-left: 0.5%;
+  margin-top: 8%;
+  height: 60%;
+}
+
+@media screen and (max-width: 1600px) {
+  .header17 {
+    font-size: 12px !important;
+  }
+
+  .kalimatisi171 {
+    font-size: 57px !important;
+  }
+
+  .kalimatisi172 {
+    font-size: 12px !important;
+  }
+
+  .kalimatisi173 {
+    font-size: 16px !important;
+    margin-top: 1.5% !important;
+    margin-left: 4% !important;
+  }
+}

@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "National 2 Regular";
+  src: local("National 2 Regular"), url("../../Fonts/National 2 Regular.otf");
+}
+
+@font-face {
+  font-family: "National 2 Regular Italic";
+  src: local("National 2 Regular Italic"),
+    url("../../Fonts/National 2 Regular Italic.otf");
+}
+
+@font-face {
+  font-family: "National 2 Condensed Bold";
+  src: local("National 2 Condensed Bold"),
+    url("../../Fonts/National 2 Condensed Bold.otf");
+}
+
+.regular {
+  font-family: "National 2 Regular";
+}
+
+.regularItalic {
+  font-family: "National 2 Regular Italic";
+}
+
+.condensedBold {
+  font-family: "National 2 Condensed Bold";
+}
+
+.page11 {
+  background-image: url(../../assets/page11.png);
+  background-position: center;
+  background-size: 100vw 100vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header11 {
+  padding-top: 3%;
+  padding-left: 3.1%;
+  display: flex;
+  color: #056b48;
+  width: 54%;
+  height: 15%;
+  gap: 20%;
+}
+
+.isi11 {
+  color: #f3f3d3;
+  padding-top: 8%;
+  width: 62%;
+  height: 58%;
+}
+
+.footer11 {
+  color: #056b48;
+  padding-top: 6.5%;
+  width: 59%;
+  height: 5%;
+}
+
+@media screen and (max-width: 1600px) {
+  .header11 {
+    font-size: 12px !important;
+  }
+
+  .isiHeader {
+    font-size: 14px !important;
+  }
+
+  .kalimatisi1 {
+    font-size: 14px !important;
+  }
+
+  .kalimatisi2 {
+    font-size: 55px !important;
+  }
+
+  .kalimatisi3 {
+    font-size: 14px !important;
+  }
+
+  .isifooter {
+    font-size: 14px !important;
+    padding-top: 0% !important;
+  }
+}

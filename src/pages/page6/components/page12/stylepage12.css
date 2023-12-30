@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "National 2 Condensed Regular";
+  src: local("National 2 Regular"),
+    url("../../Fonts/National 2 Condensed Regular.otf");
+}
+
+@font-face {
+  font-family: "National 2 Medium";
+  src: local("National 2 Medium"), url("../../Fonts/National 2 Medium.otf");
+}
+
+.page12 {
+  background-image: url(../../assets/page12.png);
+  background-position: center;
+  background-size: 100vw 100vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bola {
+  width: 14%;
+  margin-top: 8.5%;
+  margin-left: 3.5%;
+}
+
+.condensedRegular {
+  font-family: "National 2 Condensed Regular";
+}
+
+.isi12 {
+  float: right;
+  margin-right: 5%;
+  margin-top: 3%;
+  color: #056b48;
+  width: 70%;
+  height: 71%;
+}
+
+.medium {
+  font-family: "National 2 Medium";
+}
+
+@media screen and (max-width: 1600px) {
+  .header12 {
+    font-size: 40px !important;
+  }
+
+  .kalimatisi12 {
+    font-size: 90px !important;
+  }
+
+  .footer12 {
+    font-size: 16px !important;
+    margin-top: 2% !important;
+  }
+}

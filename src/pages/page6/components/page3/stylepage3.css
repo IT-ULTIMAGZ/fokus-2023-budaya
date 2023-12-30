@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "National2CondensedBold"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Condensed Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2Bold"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 XBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.boxxes {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/page3.png);
+  background-size: 100vw 100vh;
+  padding: 0%;
+  display: flex;
+}
+
+.panjang {
+  /* background: aqua;
+  opacity: 0.5; */
+  width: 20%;
+}
+
+.judul {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: aqua; */
+  font-family: National2CondensedBold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.judul h1 {
+  font-size: 90px;
+  font-weight: bolder;
+  color: #f4f3d2;
+  text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000,
+    0 5px 0 #000, 0 6px 0 #000, 0 7px 0 #000, 0 8px 0 #000, 0 9px 0 #000;
+}
+
+.gambarr {
+  width: 100%;
+  height: 43%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: antiquewhite; */
+}
+
+.gambarudeng img {
+  width: 60%;
+  margin-left: -8%;
+}
+
+.gambartikar img {
+  width: 60%;
+  margin-left: 17%;
+  margin-top: 9%;
+}
+
+.gambararaga img {
+  width: 55%;
+}
+
+.gambarnoken img {
+  width: 50%;
+}
+
+.gambartenun img {
+  width: 55%;
+  margin-top: 6%;
+  margin-left: -5%;
+}
+
+.desc {
+  width: 100%;
+  padding-top: 1%;
+  height: 37%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: yellow; */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.desc h1 {
+  font-family: National2CondensedBold;
+  font-size: 55px;
+  font-weight: 900;
+  color: #f4f3d2;
+  text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000,
+    0 5px 0 #000, 0 6px 0 #000;
+  /* align-items: center; */
+  text-align: center;
+  margin: 0;
+  line-height: 0.8;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 1600px) {
+  .judul h1{
+    font-size: 110px !important;
+  }
+
+  .desc h1{
+    font-size: 72px !important;
+  }
+}

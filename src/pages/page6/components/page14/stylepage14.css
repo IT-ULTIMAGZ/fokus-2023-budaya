@@ -1,0 +1,47 @@
+.page14 {
+  background-image: url(../../assets/page14.png);
+  background-position: center;
+  background-size: 100vw 100vh;
+  width: 100vw;
+  height: 100vh;
+  color: #056b48;
+  display: flex;
+}
+
+.header14 {
+  padding-top: 3%;
+  padding-left: 3.1%;
+  width: 10%;
+  height: 10%;
+}
+
+.isi14 {
+  margin-left: 6.7%;
+  margin-top: 3.5%;
+  height: 60%;
+}
+
+.footer14 {
+  color: #f3f3d3;
+  height: 15%;
+}
+
+@media screen and (max-width: 1600px) {
+  .header14 {
+    font-size: 12px !important;
+  }
+
+  .kalimatisi141 {
+    font-size: 57px !important;
+  }
+
+  .kalimatisi142 {
+    font-size: 57px !important;
+    margin-top: 9% !important;
+  }
+
+  .footer14 {
+    font-size: 24px !important;
+    margin-top: 7% !important;
+  }
+}
