@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Page2 from './pages/Page2/Page2';
 import Page4 from './pages/Page4/Page4';
 import Page5 from './pages/page5/Page5';
 import Home from './pages/Rubrik7/Home';
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />
+  },
+  { 
+    path: "Rubrik2",
+    element: <Page2 />
   },
   {
     path: "Rubrik4",
