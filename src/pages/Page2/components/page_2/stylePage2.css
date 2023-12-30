@@ -1,0 +1,39 @@
+.background2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #006400;
+    overflow-x: hidden;
+}
+
+.tulisan2 {
+    width: 55vw; 
+    margin: auto;
+    color: #006400;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1;
+}
+
+.box2 {
+    background: #FFA500;
+    background-image: url('../../assets/Asset_4.png');
+    background-size: 215vw 130vh;
+    background-position: bottom -20vh right -57.5vw;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin-top: 4vh;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .tulisan2 {
+        width: 80%;
+        font-size: 0.8em;
+        text-align: left;
+        text-align-last: left;
+    }
+
+    .box2 {
+        background-size: 100% 100%;
+    }
+}

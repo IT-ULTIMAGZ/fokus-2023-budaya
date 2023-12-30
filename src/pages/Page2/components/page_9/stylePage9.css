@@ -1,0 +1,46 @@
+.background9 {
+    width: 100vw;
+    height: 100vh;
+    background-color: beige; 
+    background-image: url(../../assets/Asset_1.png);
+    background-size: 100vw 100vh;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.content9 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.tulisan9 {
+    width: 39vw;
+    color: #006400;
+    align-items: left;
+    justify-content: left;
+    margin: auto;
+}
+
+.image9 img {
+    width: 25vw;
+}
+
+.image9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+@media (max-width: 768px) {
+    .tulisan9 {
+        width: 80%; 
+        font-size: 0.8em; 
+    }
+
+    .image9 img {
+        width: 60%; 
+    }
+}

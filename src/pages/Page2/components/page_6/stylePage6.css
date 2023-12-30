@@ -1,0 +1,43 @@
+.background6 {
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    background-color: #0A6B48;
+    padding: 0px;
+    display: table-row;
+    overflow-x: hidden;
+}
+
+.tulisan6 {
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: #FFA500;
+    font-weight: bold;
+}
+
+.isi6 {
+    text-align: center;
+    font-size: 125%; 
+}
+
+.image6 img {
+    width: 100vw;
+    height: 100%;
+}
+
+.image6 {
+    width: 100vw;
+    height: 35vh;
+}
+
+@media (max-width: 768px) {
+    .tulisan6 {
+        height: auto;
+        font-size: 0.8em;
+        text-align: center;
+    }
+}
