@@ -1,0 +1,17 @@
+.background1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/BgPage1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    display: flex;
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 768px) {
+    .background1 {
+        background-size: contain; 
+    }
+}

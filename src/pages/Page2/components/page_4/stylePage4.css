@@ -1,0 +1,48 @@
+.background4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0A6B48; 
+    overflow-x: hidden;
+}
+
+.content4 {
+    width: 100vw;
+    height: 97%;
+    background-color: beige;
+    background-image: url('../../assets/Asset_8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom -70vw right 58vw;
+    display: flex;
+    font-weight: bold; 
+}
+
+.image4 img {
+    width: 42vw;
+    height: 60vh;
+    margin-top: 20vh;
+    margin-left: 8vh;
+}
+
+.tulisan4 {
+    margin-top: 25vh;
+    width: 60vw;
+    color: #0A6B48;
+    margin-right: 8vw;
+}
+
+
+@media (max-width: 768px) {
+    .tulisan4 {
+        width: 80%; 
+        margin-right: 5vw; 
+        font-size: 0.8em; 
+    }
+
+    .image4 img {
+        width: 80%; 
+        height:  auto; 
+        margin-top: 10vh; 
+        margin-left: 0;
+    }
+}

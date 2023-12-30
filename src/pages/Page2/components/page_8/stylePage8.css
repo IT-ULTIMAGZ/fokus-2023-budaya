@@ -1,0 +1,47 @@
+.background8 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/Asset_13.png);
+    background-size: 99vw 98vh;
+    background-color: #e65252;
+    padding: 0px;
+    display: flex;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.box8 {
+    position: relative;
+    border: 1vw solid #006400;
+    background-color: #FFA500;
+    width: 80vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;    
+}
+
+.image8 img {
+    position: absolute;
+    width: 75vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image8 {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+@media (max-width: 768px) {
+    .image8 img {
+        width: 90%; 
+        max-width: none; 
+        max-height: none; 
+    }
+}

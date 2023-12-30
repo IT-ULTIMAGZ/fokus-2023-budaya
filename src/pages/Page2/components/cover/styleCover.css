@@ -1,0 +1,20 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/Asset_5.png);
+    background-size: 100vw 100vh;
+    background-color: beige;
+    padding: 0px;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.top img {
+    width: auto;
+    height: 45vh;  
+}
+
+.top {
+    margin: auto;
+
+}

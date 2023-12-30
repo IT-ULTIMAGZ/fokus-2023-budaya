@@ -1,0 +1,93 @@
+.background3 {
+    width: 100vw;
+    height: 100vh;
+    background: #FFA500;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.content3 {
+    width: 100vw;
+    height: 97%;
+    background-color: #0A6B48;
+    background-image: url('../../assets/Asset_7.png');
+    background-size: 115vw 90vh;
+    background-repeat: no-repeat;
+    background-position: bottom 35vh right -10vw;
+}
+
+.tulisan {
+    width: 100vw;
+    height: 40%;
+    margin-top: 12vh;
+    margin-left: 6vw;
+    color: #FFA500;
+    display: flex;
+}
+
+.judul {
+    width: 45%;
+    height: 39vh;
+    margin-left: 5vw;
+    font-size: 1.4em;
+    font-weight: bold; 
+}
+
+.isi {
+    width: 45%;
+    height: 39vh;
+    transform: translateX(-15%); 
+    font-size: 80%; 
+    text-align: left; 
+}
+
+.image3 {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+.image3 img {
+    width: 50vw;
+    height: 46vh;
+}
+
+@media (max-width: 768px) {
+    .content3 {
+        background-size: 100% auto;
+        background-position: bottom right;
+    }
+
+    .tulisan {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 5vh;
+        margin-left: 2vw;
+    }
+
+    .judul {
+        width: 90%;
+        height: auto;
+        margin-left: 5vw;
+        font-size: 1.5em;
+        font-weight: bold; 
+    }
+
+    .isi {
+        width: 90%;
+        height: auto;
+        margin-left: 5vw;
+        transform: none; 
+        font-size: 80%; 
+        text-align: left; 
+        font-weight: bold; 
+    }
+
+    .image3 img {
+        width: 100%;
+        height: auto;
+        margin-top: 2cm; 
+    }
+}

@@ -1,0 +1,62 @@
+.background7 {
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    background-color: #FFA500;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.box7 {
+    background: beige;
+    height: 60vh;
+    margin-top: 10vh;
+}
+
+.image7 img {
+    height: 80%;
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+
+.image7 {
+    width: 100vw;
+    height: 85%;
+}
+
+.isi7 {
+    width: 100vw;
+    margin-left: 5vh;
+    height: 15%;
+    color: hsl(120, 100%, 20%);
+}
+
+.judul7 {
+    color: #006400;
+    border-bottom: 2px solid (120, 100%, 20%); /* Add a yellow line below the text */
+    padding-bottom: 2px; /* Add padding for spacing */
+}
+
+.judul7 h1 {
+    font-size: 3.5em; /* Adjust the font size as needed */
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .image7 img {
+        height: 60%;
+        margin-top: 2vh;
+        margin-left: 2vh;
+    }
+
+    .box7 {
+        height: 60vh;
+        margin-top: 8vh;
+    }
+
+    .isi7 {
+        height: auto;
+        font-size: 0.8em;
+    }
+}

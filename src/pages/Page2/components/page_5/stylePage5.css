@@ -1,0 +1,27 @@
+.background5 {
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    background-color: #e65252;
+    padding: 0px;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.image5 img {
+    width: 80vw;
+    height: 78vh;  
+    justify-content: center;
+}
+
+.image5 {
+    margin: auto;
+}
+
+
+@media (max-width: 768px) {
+    .image5 img {
+        width: 100%; 
+        height: auto; 
+    }
+}
