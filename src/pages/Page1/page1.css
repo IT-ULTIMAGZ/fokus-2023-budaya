@@ -1,0 +1,201 @@
+.mainbg {
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  /* height: 25vh; */
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 48em) {
+  .mainbg {
+    height: 23vh;
+  }
+}
+
+@media (min-width: 49em) and (max-width: 64em) {
+  .mainbg {
+    height: 40vh;
+  }
+}
+
+@media (min-width: 65em) and (max-width: 82em) {
+  .mainbg {
+    height: 70vh;
+  }
+}
+
+
+.bgkoin {
+  position: relative;
+  width: 31.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgkoin:first-child {
+  background: #ffaf00;
+}
+
+.bgkoin:nth-child(3) {
+  background: #ef4f55;
+}
+
+.bgkoin:last-child {
+  background: #0c6b4a;
+}
+
+.spacerkoin {
+  width: 3.5%;
+  height: 100%;
+  background: #f4f4d7;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.gariskoin {
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  z-index: 1;
+}
+
+.koin {
+  height: 40%;
+  z-index: 2;
+}
+
+.wrapperkoin {
+  width: 75%;
+  height: 100%;
+  /* margin: auto; */
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.headerkoin {
+  margin-top: 25%;
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.tekskoin {
+  margin-top: -25%;
+  width: 100%;
+}
+
+.titleCreator img {
+  height: 100%;
+  z-index: 2;
+}
+
+.leftDecoration,
+.rightDecoration {
+  height: inherit;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftDecoration {
+  left: 0;
+}
+
+.rightDecoration {
+  right: 0;
+}
+
+.whiteleftbox {
+  position: absolute;
+  left: 0;
+  width: 4%;
+  height: 100%;
+  background: #f4f4d7;
+  border-right: 5px solid black;
+}
+
+.whiterightbox {
+  position: absolute;
+  right: 0;
+  width: 4%;
+  height: 100%;
+  background: #f4f4d7;
+  border-left: 5px solid black;
+}
+
+.textwrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.mirrored {
+  /* transform: scaleX(-1); */
+  transform: rotateX(180deg);
+}
+
+.merge {
+  position: relative;
+  margin-top: -5px;
+}
+
+.merge img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40%;
+}
+
+.doubleBlock {
+  height: 40.9%;
+  width: 21vw;
+}
+
+.bottomBlocks {
+  margin-bottom: 2px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-start;
+  /* background: black; */
+}
+
+.bottomBlocks img {
+  height: 20vh;
+  width: auto;
+  z-index: 5;
+}
+
+.singleBlock {
+  height: 21%;
+  width: auto;
+  z-index: 2;
+}
+
+.props {
+  height: inherit;
+  width: auto;
+  object-fit: contain;
+}
+
+.penulis {
+  height: 8%;
+}
+
+.teks {
+  height: 65%;
+  margin-top: -5%;
+}
