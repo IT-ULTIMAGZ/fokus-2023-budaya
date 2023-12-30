@@ -18,7 +18,7 @@ import Page17 from "./components/page17/page17";
 import Page18 from "./components/page18/page18";
 import Page19 from "./components/page19/page19";
 
-function Page6() {
+function Page_6() {
   return (
     <div className="app">
       <Cover />
@@ -44,4 +44,4 @@ function Page6() {
   );
 }
 
-export default Page6;
+export default Page_6;

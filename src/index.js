@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Page4 from './pages/Page4/Page4';
 import Page5 from './pages/page5/Page5';
+import Page_6 from './pages/page6/Page6';
 import Home from './pages/Rubrik7/Home';
 import MuaraTakus from './pages/page5/components/MuaraTakus';
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "Rubrik5",
     element: <Page5 />
+  },
+  {
+    path: "Rubrik6",
+    element: <Page_6 />
   }
 ]);
 
