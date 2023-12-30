@@ -10,7 +10,7 @@ function page3() {
   return (
     <div className="boxxes">
       <div className="undeng panjang">
-        <div className="judul">
+        <div className="judul3">
           <h1>01</h1>
         </div>
         <div className="gambarudeng gambarr">
@@ -23,7 +23,7 @@ function page3() {
         </div>
       </div>
       <div className="tikar panjang">
-        <div className="judul">
+        <div className="judul3">
           <h1>02</h1>
         </div>
         <div className="gambarr gambartikar">
@@ -36,7 +36,7 @@ function page3() {
         </div>
       </div>
       <div className="araga panjang">
-        <div className="judul">
+        <div className="judul3">
           <h1>03</h1>
         </div>
         <div className="gambarr gambararaga">
@@ -49,7 +49,7 @@ function page3() {
         </div>
       </div>
       <div className="noken panjang">
-        <div className="judul">
+        <div className="judul3">
           <h1>04</h1>
         </div>
         <div className="gambarr gambarnoken">
@@ -62,7 +62,7 @@ function page3() {
         </div>
       </div>
       <div className="tenun panjang">
-        <div className="judul">
+        <div className="judul3">
           <h1>05</h1>
         </div>
         <div className="gambarr gambartenun">

@@ -27,7 +27,7 @@
   width: 20%;
 }
 
-.judul {
+.judul3 {
   width: 100%;
   height: 20%;
   display: flex;
@@ -39,7 +39,7 @@
   -webkit-text-stroke-color: black;
 }
 
-.judul h1 {
+.judul3 h1 {
   font-size: 90px;
   font-weight: bolder;
   color: #f4f3d2;
@@ -108,7 +108,7 @@
 }
 
 @media screen and (min-width: 1600px) {
-  .judul h1{
+  .judul3 h1{
     font-size: 110px !important;
   }
 
