@@ -13,119 +13,23 @@
   width: 100vw;
 }
 
-.page {
-  height: 100vh;
-  width: 100vw;
-  background-size: cover;
-  background-position: center;
-}
 
-
-.flex-column {
-  display:flex;
-  flex-direction: column;
-}
-
-.flex-row {
-  display: flex;
-}
-
-.justify-center {
-  justify-content:center;
-}
-
-.justify-around {
-  justify-content: space-around;
-}
-.align-center {
-  align-items: center;
-}
-
-.justify-start {
-  justify-content: start;
-}
-
-.page4no3-images > * {
-  transform: scale(0.8);
-}
-
-.detail-text {
-  width: 700px;
-}
-.bold-hero-img {
-  width:900px;
-}
-
-.bg-img {
-  width: 100vw;
-  position: absolute;
-  top:0px;
-
-}
-
-.detail-text-2 {
-  width: 450px;
-}
-.detail-text-3 {
-  width: 465px;
-}
-
-.text-section {
-  justify-content: space-around;
-  gap:20px;
-}
-
-.halobali {
-  width: 1155px;
-}
-
-.text-section {
-  margin-top: 40px;
-}
-
-.sidescroll-page {
-  height: 100vh;
-  min-width: 150vw;
-  overflow-y:hidden;
-  display: flex;
-  flex-direction: row;
-  background: url("../public/images/tengok-ragam-real/Page 1/bg pg1.png") center/cover fixed;
-  /* background-size: cover;
-  background-position: center; */
-  
-}
-
-.empty {
-  height: 50vh;
-  width: 100vw;
-  padding: 20px;
-}
-.empty-pg5 {
-  height: 50vh;
-  width: 120vw;
-  padding: 20px;
-}
-
-.pg5-content-list {
-  min-width: 30vw;
-  position:relative;
-}
-
-.pg5-content-list > img {
-  position: absolute;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  top:0;
-  left:0;
-  width: 170px;
-}
-
-#pg5-judul {
-  transform: scale(0.8);
-}
-
+/* Hide the WebKit scrollbar */
 ::-webkit-scrollbar {
-  height: 10px;
-  color:black;
+  width: 0;  /* Set width to 0 */
 }
+
+/* Optional: Style the track, thumb, and any other scrollbar parts */
+::-webkit-scrollbar-track {
+  background-color: transparent;  /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;  /* Thumb color */
+}
+
+/* Optional: Style the corner */
+::-webkit-scrollbar-corner {
+  background-color: transparent;  /* Corner color */
+}
+

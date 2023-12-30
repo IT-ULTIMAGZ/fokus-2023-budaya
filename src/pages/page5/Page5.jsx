@@ -1,68 +1,81 @@
 import MuaraTakus from "./components/MuaraTakus";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import './rubrik5.css';
+// import AOS from 'aos';
+
 function Page5() {
-  function spreadDivs() {
-    const stack = Array.from(document.getElementsByClassName('content-preview'));
-    console.log(stack.length);
-
-    for (let i = 0; i < stack.length; i++) {
-      const shift = 90;
-      stack[i].style.transform = `translateX(${shift*i}%)`;
-
-      console.log(shift * i);
-    }
-  }
-
+ 
   function convertScrolling() {
-    const container = document.querySelector('.sidescroll-page');
+    const container = document.querySelector('.master');
     container.addEventListener('wheel', (e) => {
       e.preventDefault();
-      container.scrollLeft += e.deltaY;
-      
+      document.querySelector('.sidescroll-page').scrollLeft += (e.deltaY + e.deltaX);
+      container.scrollLeft += (e.deltaY + e.deltaX);
       console.log(e.deltaY);
-      console.log(document.body.scrollLeft)
-    })
-  }
 
-  function animateScroll() {
-    const element = document.getElementById("first-content");
-    var tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: element,
-        start: "center center", // Trigger when the center of the element hits the center of the viewport
-        scrub: 0.5              // Smoothly animate the properties
-      }
+
     });
 
-
-    tl.to(element, { 
-      opacity: 1, duration: 2,
-      x:400
-     });
-  
-    
   }
-  useEffect(()=> {
-    convertScrolling();
-    spreadDivs();
-    animateScroll();
-  }, [])
+
+  function scrollToSection() {
+    const stack = Array.from(document.getElementsByClassName('content-preview'));
+    stack.forEach(item => {
+      item.addEventListener('click',  ()=> {
+        const id = item.dataset.section;
+        const element = document.getElementById(id);
+        element.scrollIntoView({behavior:'smooth'})
+        
+      });
+    });
+  }
+  
+  // useEffect(()=> {
+  //   AOS.init();
+  //   convertScrolling();
+  //   scrollToSection();
+
+  // }, []);
+
+
   return (
-    <div className='sidescroll-page'>
-      <div className='page5-hero-text'>
-        <div className='empty-pg5' >
-          <img id='pg5-judul' src='./images/tengok-ragam-real/Page 1/judul pg1.png'></img>
+    <div className='master flex-row justify-start'>
+        <div className='sidescroll-page '>
+            <div className="sidescroll-hero flex-row justify-between">
+              <img className='bg-img-sidescroll' src='./images/tengok-ragam-real/Page 1/bg pg1.png'></img>
+              {/* <div style={{width: '100vw', height:'100vh'}></div> */}
+              <div className='page5-hero-text'>
+                <div className='empty-pg5'>
+                  <img id='pg5-judul' src='./images/tengok-ragam-real/Page 1/judul pg1.png'></img>
+                  <div style={{color:'white'}} className="flex-row justify-around align-center">
+                    <div style={{gap:'10px'}}className="flex-row justify-around align-center">
+                      <p>PENULIS</p>
+                      <p style={{fontSize:'1.4em'}}>Ruth Yushiana</p>
+                    </div>
+                    <div style={{gap:'10px'}} className="flex-row justify-around align-center">
+                      <p>EDITOR</p>
+                      <p style={{fontSize:'1.4em'}}>Michael Ludovico</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="master-left"></div>
+              <div data-aos='fade-in' className='pg5-content-list'>
+                <img  data-section ='muaratakus' id='first-content' className='content-preview' src='./images/tengok-ragam-real/Page 1/Asset 1 pg1.png'></img>
+                <img data-section ='desapenglipuran' className='content-preview' src='./images/tengok-ragam-real/Page 1/aset2 pg1.png'></img>
+                <img data-section ='desatomok' className='content-preview' src='./images/tengok-ragam-real/Page 1/aset3 pg1.png'></img>
+                <img data-section='cenderawasih' className='content-preview' src='./images/tengok-ragam-real/Page 1/aset4 pg1.png'></img>
+                <img data-section='wakatobi' className='content-preview' src='./images/tengok-ragam-real/Page 1/aset5 pg 1.png'></img>
+                <img data-section='end' className='content-preview' src='./images/tengok-ragam-real/Page 1/aset6 pg1.png'></img>
+              </div> 
+            </div>
+            <MuaraTakus></MuaraTakus>
+
+            
+
         </div>
-      </div>
-      <div className='pg5-content-list'>
-        <img id='first-content' class='content-preview' src='./images/tengok-ragam-real/Page 1/Asset 1 pg1.png'></img>
-        <img class='content-preview' src='./images/tengok-ragam-real/Page 1/aset2 pg1.png'></img>
-        <img class='content-preview' src='./images/tengok-ragam-real/Page 1/aset3 pg1.png'></img>
-        <img class='content-preview' src='./images/tengok-ragam-real/Page 1/aset4 pg1.png'></img>
-        <img class='content-preview' src='./images/tengok-ragam-real/Page 1/aset5 pg 1.png'></img>
-        <img class='content-preview' src='./images/tengok-ragam-real/Page 1/aset6 pg1.png'></img>
-      </div>
-      <MuaraTakus></MuaraTakus>
+
+
     </div>
   )
 }
