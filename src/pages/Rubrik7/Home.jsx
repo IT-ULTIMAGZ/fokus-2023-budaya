@@ -189,7 +189,7 @@ const Home =()=> {
 
             menu06_hover.style.left = xPosition * 0.78 + 'px';
             menu06_hover.style.top = "29%";
-            menu06_hover.style.width = "30%";
+            menu06_hover.style.width = "27%";
             menu06_hover.style.display = 'block';
 
             menu06.style.transform="scale(1.1)";
