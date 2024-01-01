@@ -3,7 +3,7 @@ import './css/part6.css';
 const Part6 = () => {
 
     return (
-        <div className="part6Section">
+        <div className="part6Section" id="lilisSuryani">
             <div>
                 <img src="./images/lima-pelestari/2.png" alt="" />
             </div>

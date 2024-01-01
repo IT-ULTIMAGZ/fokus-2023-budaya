@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Element, Events, scrollSpy, scroller } from "react-scroll";
+import Part1 from "./Part1";
 import Part2 from "./Part2";
 import Part3 from "./Part3";
 import Part4 from "./Part4";
@@ -48,6 +49,9 @@ const Page3 = () => {
 
   return (
     <div>
+      <Element name="part1">
+        <Part1 />
+      </Element>
       <Element name="part2">
         <Part2 />
       </Element>

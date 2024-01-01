@@ -3,7 +3,7 @@ import './css/part8.css';
 const Part8 = () => {
 
     return (
-        <div className="part8Section">
+        <div className="part8Section" id="woroMustikoSiwi">
             <div>
                 <img src="./images/lima-pelestari/3.png" alt="" />
             </div>

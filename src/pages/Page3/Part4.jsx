@@ -2,7 +2,7 @@ import "./css/part4.css";
 
 const Part4 = () => {
     return (
-        <div className="part4Section">
+        <div className="part4Section" id="naomiSusilowati">
             <div className="textAtas">
                 <p>Motif <b>Batik Lasem</b> merupakan perpaduan dari budaya <b> Tionghoa dan Jawa</b>, <br />
                 dilansir dari mediaindonesia.com. Batik ini juga dikenal sebagai <br />
