@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Page1 from './pages/Page1/Page1';
 import Page2 from './pages/Page2/Page2';
+import Page3 from './pages/Page3/Page3';
 import Page4 from './pages/Page4/Page4';
 import Page5 from './pages/page5/Page5';
 import Page_6 from './pages/page6/Page6';
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
   },
   {
     path:"Lihat-Semangat-5-Pelestari",
-    // element: <Page3 />,
+    element: <Page3 />,
     errorElement: <div>Error 404 Page Not Found</div>
   },
   {

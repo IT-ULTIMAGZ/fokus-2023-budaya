@@ -1,0 +1,479 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/AdobeFnt23.lst
+FileLength:11821
+FileModTime:723286809
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:720209610
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2-BlackIt
+FamilyName:National 2
+StyleName:Black Italic
+MenuName:National 2 Black
+StyleBits:3
+WeightClass:900
+WidthClass:5
+AngleClass:1
+FullName:National 2 Black Italic
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Black Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:134112
+FileModTime:602994640
+NameArray:0,Mac,4,National 2 Black Italic
+NameArray:0,Win,1,National 2 Black
+NameArray:0,Win,16,National 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2-Black
+FamilyName:National 2
+StyleName:Black
+MenuName:National 2 Black
+StyleBits:2
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:National 2 Black
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:133044
+FileModTime:602994640
+NameArray:0,Mac,4,National 2 Black
+NameArray:0,Win,1,National 2 Black
+NameArray:0,Win,16,National 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2-Bold
+FamilyName:National 2
+StyleName:Bold
+MenuName:National 2
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:National 2 Bold
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:133776
+FileModTime:602994640
+NameArray:0,Mac,4,National 2 Bold
+NameArray:0,Win,1,National 2
+NameArray:0,Win,16,National 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2Compressed-Medium
+FamilyName:National 2 Compressed
+StyleName:Medium
+MenuName:National 2 Compressed Medium
+StyleBits:0
+WeightClass:500
+WidthClass:2
+AngleClass:0
+FullName:National 2 Compressed Medium
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Compressed Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:129088
+FileModTime:602994650
+NameArray:0,Mac,4,National 2 Compressed Medium
+NameArray:0,Win,1,National 2 Compressed Medium
+NameArray:0,Win,16,National 2 Compressed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2Condensed-Black
+FamilyName:National 2 Condensed
+StyleName:Black
+MenuName:National 2 Condensed Black
+StyleBits:2
+WeightClass:900
+WidthClass:3
+AngleClass:0
+FullName:National 2 Condensed Black
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Condensed Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:132096
+FileModTime:602994654
+NameArray:0,Mac,4,National 2 Condensed Black
+NameArray:0,Win,1,National 2 Condensed Black
+NameArray:0,Win,16,National 2 Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2Condensed-BoldIt
+FamilyName:National 2 Condensed
+StyleName:Bold Italic
+MenuName:National 2 Condensed
+StyleBits:3
+WeightClass:700
+WidthClass:3
+AngleClass:1
+FullName:National 2 Condensed Bold Italic
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Condensed Bold Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:134176
+FileModTime:602994654
+NameArray:0,Mac,4,National 2 Condensed Bold Italic
+NameArray:0,Win,1,National 2 Condensed
+NameArray:0,Win,16,National 2 Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2Condensed-Bold
+FamilyName:National 2 Condensed
+StyleName:Bold
+MenuName:National 2 Condensed
+StyleBits:2
+WeightClass:700
+WidthClass:3
+AngleClass:0
+FullName:National 2 Condensed Bold
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Condensed Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:131656
+FileModTime:602994654
+NameArray:0,Mac,4,National 2 Condensed Bold
+NameArray:0,Win,1,National 2 Condensed
+NameArray:0,Win,16,National 2 Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2Condensed-Medium
+FamilyName:National 2 Condensed
+StyleName:Medium
+MenuName:National 2 Condensed Medium
+StyleBits:0
+WeightClass:500
+WidthClass:3
+AngleClass:0
+FullName:National 2 Condensed Medium
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Condensed Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:128668
+FileModTime:602994656
+NameArray:0,Mac,4,National 2 Condensed Medium
+NameArray:0,Win,1,National 2 Condensed Medium
+NameArray:0,Win,16,National 2 Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2Condensed-Regular
+FamilyName:National 2 Condensed
+StyleName:Regular
+MenuName:National 2 Condensed
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:National 2 Condensed Regular
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Condensed Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:127772
+FileModTime:602994662
+NameArray:0,Mac,4,National 2 Condensed Regular
+NameArray:0,Win,1,National 2 Condensed
+NameArray:0,Win,16,National 2 Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2Condensed-XBold
+FamilyName:National 2 Condensed
+StyleName:ExtraBold
+MenuName:National 2 Condensed XBold
+StyleBits:2
+WeightClass:800
+WidthClass:3
+AngleClass:0
+FullName:National 2 Condensed ExtraBold
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Condensed XBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:132004
+FileModTime:602994662
+NameArray:0,Mac,4,National 2 Condensed ExtraBold
+NameArray:0,Win,1,National 2 Condensed XBold
+NameArray:0,Win,16,National 2 Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2-LightIt
+FamilyName:National 2
+StyleName:Light Italic
+MenuName:National 2 Light
+StyleBits:1
+WeightClass:300
+WidthClass:5
+AngleClass:1
+FullName:National 2 Light Italic
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Light Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:132876
+FileModTime:602994640
+NameArray:0,Mac,4,National 2 Light Italic
+NameArray:0,Win,1,National 2 Light
+NameArray:0,Win,16,National 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2-MediumIt
+FamilyName:National 2
+StyleName:Medium Italic
+MenuName:National 2 Medium
+StyleBits:1
+WeightClass:500
+WidthClass:5
+AngleClass:1
+FullName:National 2 Medium Italic
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Medium Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:135604
+FileModTime:602994640
+NameArray:0,Mac,4,National 2 Medium Italic
+NameArray:0,Win,1,National 2 Medium
+NameArray:0,Win,16,National 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2-Medium
+FamilyName:National 2
+StyleName:Medium
+MenuName:National 2 Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:National 2 Medium
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:133512
+FileModTime:602994640
+NameArray:0,Mac,4,National 2 Medium
+NameArray:0,Win,1,National 2 Medium
+NameArray:0,Win,16,National 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2-RegularIt
+FamilyName:National 2
+StyleName:Regular Italic
+MenuName:National 2
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:National 2 Regular Italic
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Regular Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:130340
+FileModTime:602994644
+NameArray:0,Mac,4,National 2 Regular Italic
+NameArray:0,Win,1,National 2
+NameArray:0,Win,16,National 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2-Regular
+FamilyName:National 2
+StyleName:Regular
+MenuName:National 2
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:National 2 Regular
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:128872
+FileModTime:602994646
+NameArray:0,Mac,4,National 2 Regular
+NameArray:0,Win,1,National 2
+NameArray:0,Win,16,National 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2-XBoldIt
+FamilyName:National 2
+StyleName:ExtraBold Italic
+MenuName:National 2 XBold
+StyleBits:3
+WeightClass:800
+WidthClass:5
+AngleClass:1
+FullName:National 2 ExtraBold Italic
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 XBold Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:136156
+FileModTime:602994646
+NameArray:0,Mac,4,National 2 ExtraBold Italic
+NameArray:0,Win,1,National 2 XBold
+NameArray:0,Win,16,National 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:National2-XBold
+FamilyName:National 2
+StyleName:ExtraBold
+MenuName:National 2 XBold
+StyleBits:2
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:National 2 ExtraBold
+WritingScript:Roman
+OutlineFileName:/Users/stacyanasusanto/Downloads/ULTIMAGZ/FOKUS LIHAT SEMANGAT 5 PELESTARI/Document fonts/National 2 XBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:134824
+FileModTime:602994646
+NameArray:0,Mac,4,National 2 ExtraBold
+NameArray:0,Win,1,National 2 XBold
+NameArray:0,Win,16,National 2
+%EndFont
+

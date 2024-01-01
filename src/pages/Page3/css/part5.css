@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'National2 Bold'; 
+    src: url('../../Rubrik7/Fonts/National\ 2\ Bold.otf') format('woff');
+}
+@font-face {
+    font-family: 'National2 Condensed Bold';
+    src: url('../fonts/National\ 2\ Condensed\ Bold.otf') format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'National2 Regular';
+    src: url('../fonts/National\ 2\ Regular.otf') format('woff');
+}
+@font-face {
+    font-family: 'National2 Condensed Medium';
+    src: url('../fonts/National\ 2\ Condensed\ Medium.otf') format('woff');
+}
+
+.part5Section {
+    display: flex;
+    background-image: url('../../../../public/images/lima-pelestari/BG_PAGE5.png');
+    background-size: 100vw 95vh;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2vw;
+}
+.part5Section_textKiri {
+    color:rgb(239,79,84);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:20vh;
+}
+
+.part5Section_textKiri > :first-child {
+    font-size: 2.4vw;
+    font-family: 'National2 Condensed Medium';
+}
+.part5Section_textKiri > :nth-child(2) {
+    font-size: 1.25vw;
+    font-family: 'National2 Regular';
+}
+
+.part5Section_textKiri b {
+    font-family: 'National2 Condensed Bold';
+}
+
+.part5Section_textKanan {
+    color:rgb(239,79,84);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:25vh;
+    font-size: 1.2vw;
+}
+.part5Section_textKanan > :nth-child(2) {
+    margin-top: 2vh;
+}
+
+.part5Section_textKanan b {
+    font-family: 'National2 Condensed Bold';
+}
+.part5Section_textKanan span {
+    font-family: 'National2 Condensed Medium';
+}
+
+.part5Section_textKiri span {
+    font-family: 'National2 Condensed Medium';
+}

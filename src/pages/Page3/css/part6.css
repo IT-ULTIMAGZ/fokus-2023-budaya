@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'National2 Bold'; 
+    src: url('../../Rubrik7/Fonts/National\ 2\ Bold.otf') format('woff');
+}
+@font-face {
+    font-family: 'National2 Condensed Bold';
+    src: url('../fonts/National\ 2\ Condensed\ Bold.otf') format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'National2 Regular';
+    src: url('../fonts/National\ 2\ Regular.otf') format('woff');
+}
+@font-face {
+    font-family: 'National2 Condensed Medium';
+    src: url('../fonts/National\ 2\ Condensed\ Medium.otf') format('woff');
+}
+
+.part6Section {
+    display: flex;
+    background-image: url('../../../../public/images/lima-pelestari/BG_PAGE6.png');
+    background-size: 100vw 101vh;
+    height: 101vh;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    gap:2vw;
+}
+.part6Section > :first-child {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 8vw;
+}
+.part6Section > :first-child > img{
+    width:23.5vw;
+    height:auto;
+    margin-top: 20vh;
+}
+.part6Section > :nth-child(2) {
+    margin-left: 11vw;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30vh;
+}
+
+
+.part6Section p {
+    font-size: 1.25vw;
+    text-align: center;
+    color:rgb(239,79,84);
+    font-family: 'National2 Regular';
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+}
+.part6Section b {
+    font-family: 'National2 Bold';
+}
