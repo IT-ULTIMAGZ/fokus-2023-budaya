@@ -1,6 +1,10 @@
 import './css/part3.css';
+import LocomotiveScroll from 'locomotive-scroll';
+// Vendors
+
 
 const Part3 = () => {
+    const locomotiveScroll = new LocomotiveScroll();
     return (
         <div className="part3Section">
             <p>Keberagaman budaya Indonesia bukan lagi hal asing di mata dunia. <br />

@@ -25,8 +25,8 @@ const Part3 = () => {
       </div>
       <div className="spacerkoin" />
       <div className="bgkoin">
-        <img className="gariskoin" src={garis} alt="garis" />
-        <img className="koin" src={koin3} alt="koin" />
+        <img className="gariskoin" style={{width:'33%', height:"auto"}} src={garis} alt="garis" />
+        <img className="koin" style={{width:'33%', height:"auto"}} src={koin3} alt="koin" />
       </div>
     </div>
   );
