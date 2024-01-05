@@ -11,12 +11,12 @@ function Page4No5() {
 
   return(
     <div class='page flex-column justify-center align-center' style={styles}>
-      <img src='/images/tengok-ragam/Text/Page 5/Asset 26.png' class='detail-text'></img>
-      <img src='/images/tengok-ragam/Text/Page 5/Asset 25.png' class='bold-hero-img'></img>
-      <img src='/images/tengok-ragam/Text/Page 5/Asset 23.png' class='detail-text'></img>
-      <img src='/images/tengok-ragam/Text/Page 5/Asset 24.png'></img>
-      <img src='/images/tengok-ragam/Text/Page 5/Asset 22.png' class='bold-hero-img'></img>
-      <img src='/images/tengok-ragam/Text/Page 5/Asset 21.png' class='bold-hero-img'></img>
+      <img src='/images/tengok-ragam/Text/Page 5/Asset 26.png' style={{width:"55vw"}} class='detail-text'></img>
+      <img src='/images/tengok-ragam/Text/Page 5/Asset 25.png' style={{width:"55vw"}}class='bold-hero-img'></img>
+      <img src='/images/tengok-ragam/Text/Page 5/Asset 23.png' style={{width:"55vw"}}class='detail-text'></img>
+      <img src='/images/tengok-ragam/Text/Page 5/Asset 24.png'style={{width:"55vw"}}></img>
+      <img src='/images/tengok-ragam/Text/Page 5/Asset 22.png' style={{width:"55vw"}}class='bold-hero-img'></img>
+      <img src='/images/tengok-ragam/Text/Page 5/Asset 21.png'style={{width:"55vw"}} class='bold-hero-img'></img>
     </div>
   )
 }

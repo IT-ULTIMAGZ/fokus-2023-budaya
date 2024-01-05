@@ -8,7 +8,7 @@ function Page4No3() {
   }
 
   const empty = {
-    'width': '40%',
+    'width': '20%',
     'height':'100%'
   }
 
@@ -16,8 +16,8 @@ function Page4No3() {
     <div class='page flex-row justify-center' style={styles}>
       <div class='empty' style={empty}></div>
       <div class='page4no3-images flex-column justify-center'>
-        <img src='/images/tengok-ragam/Text/Page 3/Asset 18.png'></img>
-        <img src='/images/tengok-ragam/Text/Page 3/Asset 19.png'></img>
+        <img src='/images/tengok-ragam/Text/Page 3/Asset 18.png' style={{width:'50vw'}}></img>
+        <img src='/images/tengok-ragam/Text/Page 3/Asset 19.png' style={{width:'50vw'}}></img>
 
       </div>
     </div>

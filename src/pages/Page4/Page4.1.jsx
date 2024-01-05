@@ -12,8 +12,9 @@ function Page4No1() {
 
     }}>
 
-      <img src='/images/tengok-ragam/Text/Page 1/Asset 16.png'/>
-      <img src='/images/tengok-ragam/Text/Page 1/Asset 15.png'/>
+      <img src='/images/tengok-ragam/Text/Page 1/Asset 16.png' style={{width:'60vw'}}/>
+      <img src='/images/tengok-ragam/Text/Page 1/budaya pecah telur.png' style={{width:'50vw'}}/>
+
     </div>
   )
 }
