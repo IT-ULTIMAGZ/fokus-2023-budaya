@@ -1,4 +1,4 @@
-import MuaraTakus from "./components/MuaraTakus";
+import MuaraTakus from "./components/muaraTakus/MuaraTakus";
 import { useEffect, useState } from "react";
 import './rubrik5.css';
 // import AOS from 'aos';

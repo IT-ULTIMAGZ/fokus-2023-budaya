@@ -1,3 +1,75 @@
+@font-face {
+  font-family: "National2XBold"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National\ 2\ XBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2regular"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National 2 Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "National2Medium"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National 2 Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "National2Light"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National 2 Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "National2LightItalic"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National\ 2\ Light\ Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "National2CondensedBold"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National 2 Condensed Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2CondensedRegular"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National 2 Condensed Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "National2CondensedMedium"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National 2 Condensed Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "National2bolditalic"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National 2 Condensed Bold Italic.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "National2Bold";
+  src: local("National 2 Bold"), url("../../../public/Fonts/National 2 Bold.otf");
+}
+
+@font-face {
+  font-family: "National2CompressedBold"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National\ 2\ Compressed\ Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "National2CompressedMedium"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National\ 2\ Compressed\ Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "National2CompressedMediumItalic"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National\ 2\ Compressed\ Medium\ Italic.otf") format("opentype");
+}
+
+
+
 .page {
   height: 100vh;
   width: 100vw;
@@ -105,13 +177,6 @@
   /* background-size: cover;
   background-position: center; */  
 }
-
-.content-img {
-  height: 200px;
-  width: 1000px;
-
-}
-
 .content-preview {
   cursor:pointer;
 }

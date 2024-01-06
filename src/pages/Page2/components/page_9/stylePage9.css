@@ -5,21 +5,21 @@
     background-image: url(../../assets/Asset_1.png);
     background-size: 100vw 100vh;
     padding: 0px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .content9 {
     display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
     width: 100%;
     height: 100%;
 }
 
 .tulisan9 {
-    width: 39vw;
-    color: #006400;
-    align-items: left;
-    justify-content: left;
-    margin: auto;
+    color: rgb(9,107,71);
+    width: fit-content;
 }
 
 .image9 img {
@@ -30,17 +30,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    margin-left: 10vw;
 }
 
-
-@media (max-width: 768px) {
-    .tulisan9 {
-        width: 80%; 
-        font-size: 0.8em; 
-    }
-
-    .image9 img {
-        width: 60%; 
-    }
-}

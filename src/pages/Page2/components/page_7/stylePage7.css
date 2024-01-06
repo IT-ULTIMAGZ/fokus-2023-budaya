@@ -1,62 +1,51 @@
 .background7 {
     width: 100vw;
     height: 100vh;
-    background-size: 100vw 100vh;
-    background-color: #FFA500;
+    /* background-color: #FFA500; */
     padding: 0px;
-    overflow-x: hidden;
+    overflow: hidden;
+    background-color: rgb(245,245,220);
+    position: relative;
 }
-
+.boxKosongPg7 {
+    width: 100vw;
+    height: 38vh;
+    background-color: rgb(255,174,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 .box7 {
     background: beige;
     height: 60vh;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
 }
 
 .image7 img {
-    height: 80%;
-    margin-top: 5vh;
-    margin-left: 5vh;
+    width:60vw;
+    height: auto;
+    margin-top: 6vh;
+    margin-left: 6vh;
 }
 
 .image7 {
     width: 100vw;
-    height: 85%;
+    height: fit-content;
 }
 
 .isi7 {
     width: 100vw;
-    margin-left: 5vh;
+    margin-left: 6vh;
     height: 15%;
     color: hsl(120, 100%, 20%);
 }
 
 .judul7 {
-    color: #006400;
-    border-bottom: 2px solid (120, 100%, 20%); /* Add a yellow line below the text */
-    padding-bottom: 2px; /* Add padding for spacing */
+    padding:6vh 0vh 6vh 6vh;
+    margin-bottom: 0px;
 }
+.judul7 p{
 
-.judul7 h1 {
-    font-size: 3.5em; /* Adjust the font size as needed */
-    font-weight: bold;
-    font-style: italic;
-}
-
-@media (max-width: 768px) {
-    .image7 img {
-        height: 60%;
-        margin-top: 2vh;
-        margin-left: 2vh;
-    }
-
-    .box7 {
-        height: 60vh;
-        margin-top: 8vh;
-    }
-
-    .isi7 {
-        height: auto;
-        font-size: 0.8em;
-    }
+    margin-bottom: 0px ;
 }

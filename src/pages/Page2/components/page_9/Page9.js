@@ -10,15 +10,15 @@ function page9 () {
                     <img src={Gambar9}></img>
                 </div>
                 <div className="tulisan9"> 
-                    <h3>Kain tradisional sering digunakan masyarakat saat acara-acara <br />
+                    <p style={{fontFamily:'National2Medium',fontSize:'1.68vw',lineHeight:'2vw'}}>Kain tradisional sering digunakan masyarakat saat acara-acara <br />
                         formal, seperti pesta pernikahan, kelulusan, dan sebagainya. <br />
                         Namun, sudah sepantasnya masyarakat, baik muda maupun tua <br />
                         untuk mulai mengenakan kain tradisional dalam kehidupan <br />
                         sehari-hari. Akhir-akhir ini berkain menjadi tren di kalangan <br />
-                        generasi muda. Tren #berkainbersama mulai ramai pada 2021. <br />
+                        generasi muda. Tren <b>#berkainbersama</b>  mulai ramai pada 2021. <br />
                         Generasi muda menunjukkan gaya busana mereka dengan <br />
-                        mengombinasikan kain batik beserta pakaian sehari-hari.</h3> <br />
-                    <p>Tren berkain semakin digaungkan oleh generasi muda, khususnya oleh Swara Gembira. <br />
+                        mengombinasikan kain batik beserta pakaian sehari-hari.</p>
+                    <p style={{fontFamily:'National2Regular',fontSize:'1.38vw',letterSpacing:'1px',lineHeight:'2vw'}}>Tren berkain semakin digaungkan oleh generasi muda, khususnya oleh Swara Gembira. <br />
                        Swara Gembira merupakan komunitas generasi muda Indonesia untuk berkarya dengan <br />
                        seni, tradisi, dan budaya Indonesia. Direktur Utama Swara Gembira Rifan Rahman <br />
                        menjelaskan bahwa selain menunjukkan corak, berkain memiliki seni ikat-mengikat khas <br />

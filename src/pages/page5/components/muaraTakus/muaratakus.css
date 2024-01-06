@@ -1,0 +1,26 @@
+.bgPage2 {
+    background-image: url('../../../../../public/images/tengok-ragam-real/Page\ 2/bg pg2.png');
+    background-size:200vw 100vh;
+    padding: 0px;
+    display: flex;
+    overflow: hidden;
+    width: 200vw;
+    position: relative;
+    height: 100vh;
+    z-index: 0;
+
+}
+
+.gantunganPage2 {
+    position: absolute;
+    top: 0;
+    height: 50vh;
+    width: auto;
+    z-index: 1;
+}
+.content-img {
+    position: relative;
+    z-index: 2;
+    width:60vw;
+    height: auto;
+}
