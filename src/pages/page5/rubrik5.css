@@ -14,8 +14,17 @@
   src: url("../../../public/Fonts/National 2 Medium.otf") format("opentype");
 }
 @font-face {
+  font-family: "National2MediumItalic"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National\ 2\ Medium\ Italic.otf") format("opentype");
+}
+@font-face {
   font-family: "National2Light"; /* Specify the desired font-family name */
   src: url("../../../public/Fonts/National 2 Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "National2LightItalic"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National 2 Light Italic.otf") format("opentype");
 }
 @font-face {
   font-family: "National2LightItalic"; /* Specify the desired font-family name */
@@ -41,10 +50,15 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family: "National2CondensedMediumItalic"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National\ 2\ Condensed\ Medium\ Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
-  font-family: "National2bolditalic"; /* Specify the desired font-family name */
+  font-family: "National2BoldItalic"; /* Specify the desired font-family name */
   src: url("../../../public/Fonts/National 2 Condensed Bold Italic.otf")
     format("opentype");
   font-weight: normal;
@@ -67,14 +81,32 @@
   font-family: "National2CompressedMediumItalic"; /* Specify the desired font-family name */
   src: url("../../../public/Fonts/National\ 2\ Compressed\ Medium\ Italic.otf") format("opentype");
 }
+@font-face {
+  font-family: "National2CompressedXLightItalic"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National\ 2\ Compressed\ XLight\ Italic.otf") format("opentype");
+}
 
+* {
+  margin: 0px;
+  padding: 0px;
 
+}
 
-.page {
+.page5 p {
+  margin: 0px;
+}
+.page5 {
   height: 100vh;
+  width: fit-content;
+  overflow: hidden;
+
+}
+.page {
+  /* height: 100vh;
   width: 100vw;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+
 
 }
 
@@ -126,19 +158,19 @@
   position: absolute;
   top:0px;
   left:0px;
-  z-index: -1;
+  z-index: 0;
 
   object-fit: cover;
 
 }
 
 .bg-img-sidescroll {
-  height: 100%;
-  width: 100%;
-  position: absolute;
+  height: 100vh;
+  width: 200vw;
   top:0px;
   left:0px;
   z-index: -1;
+  position: relative;
 
   object-fit: cover;
 
@@ -168,8 +200,8 @@
 
 .sidescroll-page {
   height: 100vh;
-  min-width: 160vw;
-  /* overflow-y: hidden; */
+  
+  overflow-y: hidden;
   display: flex;
   flex-direction: row;
 
@@ -195,12 +227,11 @@
 }
 
 .sidescroll-content-desc {
-  max-width: 800px;
   text-wrap: wrap;
   font-size: 1.4rem;
   font-weight: bold;
   color: white;
-  margin-top: 3rem;
+  margin-top: 2vh;
 }
 .sidescroll-content > .content-preview {
   position: absolute;
@@ -218,7 +249,6 @@
 }
 
 .master {
-  overflow-y: hidden;
 }
 
 .master-left {
@@ -234,13 +264,14 @@
 }
 
 .empty-pg5 {
-  height: 50vh;
-  padding: 20px;
+  /* padding: 5vw; */
 }
 
 .pg5-content-list {
   /* width: fit-content; */
-  min-width: 50vw;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
   
 }
 
@@ -249,7 +280,15 @@
   width: 150px;
   transition: 1s;
 }
-
+.page5-hero-text {
+  position: absolute;
+  z-index: 1;
+}
+.page5-hero-text img {
+  width:50vw;
+  height: auto;
+  margin-left: 5vw;
+}
 #pg5-judul {
   transform: scale(0.8);
 }
@@ -262,11 +301,9 @@
   font-size: 1.5em;
   font-weight: 400;
   text-align: center;
-  max-width: 500px;
 }
 
 .sidescroll-content-hero {
-  font-size: 2em;
   text-align: center;
   max-width: 500px;
 }

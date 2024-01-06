@@ -1,0 +1,73 @@
+.tomokSection {
+    background-image: url('../../../../../public/images/tengok-ragam-real/Page 4/bg pg4.png');
+    background-size:200vw 100vh;
+    padding: 0px;
+    display: flex;
+    overflow: hidden;
+    width: 200vw;
+    position: relative;
+    height: 100vh;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.tomokSection p {
+    font-family:'National2Regular';
+    color:rgb(245,244,212);
+    text-align: center;
+
+}
+.tomokSection b {
+    font-family: National2XBold;
+
+}
+.tomokSection span {
+    font-family: National2CompressedMedium;
+
+}
+.tomokSectionKiri {
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10vw;
+}
+.tomokSectionKiri >div {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.tomokSectionKiri >div>img {
+    width: 20vw;
+}
+
+.tomokSectionKanan {
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20vw;
+}
+.tomokSectionKanan >:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.tomokSectionKanan  img {
+    width:20vw;
+}
+.tomokSectionKanan >div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

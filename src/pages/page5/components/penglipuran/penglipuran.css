@@ -1,0 +1,80 @@
+.penglipuranSection {
+    background-image: url('../../../../../public/images/tengok-ragam-real/Page 3/bg pg3.png');
+    background-size:200vw 100vh;
+    padding: 0px;
+    display: flex;
+    overflow: hidden;
+    width: 200vw;
+    position: relative;
+    height: 100vh;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.penglipuranSection p {
+    font-family:'National2regular';
+    color:rgb(245,244,212);
+    text-align: center;
+
+}
+.penglipuranSection b {
+    font-family: National2XBold;
+
+}
+.penglipuranSectionKiri {
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.penglipuranSectionKiri >img {
+    width:50vw;
+}
+.penglipuranSectionKiri >div {
+    margin-top: 10vh;
+
+}
+
+.penglipuranSectionKanan {
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.penglipuranSectionKanan_dekorasiTengah {
+    display: flex;
+    flex-direction: column;
+    gap:-10vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.penglipuranSectionKanan_dekorasiTengah img {
+    width:30vh;
+    height:auto;
+}
+.penglipuranSectionKanan_dekorasiTengah >:first-child{
+    margin-left: 5vw;
+}
+
+
+.penglipuranSectionKanan_content > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+}
+
+.penglipuranSectionKanan_content > div >img{
+    width:10vw;
+}
+.penglipuranSectionKanan_deskripsi {
+    flex-direction: column !important;
+}
