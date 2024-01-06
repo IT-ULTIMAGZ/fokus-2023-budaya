@@ -1,31 +1,3 @@
-@font-face {
-  font-family: "National2Bold"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Condensed Bold.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "National2regular"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Condensed Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "National2"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "National2light"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Light.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .pembungkus {
   width: 100vw;
   height: 100vh;
@@ -47,16 +19,18 @@
   height: 32.7%;
   /* background: aqua; */
   padding: 4.5% 3.5% 3.5% 3.5%;
-  font-family: National2;
+  font-family: National2Regular;
   font-size: 16.5px;
   line-height: 1;
   letter-spacing: 1px;
   color: #096544;
 }
-
+.page5atas >p {
+  font-size: 1.2vw;
+}
 .descc {
   margin-top: 4%;
-  margin-left: 23%;
+  margin-left: 30%;
 }
 
 .page5bawah {
@@ -68,7 +42,7 @@
 
 .page5bawah h1 {
   font-family: National2bold;
-  font-size: 95px;
+  font-size: 6.59vw;
   line-height: 1;
   letter-spacing: 3px;
   /* font-weight: bolder; */
@@ -83,13 +57,13 @@
   margin-top: 5%;
   margin-left: 23%;
   font-family: National2;
-  font-size: 17.5px;
+  font-size: 1.21vw;
   line-height: 1;
   letter-spacing: 1px;
   color: #c2d6b5;
 }
 
-@media screen and (min-width: 1600px) {
+/* @media screen and (min-width: 1600px) {
   .page5atas{
     font-size: 20px !important;
   }
@@ -101,4 +75,4 @@
   .page5bawah h1{
     font-size: 130px !important;
   }
-}
+} */

@@ -6,6 +6,7 @@
     padding: 0px;
     display: table-row;
     overflow-x: hidden;
+    position: relative;
 }
 
 .tulisan6 {
@@ -32,12 +33,6 @@
 .image6 {
     width: 100vw;
     height: 35vh;
-}
-
-@media (max-width: 768px) {
-    .tulisan6 {
-        height: auto;
-        font-size: 0.8em;
-        text-align: center;
-    }
+    position: absolute;
+    bottom: 0;
 }

@@ -18,40 +18,39 @@
 
 .isi15 {
   margin-left: 5%;
-  height: 71%;
+  /* height: 71%; */
 }
 
 .footer15 {
   color: #f3f3d3;
-  height: 15%;
+  height: 8vh;
 }
 
-@media screen and (max-width: 1600px) {
   .header15 {
-    font-size: 12px !important;
+    font-size: 0.83vw;
   }
 
   .kalimatisi151 {
-    font-size: 12px !important;
+    font-size: 0.83vw;
   }
 
   .kalimatisi152 {
-    font-size: 57px !important;
+    font-size: 3.958vw;
   }
 
   .kalimatisi153 {
-    font-size: 16px !important;
+    font-size: 1.11vw;
   }
 
   .footer15 {
-    font-size: 16px !important;
+    font-size: 1.11vw;
     margin-top: 8%;
   }
-}
+
 
 @media screen and (min-width: 1601px) {
   .footer15 {
-    font-size: 16px !important;
+    font-size: 1.11vw !important;
     margin-top: 12%;
   }
 }

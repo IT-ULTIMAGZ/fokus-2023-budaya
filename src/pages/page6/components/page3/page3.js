@@ -18,7 +18,7 @@ function page3() {
         </div>
         <div className="desc">
           <h1>
-            UDENG <br /> KHAS <br /> BALI
+            UDENG <br /> <h2>KHAS</h2> BALI
           </h1>
         </div>
       </div>
@@ -31,7 +31,7 @@ function page3() {
         </div>
         <div className="desc">
           <h1>
-            TIKAR <br /> PANDAN <br /> SERASAN <br /> NATUNA
+            TIKAR <br /> <h2>PANDAN <br /> SERASAN</h2> NATUNA
           </h1>
         </div>
       </div>
@@ -44,7 +44,7 @@ function page3() {
         </div>
         <div className="desc">
           <h1>
-            A'RAGA <br /> SULAWESI <br /> SELATAN
+            A'RAGA <br /><h2>SULAWESI <br /> SELATAN</h2>
           </h1>
         </div>
       </div>
@@ -57,7 +57,7 @@ function page3() {
         </div>
         <div className="desc">
           <h1>
-            NOKEN <br /> KHAS <br /> PAPUA
+            NOKEN <br /> <h2>KHAS</h2> PAPUA
           </h1>
         </div>
       </div>
@@ -70,7 +70,7 @@ function page3() {
         </div>
         <div className="desc">
           <h1>
-            TENUN <br /> IKAT <br /> DAYAK <br /> SINTANG
+            TENUN <br /> IKAT <br /><h2>DAYAK <br /> SINTANG</h2> 
           </h1>
         </div>
       </div>

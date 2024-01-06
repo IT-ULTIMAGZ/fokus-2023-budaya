@@ -1,17 +1,3 @@
-@font-face {
-  font-family: "National2CondensedBold"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Condensed Bold.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "National2Bold"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 XBold.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .boxxes {
   width: 100vw;
   height: 100vh;
@@ -40,7 +26,7 @@
 }
 
 .judul3 h1 {
-  font-size: 90px;
+  font-size: 6vw;
   font-weight: bolder;
   color: #f4f3d2;
   text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000,
@@ -94,9 +80,20 @@
 }
 
 .desc h1 {
+  font-family: National2XBold;
+  font-size: 3.8vw;
+  color: #f4f3d2;
+  text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000,
+    0 5px 0 #000, 0 6px 0 #000;
+  /* align-items: center; */
+  text-align: center;
+  margin: 0;
+  line-height: 0.8;
+  letter-spacing: 1px;
+}
+.desc h2 {
   font-family: National2CondensedBold;
-  font-size: 55px;
-  font-weight: 900;
+  font-size: 3.8vw;
   color: #f4f3d2;
   text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000,
     0 5px 0 #000, 0 6px 0 #000;

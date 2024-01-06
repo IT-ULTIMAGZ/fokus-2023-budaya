@@ -1,30 +1,3 @@
-@font-face {
-  font-family: "National2Bold"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Condensed Bold.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "National2regular"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Condensed Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "National2"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "National2light"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Light.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
 
 .boxxess {
   width: 100vw;
@@ -50,7 +23,7 @@
 
 .kiriatas h1 {
   font-family: National2Bold;
-  font-size: 93px;
+  font-size: 6.4vw;
   line-height: 1;
   letter-spacing: 1.2px;
   font-weight: bolder;
@@ -60,8 +33,8 @@
 .kiriatas p {
   margin-top: 4%;
   margin-bottom: 0;
-  font-family: National2;
-  font-size: 15px;
+  font-family: National2Regular;
+  font-size: 1.04vw;
   line-height: 1.3;
   letter-spacing: 2px;
   /* font-weight: bolder; */
@@ -90,7 +63,7 @@
 
 .kananatas h5 {
   font-family: National2;
-  font-size: 15px;
+  font-size: 1.04vw;
   line-height: 1;
   letter-spacing: 2px;
   color: #2b7f5c;
@@ -100,7 +73,7 @@
 
 .kananatas h1 {
   font-family: National2bold;
-  font-size: 60px;
+  font-size: 4.1vw;
   line-height: 1;
   letter-spacing: 2px;
   color: #096b48;
@@ -110,7 +83,7 @@
 
 .kananatas p {
   font-family: National2light;
-  font-size: 10px;
+  font-size: 0.69vw;
   line-height: 1;
   letter-spacing: 1px;
   color: #64a07d;
@@ -127,7 +100,7 @@
   height: fit-content;
 }
 
-@media screen and (min-width: 1600px) {
+/* @media screen and (min-width: 1600px) {
   .kiriatas h1{
     font-size: 110px !important;
   }
@@ -147,4 +120,4 @@
   .kananatas p{
     font-size: 12px !important;
   }
-}
+} */

@@ -21,25 +21,24 @@
   height: 61%;
 }
 
-@media screen and (max-width: 1600px) {
   .kalimatisi161 {
-    font-size: 57px !important;
+    font-size:3.958vw !important;
     width: 60% !important;
   }
 
   .kalimatisi162 {
-    font-size: 57px !important;
+    font-size: 3.958vw !important;
     margin-top: 14%;
   }
 
   .footer16 {
-    font-size: 16px !important;
+    font-size: 1.11vw !important;
   }
-}
 
-@media screen and (min-width: 1601px) {
+
+/* @media screen and (min-width: 1601px) {
   .kalimatisi162 {
     font-size: 57px !important;
     margin-top: 18%;
   }
-}
+} */

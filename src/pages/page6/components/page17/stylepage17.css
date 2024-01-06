@@ -1,10 +1,5 @@
-@font-face {
-  font-family: "National 2 Bold";
-  src: local("National 2 Bold"), url("../../Fonts/National2Bold.otf");
-}
-
 .bold {
-  font-family: "National 2 Bold";
+  font-family: "National2Bold";
 }
 
 .page17 {
@@ -29,23 +24,21 @@
   margin-top: 8%;
   height: 60%;
 }
-
-@media screen and (max-width: 1600px) {
   .header17 {
-    font-size: 12px !important;
+    font-size: 0.833vw !important;
   }
 
   .kalimatisi171 {
-    font-size: 57px !important;
+    font-size: 3.953vw !important;
   }
 
   .kalimatisi172 {
-    font-size: 12px !important;
+    font-size: 0.833vw !important;
   }
 
   .kalimatisi173 {
-    font-size: 16px !important;
+    font-size: 1.11vw !important;
     margin-top: 1.5% !important;
     margin-left: 4% !important;
   }
-}
+

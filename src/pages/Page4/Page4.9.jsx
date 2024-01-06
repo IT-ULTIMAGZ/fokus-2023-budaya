@@ -5,7 +5,7 @@ function Page4No9() {
   }
   return(
     <div class='page flex-column justify-center align-center' style={styles}>
-      <img src='/images/tengok-ragam/Text/Page 9/Asset 36.png'></img>
+      <img src='/images/tengok-ragam/Text/Page 9/Asset 36.png' style={{width:'75vw'}}></img>
       <div class='empty'></div>
     </div>
   )

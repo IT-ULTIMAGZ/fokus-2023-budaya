@@ -3,17 +3,11 @@
     height: 100vh;
     background: #FFA500;
     display: flex;
-    overflow-x: hidden;
-}
-
-.content3 {
-    width: 100vw;
-    height: 97%;
-    background-color: #0A6B48;
-    background-image: url('../../assets/Asset_7.png');
-    background-size: 115vw 90vh;
-    background-repeat: no-repeat;
-    background-position: bottom 35vh right -10vw;
+    /* overflow-x: hidden; */
+    background-image: url(../../assets/bg3.png);
+    background-size: 100vw 100vh;
+    overflow: hidden;
+    position: relative;
 }
 
 .tulisan {
@@ -45,15 +39,22 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
-    margin: auto;
     display: flex;
+    margin-top: -10vh;
 }
 
 .image3 img {
     width: 50vw;
-    height: 46vh;
+    height: auto;
 }
-
+.boxKosong{
+    width:100vw;
+    height:5vh;
+    position: absolute;
+    bottom: 0;
+    background-color:#FFAE00 ;
+}
+/* 
 @media (max-width: 768px) {
     .content3 {
         background-size: 100% auto;
@@ -90,4 +91,4 @@
         height: auto;
         margin-top: 2cm; 
     }
-}
+} */

@@ -65,7 +65,7 @@
 
 .descpage7 p {
   font-family: National2;
-  font-size: 15px;
+  font-size: 1.04vw;
   line-height: 1;
   letter-spacing: 1px;
   /* font-weight: bolder; */
@@ -75,7 +75,7 @@
 .descpage7 h1 {
   margin-top: 3.5%;
   font-family: National2Bold;
-  font-size: 53px;
+  font-size: 3.6vw;
   line-height: 1;
   letter-spacing: 1.2px;
   font-weight: bolder;
@@ -84,7 +84,7 @@
 
 .descpage7 h1 span {
   font-family: National2Bolditalic;
-  font-size: 53px;
+  font-size: 3.6vw;
   line-height: 1;
   letter-spacing: 1.2px;
   font-weight: bolder;

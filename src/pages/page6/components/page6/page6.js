@@ -13,8 +13,8 @@ function page6() {
           </div>
           <h1>
             UDENG
-            <br /> KHAS
-            <br /> BALI
+            <br /> <h2>KHAS</h2>
+            BALI
           </h1>
         </div>
         <div className="tengahkanan">

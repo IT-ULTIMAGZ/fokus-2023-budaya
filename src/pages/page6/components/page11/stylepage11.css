@@ -59,29 +59,29 @@
   height: 5%;
 }
 
-@media screen and (max-width: 1600px) {
+
   .header11 {
-    font-size: 12px !important;
+    font-size: 0.83vw !important;
   }
 
   .isiHeader {
-    font-size: 14px !important;
+    font-size: 0.97vw !important;
   }
 
-  .kalimatisi1 {
-    font-size: 14px !important;
-  }
-
-  .kalimatisi2 {
-    font-size: 55px !important;
-  }
-
-  .kalimatisi3 {
-    font-size: 14px !important;
-  }
-
-  .isifooter {
-    font-size: 14px !important;
-    padding-top: 0% !important;
-  }
+.kalimatisi1 {
+  font-size: 0.97vw !important;
 }
+
+.kalimatisi2 {
+  font-size: 3.81vw !important;
+}
+
+.kalimatisi3 {
+  font-size: 0.97vw !important;
+}
+
+.isifooter {
+  font-size: 0.97vw !important;
+  padding-top: 0% !important;
+}
+

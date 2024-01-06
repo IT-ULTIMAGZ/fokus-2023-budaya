@@ -1,39 +1,3 @@
-@font-face {
-  font-family: "National2Bold"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Condensed Bold.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "National2regular"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Condensed Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "National2"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "National2light"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Light.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "National2bolditalic"; /* Specify the desired font-family name */
-  src: url("../../Fonts/National 2 Condensed Bold Italic.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .pembungkuss {
   width: 100vw;
   height: 100vh;
@@ -80,14 +44,14 @@
 
 .tengahkiri h1 {
   height: 35%;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: center; */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  font-family: National2CondensedBold;
-  font-size: 55px;
+  font-family: National2XBold;
+  font-size: 3.8vw;
   font-weight: 900;
   color: #f4f3d2;
   text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000,
@@ -98,7 +62,9 @@
   line-height: 0.8;
   letter-spacing: 1px;
 }
-
+.tengahkiri h2 {
+  font-family: National2CondensedBold;
+}
 .tengahkanan {
   height: 100%;
   width: 79.2%;
@@ -117,8 +83,8 @@
 }
 
 .melansir p {
-  font-family: National2;
-  font-size: 15px;
+  font-family: National2Regular;
+  font-size: 1.04vw;
   line-height: 1;
   letter-spacing: 1px;
   /* font-weight: bolder; */
@@ -132,17 +98,17 @@
 }
 
 .deskripsiudeng h1 {
-  font-family: National2bold;
-  font-size: 38px;
+  font-family: National2Condensedbold;
+  font-size: 2.63vw;
   line-height: 1.2;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
   /* font-weight: bolder; */
   color: #f4f3d2;
 }
 
 .deskripsiudeng h1 span {
   font-family: National2bolditalic;
-  font-size: 38px;
+  font-size: 2.63vw;
   line-height: 1.2;
   letter-spacing: 3px;
   /* font-weight: bolder; */
@@ -150,34 +116,12 @@
 }
 
 .deskripsiudeng p {
-  font-family: National2;
-  font-size: 15px;
+  font-family: National2Regular;
+  font-size: 1.04vw;
   line-height: 1.3;
   letter-spacing: 1.2px;
   /* font-weight: bolder; */
   color: #f4f3d2;
   margin-top: 7%;
   margin-left: 17%;
-}
-
-@media screen and (min-width: 1600px) {
-  .tengahkiri h1{
-    font-size: 72px !important;
-  }
-
-  .melansir p{
-    font-size: 20px !important;
-  }
-
-  .deskripsiudeng h1{
-    font-size: 45px !important;
-  }
-
-  .deskripsiudeng h1 span{
-    font-size: 45px !important;
-  }
-
-  .deskripsiudeng p{
-    font-size: 20px !important;
-  }
 }

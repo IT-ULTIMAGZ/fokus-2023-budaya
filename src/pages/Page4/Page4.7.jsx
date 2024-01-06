@@ -1,15 +1,20 @@
 function Page4No7() {
   const styles = {
     'backgroundImage': 'url("/images/tengok-ragam/bg/Page 7.png")',
-    'backgroundColor':'#ffaf00'
+    'backgroundColor':'#ffaf00',
+    'backgroundSize': '100vw 100vh',
+    'backgroundPosition': 'center',
+    'width': '100vw',
+    'height': '100vh',
+    'backgroundRepeat': 'no-repeat'
   }
 
   return(
     <div class='page flex-column align-center justify-center' style={styles}>
-      <img src='/images/tengok-ragam/ilustrasi/halobali.png' class='halobali'></img>
-      <div className="text-section flex-row justify-start align-start">
-        <img src='/images/tengok-ragam/Text/Page 7/Asset 32.png' class='detail-text-2'></img>
-        <img src='/images/tengok-ragam/Text/Page 7/Asset 33.png' class='detail-text-3'></img>
+      <img src='/images/tengok-ragam/ilustrasi/halobali.png' style={{width:'80vw',height:'52.5vh'}} class='halobali'></img>
+      <div className=" flex-row justify-start align-start" style={{width:'80vw', height:'47.5vh',display:'flex',justifyContent:'center',gap:'3vw'}}>
+        <img src='/images/tengok-ragam/Text/Page 7/Asset 32.png'style={{width:'50%',padding:'3vw 0vw 5vw 10vw'}} class='detail-text-2'></img>
+        <img src='/images/tengok-ragam/Text/Page 7/Asset 33.png' style={{width:'50%',padding:'3vw 10vw 5vw 0vw'}}class='detail-text-3'></img>
       </div>
     </div>
   )

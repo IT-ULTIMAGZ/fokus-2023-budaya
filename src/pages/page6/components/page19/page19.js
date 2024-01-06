@@ -4,34 +4,34 @@ function page19() {
   return (
     <div className="page19">
       <p
-        className="regular kalimatisi191"
-        style={{ fontSize: "20px", width: "30%" }}
+        className="kalimatisi191"
+        style={{ fontSize: "1.38vw",fontFamily:'National2Regular',lineHeight:'1.2' }}
       >
-        Nah, itu dia lima budaya benda dan tak benda masyarakat Indonesia yang
-        masih relevan untuk Ultimates gunakan di era sekarang.
+        Nah, itu dia lima budaya benda dan tak benda <br/> masyarakat Indonesia yang
+        masih relevan untuk <br/> Ultimates gunakan di era sekarang.
       </p>
       <p
         className="regular kalimatisi192"
-        style={{ fontSize: "20px", width: "39%" }}
+        style={{ fontSize: "1.38vw",fontFamily:'National2Regular',lineHeight:'1.2'}}
       >
-        Selain memiliki nilai guna, pengimplementasian budaya-budaya tersebut
-        dalam kehidupan sehari-hari juga dapat menjadi upaya memperkenalkannya
+        Selain memiliki nilai guna, pengimplementasian budaya-budaya <br/> tersebut
+        dalam kehidupan sehari-hari juga dapat menjadi upaya <br/> memperkenalkannya
         ke khalayak luar.
       </p>
       <h1
         className="condensedBold kalimatisi193"
-        style={{ fontSize: "72px", width: "45%" }}
+        style={{ fontSize: "5vw" }}
       >
         Dari kelima budaya yang
         <br /> sudah disebutkan di atas,
       </h1>
       <div
         className="kalimatisi194"
-        style={{ fontSize: "72px", width: "40%", lineHeight: "1.2" }}
+        style={{ fontSize: "4.5vw", lineHeight: "1.2" }}
       >
         <span className="condensedBoldItalic">
           Ultimates{" "}
-          <span className="condensedBold">sudah pernah mencoba yang mana?</span>
+          <span className="condensedBold">sudah pernah <br/> mencoba yang mana?</span>
         </span>
       </div>
     </div>

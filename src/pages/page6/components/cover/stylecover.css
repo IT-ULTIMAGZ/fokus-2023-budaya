@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "National2CondensedBold"; /* Specify the desired font-family name */
+  font-family: "National2XBold"; /* Specify the desired font-family name */
   src: url("../../Fonts/National 2 XBold.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
@@ -11,6 +11,40 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "National2CondensedBold"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Condensed Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2CondensedRegular"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Condensed Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "National2light"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "National2bolditalic"; /* Specify the desired font-family name */
+  src: url("../../Fonts/National 2 Condensed Bold Italic.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "National2Bold";
+  src: local("National 2 Bold"), url("../../Fonts/National2Bold.otf");
+}
+
 
 .box {
   width: 100vw;
@@ -73,7 +107,7 @@
 }
 
 .telisik5 h1 {
-  font-size: 65px;
+  font-size: 4.5vw;
   font-weight: bolder;
   color: #dddcbf;
   text-shadow: 1px 0px 1px #000, 0px 1px 1px #000, 2px 1px 1px #000,
@@ -93,7 +127,7 @@
 }
 
 .budaya h1 {
-  font-size: 65px;
+  font-size: 4.5vw;
   font-weight: bolder;
   color: #dddcbf;
   text-shadow: 1px 0px 1px #000, 0px 1px 1px #000, 2px 1px 1px #000,
@@ -125,7 +159,7 @@
 }
 
 .benda h1 {
-  font-size: 65px;
+  font-size: 4.5vw;
   font-weight: bolder;
   color: #dddcbf;
   text-shadow: 1px 0px 1px #000, 0px 1px 1px #000, 2px 1px 1px #000,
@@ -143,7 +177,7 @@
   height: 50%;
   width: 100%;
   /* background: aqua; */
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .namapenulis p {
@@ -151,6 +185,7 @@
   /* font-size: 15px; */
   line-height: 1;
   letter-spacing: 2px;
+  font-size: 1vw;
   /* font-weight: bolder; */
   color: bisque;
   margin: 0%;
@@ -158,7 +193,7 @@
 }
 
 .namapenulis h5 {
-  font-size: 20px;
+  font-size: 1vw;
   /* font-weight: bolder; */
   font-family: National2;
   color: beige;
@@ -178,7 +213,7 @@
 }
 
 .indonesia h1 {
-  font-size: 65px;
+  font-size: 5vw;
   font-weight: bolder;
   color: #ee4f54;
   text-shadow: 0 1px #000, -1px 0 #000, -1px 2px #000, -2px 1px #000,
@@ -200,7 +235,7 @@
 }
 
 .untuk h1 {
-  font-size: 65px;
+  font-size: 4.5vw;
   font-weight: bolder;
   color: #dddcbf;
   text-shadow: 0 1px #000, -1px 0 #000, -1px 2px #000, -2px 1px #000,
@@ -232,7 +267,7 @@
 }
 
 .kehidupan h1 {
-  font-size: 65px;
+  font-size: 4.5vw;
   font-weight: bolder;
   color: #dddcbf;
   text-shadow: 1px 0px 1px #000, 0px 1px 1px #000, 2px 1px 1px #000,

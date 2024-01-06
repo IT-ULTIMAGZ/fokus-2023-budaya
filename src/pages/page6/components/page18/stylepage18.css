@@ -5,16 +5,18 @@
   width: 100vw;
   height: 100vh;
   color: #f3f3d3;
-  padding-top: 3%;
-  padding-left: 3%;
+  /* padding-top: 3vh; */
+  padding-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .kalimatisi183 {
   color: #ed5455;
 }
-
-@media screen and (max-width: 1600px) {
-  .kalimatisi181 {
+  /* .kalimatisi181 {
     font-size: 90px !important;
   }
 
@@ -25,12 +27,5 @@
   .kalimatisi183 {
     font-size: 16px !important;
     margin-top: 5.5%;
-  }
-}
+  } */
 
-@media screen and (min-width: 1601px) {
-  .kalimatisi183 {
-    font-size: 16px !important;
-    margin-top: 8.5%;
-  }
-}

@@ -19,9 +19,9 @@ function page14() {
         <h1
           className="condensedBold kalimatisi142"
           style={{
-            fontSize: "72px",
+            fontSize: "5vw",
             marginLeft: "37%",
-            marginTop: "11.3%",
+            marginTop: "0%",
             letterSpacing: "1px",
           }}
         >

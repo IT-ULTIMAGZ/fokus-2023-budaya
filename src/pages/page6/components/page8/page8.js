@@ -46,7 +46,8 @@ function page8() {
           </div>
           <div className="page8kananbawah">
             <h1>
-              TIKAR <br /> PANDAN <br /> SERASAN <br /> NATUNA
+              TIKAR <h2>PANDAN <br />SERASAN</h2>
+              NATUNA
             </h1>
           </div>
         </div>
