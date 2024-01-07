@@ -16,6 +16,7 @@ const LandscapePrompt = () => {
     }else {
       setIsLandscape(false);
     }
+    
   };
 
   useEffect(() => {

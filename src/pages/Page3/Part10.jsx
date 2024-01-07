@@ -18,7 +18,7 @@ const Part10 = () => {
                 <p>Berkat keaktifannya dalam melestarikan tari tradisional Indonesia, <br />
                    <span>DARYL</span> menerima penghargaan <b>anugerah kebudayaan dan <br />
                     maestro seni tradisi</b> kategori anak remaja dari Menteri <br />
-                    Pendidikan dan Kebudayaan Republik Indonesia pada 2018</p>
+                    Pendidikan dan Kebudayaan Republik Indonesia pada 2018.</p>
             </div>
         </div>
     );

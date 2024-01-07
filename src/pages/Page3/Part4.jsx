@@ -19,7 +19,7 @@ const Part4 = () => {
                     <br />
                 Mengutip dari finansialku.com, <b>Batik Lasem</b> adalah kebudayaan<br /> 
                 turun-temurun yang sudah terkenal, bahkan masuk ke lingkup internasional. <br />
-                Namun, pada masanya, pesona batik ini sempat padam. <em>NAOMI</em> merupakan <br />
+                Namun, pada masanya, pesona batik ini sempat padam. <b>NAOMI</b> merupakan <br />
                 sosok yang mengembalikan daya tarik kain batik perpaduan dua budaya ini.
                 </p>
                 </div>

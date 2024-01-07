@@ -16,7 +16,7 @@ const Part7 = () => {
                      burung enggang, motif batang garing, ataupun tunjung siring.  </p>
             </div>
             <div className="part7Section_textKanan">
-                <p data-aos='fade-left-custom'>Menurut <span>LILIS</span>, Batik Kalimantan memiliki warna yang lebih <br /> cerah seperti </p>
+                <p data-aos='fade-left-custom'>Menurut <span>LILIS</span>, batik Kalimantan memiliki warna yang lebih <br /> cerah seperti </p>
                 <div>
                     <p  data-aos='fade-up-pop'>Berbeda dari batik Jawa yang cenderung menggunakan warna lebih <br /> 
                         tenang seperti cokelat, dikutip dari <i>diskominfo.kaltimprov.go.id</i> .</p>

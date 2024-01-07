@@ -21,7 +21,7 @@ const End = () => {
                     Setiap destinasi menawarkan budayanya sebagai <img style={{height:'2.7vh',width:'auto'}} src="./images/tengok-ragam-real/Page 7/aset2 pg7.png" alt="" />
                 </p>
                 <br />
-                <p style={{fontFamily:'National2Light',fontSize:'1.38vw'}}>Kira-kira, Ultimates ingin berkunjung ke mana dulu? </p>
+                <p style={{fontFamily:'National2Light',fontSize:'1.38vw'}}>Kira-kira, <i>Ultimates</i>  ingin berkunjung ke mana dulu? </p>
 
                 
             </div>

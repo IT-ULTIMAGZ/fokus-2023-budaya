@@ -19,7 +19,7 @@ const Part3 = () => {
               data-scroll-speed="0.4"
               style={{ transform: 'translate3d(0,0vh,0)' }}>
                 
-            Berikut adalah lima tokoh pengrajin dan pelestari seni budaya Indonesia <br /> yang Ultimates harus tahu!   
+            Berikut adalah lima tokoh pengrajin dan pelestari seni budaya Indonesia <br /> yang <i>Ultimates</i> harus tahu!   
             </p>
 
         </div>

@@ -8,7 +8,7 @@ function page19() {
         style={{ fontSize: "1.38vw",fontFamily:'National2Regular',lineHeight:'1.2' }}
       >
         Nah, itu dia lima budaya benda dan tak benda <br/> masyarakat Indonesia yang
-        masih relevan untuk <br/> Ultimates gunakan di era sekarang.
+        masih relevan untuk <br/>  <i>Ultimates</i> gunakan di era sekarang.
       </p>
       <p
         className="regular kalimatisi192"
