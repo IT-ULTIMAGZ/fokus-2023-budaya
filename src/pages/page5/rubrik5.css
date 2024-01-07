@@ -292,9 +292,10 @@ body {
   z-index: 1;
 }
 .page5-hero-text img {
-  width:50vw;
+  width:45vw;
   height: auto;
   margin-left: 5vw;
+  margin-top: 5vw;
 }
 #pg5-judul {
   /* transform: scale(0.8); */
