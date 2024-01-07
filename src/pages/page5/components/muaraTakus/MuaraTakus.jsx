@@ -39,7 +39,7 @@ function MuaraTakus(props) {
         <div style={{textAlign:'center', width:'90vw'}} class='flex-column justify-center align-center'>
           <p style={{fontSize:'2.5vw',fontFamily:'National2CondensedMedium'}}>
             Destinasi sejarah budaya Indonesia kuno yang berada di pinggir sungai <br />
-            Kampar, Desa Muara Takus, Riau. Melansir dari kompas.com, nama <br />
+            Kampar, Desa Muara Takus, Riau. Melansir dari <i>kompas.com</i>, nama <br />
             MUARA TAKUS memiliki arti candi tua yang berada di muara sungai.
           </p>
 
