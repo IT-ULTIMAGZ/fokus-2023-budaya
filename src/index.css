@@ -19,6 +19,13 @@ code {
 [data-aos=zoom-out-custom].animated {
   transform: scale(1);
 }
+[data-aos=zoom-in-custom]{
+  transform: translate3d(0, 10vh, 0) scale(0.4);
+}
+[data-aos=zoom-in-custom].animated{
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
 
 [data-aos=fade-right-custom] {
   transform: translate3d(-60vw,0,0);
@@ -29,9 +36,18 @@ code {
 [data-aos=fade-up-right-custom] {
   transform: translate3d(-20vw,20vw,0);
 }
-[data-aos=fade-up-pop] {
+
+
+[data-aos=fade-up-custom] {
   transform: translate3d(0, 40vh, 0);
 }
-[data-aos=fade-up-pop].animated {
+[data-aos=fade-up-custom].animated {
   transform: translate3d(0, 0, 0);
+}
+
+[data-aos=fade-up-pop] {
+  transform: translate3d(0, 40vh, 0) scaleY(0);
+}
+[data-aos=fade-up-pop].animated {
+  transform: translate3d(0, 0, 0) scaleY(1);
 }

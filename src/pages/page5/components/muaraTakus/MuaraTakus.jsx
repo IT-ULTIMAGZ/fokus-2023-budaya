@@ -29,7 +29,7 @@ function MuaraTakus(props) {
       initial={{ width: "0px",opacity:0 }} 
       animate={{ width: "200vw",opacity:1 }}
       transition={{ duration: 1.5 }}
-      data-aos='fade-in' data-aos-duration= '1000'id='muaratakus' className=' flex-row justify-center align-center bgPage2' style={{backgroundImage: 'url(./images/tengok-ragam-real/Page 2/bg pg2.png)'}}>
+    className=' flex-row justify-center align-center bgPage2' style={{backgroundImage: 'url(./images/tengok-ragam-real/Page 2/bg pg2.png)'}}>
 
       <div  style={{height:'80vh'}}className='sidescroll-content-page flex-column justify-around align-center'>
         <img src="./images/tengok-ragam-real/Page 2/aset bg pg2.png" className='gantunganPage2' alt="" />

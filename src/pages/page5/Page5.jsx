@@ -79,7 +79,7 @@ function Page5() {
 
 
   return (
-    <div className='master flex-row justify-start page5'>
+    <div className='master flex-row page5' style={{height:'100vh',overflowY:'hidden'}}>
         <div className='sidescroll-page '>
             <div className="sidescroll-hero flex-row justify-between">
               <img className='bg-img-sidescroll' src='./images/tengok-ragam-real/Page 1/bg pg1.png'></img>
@@ -98,11 +98,7 @@ function Page5() {
                   </div>
                 </div>
               </div>
-              <div data-aos='fade-in' style={{
-                            
-                            transition: "transform 2s ease", // Smoothly transition changes in transform
-                          }}
-              
+              <div 
                 // style={{ transform: `translateX(-${scrollPosition * 100}%)` }}
                 className='pg5-content-list'>
                 {scroll01 === false ? (

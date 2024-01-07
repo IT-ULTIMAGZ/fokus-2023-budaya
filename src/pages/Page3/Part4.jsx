@@ -1,14 +1,21 @@
 import "./css/part4.css";
+import LocomotiveScroll from 'locomotive-scroll';
+import AOS from 'aos';
 
 const Part4 = () => {
+    AOS.init({
+        duration : 1000,
+        once: false,
+      });
+    const locomotiveScroll = new LocomotiveScroll();
     return (
         <div className="part4Section" id="naomiSusilowati">
             <div className="textAtas">
-                <p>Motif <b>Batik Lasem</b> merupakan perpaduan dari budaya <b> Tionghoa dan Jawa</b>, <br />
+                <p data-aos='fade-left-custom'>Motif <b>Batik Lasem</b> merupakan perpaduan dari budaya <b> Tionghoa dan Jawa</b>, <br />
                 dilansir dari mediaindonesia.com. Batik ini juga dikenal sebagai <br />
                 <b>Batik Tiga Negeri </b>  karena melewati tiga kali proses pewarnaan. </p>
 
-                <p>
+                <p data-aos='fade-right-custom'>
                     <br />
                 Mengutip dari finansialku.com, <b>Batik Lasem</b> adalah kebudayaan<br /> 
                 turun-temurun yang sudah terkenal, bahkan masuk ke lingkup internasional. <br />
@@ -17,7 +24,9 @@ const Part4 = () => {
                 </p>
                 </div>
             <div>
-                <img src="./images/lima-pelestari/1.png" alt="" />
+                <img data-scroll
+              data-scroll-speed="0.6"
+              style={{ transform: 'translate3d(0,0vh,0)' }} src="./images/lima-pelestari/1.png" alt="" />
             </div>
         </div>
     );

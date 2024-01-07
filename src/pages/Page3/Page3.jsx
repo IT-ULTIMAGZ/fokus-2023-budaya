@@ -48,7 +48,7 @@ const Page3 = () => {
 //   }, [isScrolling]);
 
   return (
-    <div>
+    <div style={{width:'100vw',overflowX:'hidden'}}>
       <Element name="part1">
         <Part1 />
       </Element>

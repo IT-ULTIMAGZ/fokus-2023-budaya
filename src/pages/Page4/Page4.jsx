@@ -10,7 +10,7 @@ import Page4No9 from "./Page4.9";
 
 function Page4() {
   return(
-    <>
+    <div style={{width:'100vw',overflow:'hidden'}}>
       <Page4No1></Page4No1>
       <Page4No2></Page4No2>
       <Page4No3></Page4No3>
@@ -20,7 +20,7 @@ function Page4() {
       <Page4No7></Page4No7>
       <Page4No8></Page4No8>
       <Page4No9></Page4No9>
-    </>
+    </div>
     
   )
 }
