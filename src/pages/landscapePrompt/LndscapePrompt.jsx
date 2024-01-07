@@ -7,12 +7,27 @@ const LandscapePrompt = () => {
     window.matchMedia('(orientation: landscape)').matches
   );
   console.log(isLandscape);
+  
+
 
   const handleOrientationChange = () => {
     setIsLandscape(window.matchMedia('(orientation: landscape)').matches);
   };
 
   useEffect(() => {
+    if(!isLandscape){
+        document.querySelector('body').style.overflow = 'hidden';
+        document.querySelector('body').style.height = '100vh';
+        document.querySelector('body').style.width = '100vw';
+
+        const sidescrollPage = document.querySelector('.sidescroll-page');
+
+        if (sidescrollPage) {
+            sidescrollPage.style.width = '100vw';
+            sidescrollPage.style.height = '100vh';
+            sidescrollPage.style.overflow = 'hidden';
+          } 
+      }
     window.addEventListener('orientationchange', handleOrientationChange);
 
     return () => {
@@ -21,7 +36,7 @@ const LandscapePrompt = () => {
   }, []);
 
   return (
-    <Modal show={!isLandscape} backdrop="static" centered style={{position:'fixed',top:'0',left:'0',width: '100%',height: '100%',background: 'rgba(0, 0, 0, 1)',}}>
+    <Modal show={!isLandscape} backdrop="static" centered style={{position:'fixed',top:'0',left:'0',width: '100vw',height: '100vh',background: 'rgba(0, 0, 0, 0.8)',}}>
       <Modal.Header>
         <Modal.Title>Turn Your Device to Landscape</Modal.Title>
       </Modal.Header>

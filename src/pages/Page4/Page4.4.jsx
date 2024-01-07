@@ -3,7 +3,9 @@ function Page4No4() {
     'background': 'url("/images/tengok-ragam/bg/Page 4.png")',
     'backgroundPosition':'center',
     'backgroundColor' :'#f4f3d3',
-    'backgroundSize':'100% auto',
+    'backgroundSize':'100vw 100vh',
+    'width':'100vw',
+    'height':'100vh',
   }
   
   return (
