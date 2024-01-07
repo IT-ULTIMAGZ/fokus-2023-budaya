@@ -36,19 +36,26 @@ const LandscapePrompt = () => {
   }, []);
 
   return (
-    <Modal show={!isLandscape} backdrop="static" centered style={{position:'fixed',top:'0',left:'0',width: '100vw',height: '100vh',background: 'rgba(0, 0, 0, 0.8)',}}>
-      <Modal.Header>
-        <Modal.Title>Turn Your Device to Landscape</Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <p>For a better experience, please turn your mobile phone to landscape mode.</p>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button variant="primary" onClick={() => window.location.reload()}>
-          Refresh
-        </Button>
-      </Modal.Footer>
-    </Modal>
+    <>
+      {!isLandscape  ? 
+      null : 
+      (<Modal show={true} backdrop="static" centered style={{position:'fixed',top:'0',left:'0',width: '100vw',height: '100vh',background: 'rgba(0, 0, 0, 0.8)',}}>
+        <Modal.Header>
+          <Modal.Title>Turn Your Device to Landscape</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>For a better experience, please turn your mobile phone to landscape mode.</p>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" onClick={() => window.location.reload()}>
+            Refresh
+          </Button>
+        </Modal.Footer>
+      </Modal>
+      )
+      }
+    </>
+    
   );
 };
 
