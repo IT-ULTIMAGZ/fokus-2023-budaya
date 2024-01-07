@@ -145,7 +145,7 @@ body {
 }
 
 .page4no3-images > * {
-  transform: scale(0.8);
+  /* transform: scale(0.8); */
 }
 
 .detail-text {
@@ -279,12 +279,12 @@ body {
 .content-preview {
   height: 100%;
   width: 8vw;
-  transition: 2s;
+  /* transition: 2s; */
 }
 
 .pg5-content-list {
   display: flex;
-  transition: transform 0.5s ease; /* Adjust the duration and easing as needed */
+  /* transition: transform 0.5s ease;  */
 }
 
 .page5-hero-text {
@@ -297,7 +297,7 @@ body {
   margin-left: 5vw;
 }
 #pg5-judul {
-  transform: scale(0.8);
+  /* transform: scale(0.8); */
 }
 
 .sidescroll-content {

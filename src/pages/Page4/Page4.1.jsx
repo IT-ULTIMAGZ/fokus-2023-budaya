@@ -1,4 +1,11 @@
+import AOS from 'aos';
+
 function Page4No1() {
+  AOS.init({
+    duration : 1200,
+    offset: 330, 
+    once: false,
+  });
   return(
     <div class='page' style={{
       'backgroundImage': `url("images/tengok-ragam/bg/Page 1.png")`,
@@ -14,8 +21,11 @@ function Page4No1() {
 
     }}>
 
-      <img src='/images/tengok-ragam/Text/Page 1/Asset 16.png' style={{width:'60vw'}}/>
-      <img src='/images/tengok-ragam/Text/Page 1/Asset 15.png' style={{width:'50vw'}}/>
+      <img 
+        style={{width: '60vw'}}
+        data-aos-once="false"
+        data-aos='zoom-out-custom'  src='/images/tengok-ragam/Text/Page 1/Asset 16.png'/>
+      <img data-aos='fade-right-custom'  src='/images/tengok-ragam/Text/Page 1/Asset 15.png' style={{width:'50vw'}}/>
 
     </div>
   )
