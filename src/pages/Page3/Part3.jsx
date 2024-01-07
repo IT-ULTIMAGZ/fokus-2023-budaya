@@ -9,7 +9,7 @@ const Part3 = () => {
         <div className="part3Section">
             <p data-scroll
               data-scroll-speed="0.6"
-              style={{ transform: 'translate3d(0,10vh,0)' }}
+              style={{ transform: 'translate3d(0,0vh,0)' }}
             >
                 Keberagaman budaya Indonesia bukan lagi hal asing di mata dunia. <br />
                 Indonesia memiliki keberagaman budaya yang sangat banyak <br />
