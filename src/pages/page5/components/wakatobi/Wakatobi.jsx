@@ -1,8 +1,14 @@
 import './wakatobi.css';
+import { motion } from "framer-motion";
 
 const Wakatobi = () => {
     return (
-        <div className="wakatobiSection">
+        <motion.div
+            className="wakatobiSection"
+            initial={{ width: "0px",opacity:0 }} 
+            animate={{ width: "100vw",opacity:1 }}
+            transition={{ duration: 1.5 }}
+        >
             <div className='wakatobiSectionAtas'>
                 <img src="./images/tengok-ragam-real/Page 6/aset1 pg6.png" alt="" />
                 <p style={{boxShadow:''}}><i>TAMAN NASIONAL</i> <br />WAKATOBI</p>
@@ -36,7 +42,7 @@ const Wakatobi = () => {
                 </div>
                 
             </div>
-        </div>
+        </motion.div>
     )
 }
 

@@ -1,7 +1,12 @@
 import './tomok.css';
+import { motion } from "framer-motion";
 const Tomok = () => {
     return (
-        <div className="tomokSection">
+        <motion.div 
+            initial={{ width: "0px",opacity:0 }} 
+            animate={{ width: "200vw",opacity:1 }}
+            transition={{ duration: 1.5 }}
+        className="tomokSection">
             <div className='tomokSectionKiri'>
                 <div>
                     <img src="./images/tengok-ragam-real/Page 4/aset1 pg4.png" alt="" />
@@ -61,7 +66,7 @@ const Tomok = () => {
                 </div>
                
             </div>
-        </div>
+        </motion.div>
     )
 }
 

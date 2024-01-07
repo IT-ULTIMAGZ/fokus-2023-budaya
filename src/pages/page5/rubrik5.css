@@ -91,15 +91,18 @@
   padding: 0px;
 
 }
+body {
+  height:100vh !important; 
+
+  /* overflow-y: hidden; */
+}
 
 .page5 p {
   margin: 0px;
 }
 .page5 {
   height: 100vh;
-  width: fit-content;
-  overflow: hidden;
-
+  /* overflow: hidden; */
 }
 .page {
   /* height: 100vh;
@@ -201,13 +204,9 @@
 .sidescroll-page {
   height: 100vh;
   
-  overflow-y: hidden;
+  /* overflow: hidden; */
   display: flex;
-  flex-direction: row;
-
-  /* background: url("../public/images/tengok-ragam-real/Page 1/bg pg1.png") center/cover fixed; */
-  /* background-size: cover;
-  background-position: center; */  
+  flex-direction: row; 
 }
 .content-preview {
   cursor:pointer;
@@ -246,6 +245,7 @@
   position: relative;
   width: 200vw;
   height: 100vh;
+  /* overflow: hidden; */
 }
 
 .master {
@@ -271,6 +271,7 @@
   /* width: fit-content; */
   display: flex;
   flex-direction: row;
+  justify-content: start;
   width: fit-content;
   
 }
@@ -278,8 +279,14 @@
 .content-preview {
   height: 100%;
   width: 8vw;
-  transition: 1s;
+  transition: 2s;
 }
+
+.pg5-content-list {
+  display: flex;
+  transition: transform 0.5s ease; /* Adjust the duration and easing as needed */
+}
+
 .page5-hero-text {
   position: absolute;
   z-index: 1;

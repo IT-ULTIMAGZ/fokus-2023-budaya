@@ -1,7 +1,12 @@
 import './cendrawasih.css';
+import { motion } from "framer-motion";
 const cendrawasih = () => {
     return (
-        <div className="cendrawasihSection">
+        <motion.div 
+            initial={{ width: "0px",opacity:0 }} 
+            animate={{ width: "200vw",opacity:1 }}
+            transition={{ duration: 1.5 }}
+            className="cendrawasihSection">
             <div className='cendrawasihSectionKiri'>
                 <img src="./images/tengok-ragam-real/Page 5/aset1 pg5.png" alt="" />
                 <br />
@@ -39,7 +44,7 @@ const cendrawasih = () => {
                <img src="./images/tengok-ragam-real/Page 5/aset2 pg5.png" alt="" />
                
             </div>
-        </div>
+        </motion.div>
     )
 }
 

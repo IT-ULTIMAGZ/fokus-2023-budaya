@@ -12,6 +12,7 @@
 /* Hide the WebKit scrollbar */
 ::-webkit-scrollbar {
   width: 0;  /* Set width to 0 */
+  height: 0; /* Set height to 0 */
 }
 
 /* Optional: Style the track, thumb, and any other scrollbar parts */

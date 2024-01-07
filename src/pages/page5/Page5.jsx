@@ -5,6 +5,7 @@ import Tomok from "./components/tomok/Tomok";
 import Wakatobi from "./components/wakatobi/Wakatobi";
 import End from "./components/end/End";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 import './rubrik5.css';
 // import AOS from 'aos';
@@ -16,6 +17,8 @@ function Page5() {
   const [scroll04,setScroll04] = useState(false);
   const [scroll05,setScroll05] = useState(false);
   const [scroll06,setScroll06] = useState(false);
+
+  const [scrollPosition, setScrollPosition] = useState(0);
  
   function convertScrolling() {
     const container = document.querySelector('.master');
@@ -57,6 +60,7 @@ function Page5() {
     }else if(scroll === 6){
       scroll06 === false ? setScroll06(true) : setScroll06(false);
     }
+    setScrollPosition(scroll);
 
   }
   useEffect(()=> {
@@ -68,6 +72,10 @@ function Page5() {
   //   scrollToSection();
 
   // }, []);
+
+  const handleScroll2 = (position) => {
+    setScrollPosition(position);
+  };
 
 
   return (
@@ -90,21 +98,33 @@ function Page5() {
                   </div>
                 </div>
               </div>
-              <div data-aos='fade-in' className='pg5-content-list'>
-                {scroll01 === false ?  (<img  data-section ='muaratakus' id='first-content' onClick={()=>handleScroll(1)} className='content-preview' src='./images/tengok-ragam-real/Page 1/Asset 1 pg1.png'></img>):(<MuaraTakus/>)}
-                {scroll02 === false ? (<img data-section ='desapenglipuran' className='content-preview' onClick={()=>handleScroll(2)}  src='./images/tengok-ragam-real/Page 1/aset2 pg1.png'></img>):(<Penglipuran/>)}
-                {scroll03 === false ? (<img data-section ='desatomok' className='content-preview' onClick={()=>handleScroll(3)} src='./images/tengok-ragam-real/Page 1/aset3 pg1.png'></img>):(<Tomok/>)}
-                {scroll04 === false ? (<img data-section='cenderawasih' className='content-preview'onClick={()=>handleScroll(4)}  src='./images/tengok-ragam-real/Page 1/aset4 pg1.png'></img>):(<Cendrawasih/>)}
-                {scroll05 === false ? (<img data-section='wakatobi' className='content-preview'onClick={()=>handleScroll(5)}  src='./images/tengok-ragam-real/Page 1/aset5 pg 1.png'></img>):(<Wakatobi/>)}
-                {scroll06 === false ? (<img data-section='end' className='content-preview' onClick={()=>handleScroll(6)} src='./images/tengok-ragam-real/Page 1/aset6 pg1.png'></img>):(<End/>)}
+              <div data-aos='fade-in' style={{
+                            
+                            transition: "transform 2s ease", // Smoothly transition changes in transform
+                          }}
+              
+                // style={{ transform: `translateX(-${scrollPosition * 100}%)` }}
+                className='pg5-content-list'>
+                {scroll01 === false ? (
+                  <img
+                    data-section='muaratakus'
+                    id='first-content'
+                    onClick={() => handleScroll(1)}
+                    className='content-preview'
+                    src='./images/tengok-ragam-real/Page 1/Asset 1 pg1.png'
+                    alt='MuaraTakus Preview'
+                  />
+                ) : (
+                  <MuaraTakus scroll={true} />
+                )}
+                {scroll02 === false ? (<img data-section ='desapenglipuran' className='content-preview' onClick={()=>handleScroll(2)}  src='./images/tengok-ragam-real/Page 1/aset2 pg1.png'></img>):(<Penglipuran scroll={true} />)}
+                {scroll03 === false ? (<img data-section ='desatomok' className='content-preview' onClick={()=>handleScroll(3)} src='./images/tengok-ragam-real/Page 1/aset3 pg1.png'></img>):(<Tomok scroll={true} />)}
+                {scroll04 === false ? (<img data-section='cenderawasih' className='content-preview'onClick={()=>handleScroll(4)}  src='./images/tengok-ragam-real/Page 1/aset4 pg1.png'></img>):(<Cendrawasih scroll={true} />)}
+                {scroll05 === false ? (<img data-section='wakatobi' className='content-preview'onClick={()=>handleScroll(5)}  src='./images/tengok-ragam-real/Page 1/aset5 pg 1.png'></img>):(<Wakatobi scroll={true} />)}
+                {scroll06 === false ? (<img data-section='end' className='content-preview' onClick={()=>handleScroll(6)} src='./images/tengok-ragam-real/Page 1/aset6 pg1.png'></img>):(<End scroll={true} />)}
               </div>
             </div>
-
-            
-
         </div>
-
-
     </div>
   )
 }

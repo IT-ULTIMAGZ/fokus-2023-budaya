@@ -1,7 +1,12 @@
 import './penglipuran.css';
+import { motion } from 'framer-motion';
 const Penglipuran = () => {
     return (
-        <div className="penglipuranSection">
+        <motion.div 
+            initial={{ width: "0px" }}
+            animate={{ width: "200vw" }}
+            transition={{ duration: 1.5 }}
+            className="penglipuranSection">
             <div className='penglipuranSectionKiri'>
                 <img src="./images/tengok-ragam-real/Page 3/aset1 pg3.png" alt="" />
                 <br />
@@ -53,7 +58,7 @@ const Penglipuran = () => {
                 </div>
                
             </div>
-        </div>
+        </motion.div>
     )
 }
 

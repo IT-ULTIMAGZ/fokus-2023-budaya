@@ -4,11 +4,11 @@
     padding: 0px;
     display: flex;
     overflow: hidden;
-    width: 200vw;
+    /* width: 200vw; */
+    width: 0px;
     position: relative;
     height: 100vh;
     z-index: 0;
-
 }
 
 .gantunganPage2 {

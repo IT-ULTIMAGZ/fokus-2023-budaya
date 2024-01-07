@@ -1,8 +1,13 @@
 import './end.css';
+import { motion } from "framer-motion";
 
 const End = () => {
     return (
-        <div className="endSection">
+        <motion.div
+            initial={{ width: "0px",opacity:0 }} 
+            animate={{ width: "100vw",opacity:1 }}
+            transition={{ duration: 1.5 }}
+         className="endSection">
             <div className='endSectionAtas'>
                 
             </div>
@@ -20,7 +25,7 @@ const End = () => {
 
                 
             </div>
-        </div>
+        </motion.div>
     )
 }
 

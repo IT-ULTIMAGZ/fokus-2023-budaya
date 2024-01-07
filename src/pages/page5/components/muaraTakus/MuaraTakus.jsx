@@ -1,14 +1,35 @@
 import './muaratakus.css';
+import { motion } from "framer-motion";
+import { useState } from 'react';
 
-function MuaraTakus() {
+function MuaraTakus(props) {
   const bgPage2 = {
     backgroundImage: 'url(./images/tengok-ragam-real/Page 2/bg pg2.png)'
     // backgroundSize: 'cover'
   };
+  const [scroll,setScroll] = useState(props.scroll);
+  const show = {
+    width:'200vw',
+    display: "flex",
+  };
   
+  const hide = {
+    width:'0vw',
+    
+    transitionEnd: {
+      display: "none"
+    }
+  };
+  
+  console.log(scroll);
 
   return(
-    <div data-aos='fade-in' data-aos-duration= '1000'id='muaratakus' className='sidescroll-content flex-row justify-center align-center bgPage2' style={{backgroundImage: 'url(./images/tengok-ragam-real/Page 2/bg pg2.png)'}}>
+
+    <motion.div 
+      initial={{ width: "0px",opacity:0 }} 
+      animate={{ width: "200vw",opacity:1 }}
+      transition={{ duration: 1.5 }}
+      data-aos='fade-in' data-aos-duration= '1000'id='muaratakus' className=' flex-row justify-center align-center bgPage2' style={{backgroundImage: 'url(./images/tengok-ragam-real/Page 2/bg pg2.png)'}}>
 
       <div  style={{height:'80vh'}}className='sidescroll-content-page flex-column justify-around align-center'>
         <img src="./images/tengok-ragam-real/Page 2/aset bg pg2.png" className='gantunganPage2' alt="" />
@@ -82,7 +103,7 @@ function MuaraTakus() {
         </div>
       </div>
       
-    </div>
+    </motion.div>
   )
 }
 

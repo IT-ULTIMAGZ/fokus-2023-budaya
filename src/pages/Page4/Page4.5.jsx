@@ -3,6 +3,10 @@ function Page4No5() {
     'backgroundImage': 'url("/images/tengok-ragam/bg/Page 5.png")',
     'fontSize':'0',
     'margin':'0',
+    'padding':'0',
+    'backgroundSize':'100vw 100vh',
+    'width':'100vw',
+    'height':'100vh',
   }
 
   const images = {

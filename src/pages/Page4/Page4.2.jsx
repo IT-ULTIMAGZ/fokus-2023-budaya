@@ -3,7 +3,9 @@ function Page4No2() {
     <div class='page' style={{
       'backgroundImage':'url("images/tengok-ragam/ilustrasi/Cover.jpg")',
       'backgroundPosition' : 'center',
-      'backgroundSize':'cover'
+      'backgroundSize':'100vw 100vh',
+      'width':'100vw',
+      'height':'100vh',
     }}>
 
 
