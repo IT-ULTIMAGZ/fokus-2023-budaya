@@ -10,7 +10,9 @@
     height: 100vh;
     z-index: 0;
 }
-
+.bgPage2 p{
+    color:rgb(245,244,212);
+}
 .gantunganPage2 {
     position: absolute;
     top: 0;

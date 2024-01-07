@@ -11,6 +11,7 @@ import Page4 from './pages/Page4/Page4';
 import Page5 from './pages/page5/Page5';
 import Page_6 from './pages/page6/Page6';
 import Home from './pages/Rubrik7/Home';
+import LandscapePrompt from './pages/landscapePrompt/LndscapePrompt';
 // import MuaraTakus from './pages/page5/components/MuaraTakus';
 
 const router = createBrowserRouter([
@@ -54,6 +55,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+        <LandscapePrompt />
         <RouterProvider router={router} />
   </React.StrictMode>
 );
