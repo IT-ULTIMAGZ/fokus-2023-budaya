@@ -1,4 +1,5 @@
 import React from "react";
+import { Element } from "react-scroll";
 import "./page1.css";
 import Part1 from "./Components/Part1";
 import Part2 from "./Components/Part2";
@@ -14,16 +15,36 @@ import Part10 from "./Components/Part10";
 const Page1 = () => {
   return (
     <div>
-      <Part1 />
-      <Part2 />
-      <Part3 />
-      <Part4 />
-      <Part5 />
-      <Part6 />
-      <Part7 />
-      <Part8 />
-      <Part9 />
-      <Part10 />
+      <Element name="part1">
+        <Part1 />
+      </Element>
+      <Element name="part2">
+        <Part2 />
+      </Element>
+      <Element name="part3">
+        <Part3 />
+      </Element>
+      <Element name="part4">
+        <Part4 />
+      </Element>
+      <Element name="part5">
+        <Part5 />
+      </Element>
+      <Element name="part6">
+        <Part6 />
+      </Element>
+      <Element name="part7">
+        <Part7 />
+      </Element>
+      <Element name="part8">
+        <Part8 />
+      </Element>
+      <Element name="part9">
+        <Part9 />
+      </Element>
+      <Element name="part10">
+        <Part10 />
+      </Element>
     </div>
   );
 };
