@@ -44,7 +44,7 @@ function MuaraTakus(props) {
           </p>
 
           <p style={{fontSize:'1.21vw',fontFamily:'National2Light'}}>Maka dari itu, <strong><i>Ultimates</i></strong> dapat menemukan suasana <br />
-        yang tenang dengan hamparan pepohonan hijau</p>
+        yang tenang dengan hamparan pepohonan hijau.</p>
         </div>
        
       </div>
@@ -62,7 +62,7 @@ function MuaraTakus(props) {
           <p class='sidescroll-content-desc' style={{fontSize:'1.38vw',fontFamily:'National2Light'}}> <i style={{fontFamily:'National2CondensedMediumItalic'}}>Ultimates</i> dapat melihat bentuk <br />
             stupa sebagai lambang dari <br />
             Buddha Gautama di CANDI <br />
-            <b style={{fontWeight:500}}><i>MUARA</i></b> <strong style={{fontWeight:800}}>TAKUS</strong>
+            <b style={{fontWeight:500}}><i>MUARA</i></b> <strong style={{fontWeight:800}}>TAKUS.</strong>
           </p>
         </div>
 

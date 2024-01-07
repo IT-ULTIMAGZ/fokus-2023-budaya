@@ -3,7 +3,6 @@ import AOS from 'aos';
 function Page4No1() {
   AOS.init({
     duration : 1200,
-    offset: 330, 
     once: false,
   });
   return(

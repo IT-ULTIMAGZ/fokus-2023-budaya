@@ -16,9 +16,9 @@ code {
   transform: scale(1.8);
 }
 
-[data-aos=zoom-out-custom].animated {
+/* [data-aos=zoom-out-custom].animated {
   transform: scale(1);
-}
+} */
 [data-aos=zoom-in-custom]{
   transform: translate3d(0, 10vh, 0) scale(0.4);
 }
