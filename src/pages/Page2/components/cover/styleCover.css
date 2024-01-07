@@ -17,10 +17,6 @@
     font-family: "National2Light"; /* Specify the desired font-family name */
     src: url("../../Fonts/National 2 Light.otf") format("opentype");
   }
-  /* @font-face {
-    font-family: "National2Italic";
-    src: url("../../Fonts/") format("opentype");
-  } */
   @font-face {
     font-family: "National2LightItalic"; /* Specify the desired font-family name */
     src: url("../../Fonts/National\ 2\ Light\ Italic.otf") format("opentype");
