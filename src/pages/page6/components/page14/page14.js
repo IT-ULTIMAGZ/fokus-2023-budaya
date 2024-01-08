@@ -4,7 +4,7 @@ function page14() {
   return (
     <div className="page14">
       <div className="header14">
-        <div>
+        <div data-aos="fade-right">
           <span className="regular">Mengutip dari </span>
           <span className="regularItalic">travel.tempo.co,</span>
         </div>
@@ -35,6 +35,9 @@ function page14() {
             marginTop: "8%",
             lineHeight: "1.2",
           }}
+          data-aos="fade-right"
+          data-aos-delay="2000"
+          data-aos-offset="100"
         >
           Tas noken yang memiliki bentuk transparan juga melambangkan kejujuran
           dan mengajarkan pemiliknya untuk selalu menghargai milik orang lain.

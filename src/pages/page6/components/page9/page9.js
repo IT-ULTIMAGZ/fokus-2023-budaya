@@ -6,7 +6,7 @@ function page9() {
     <div className="pembungkuspage9">
       <div className="page9atas"></div>
       <div className="page9isi">
-        <p>
+        <p data-aos="fade-right">
           Pembuatan tikar pandan ini juga membutuhkan waktu yang bervariasi.
           <br />
           Untuk motif sederhana, dibutuhkan waktu dua hari untuk pembuatannya.{" "}
@@ -15,7 +15,7 @@ function page9() {
           Sementara itu, pembuatan motif tikar pandan <br />
           yang lebih kompleks membutuhkan waktu selama
         </h1>
-        <p className="isibagianbawah">
+        <p className="isibagianbawah" data-aos="fade-left" data-aos-delay="500" data-aos-offset="50">
           Terlepas dari durasi pembuatannya, tikar pandan Serasan saat ini
           <br /> masih digunakan oleh masyarakat lokal untuk kegiatan
           sehari-hari

@@ -9,7 +9,7 @@ function page8() {
       <div className="page8isi">
         <div className="page8kiri">
           <div className="page8isiatas">
-            <h1>
+            <h1 data-aos="fade-zoom-in">
               Tikar pandan adalah kerajinan tangan khas
               <br />
               masyarakat <span>kabupaten Natuna, Riau</span>. Sesuai
@@ -19,13 +19,13 @@ function page8() {
             </h1>
           </div>
           <div className="page8isibawah">
-            <div className="page8bawahkiri">
+            <div className="page8bawahkiri" data-aos="fade-left" data-aos-delay="1000">
               <p>
                 Melansir dari
                 <br /> <i>anambasnews.com,</i>{" "}
               </p>
             </div>
-            <div className="page8bawahkanan">
+            <div className="page8bawahkanan" data-aos="fade-left" data-aos-delay="500">
               <p>
                 kabupaten Natuna terkenal akan kekayaan pandannya. Masyarakat{" "}
                 <br />
@@ -40,15 +40,21 @@ function page8() {
             </div>
           </div>
         </div>
-        <div className="page8kanan">
-          <div className="page8kananatas">
-            <img src={batik}></img>
-          </div>
-          <div className="page8kananbawah">
-            <h1>
-              TIKAR <h2>PANDAN <br />SERASAN</h2>
-              NATUNA
-            </h1>
+        <div className="page8kanan" data-scroll-container>
+          <div data-scroll data-scroll-speed="0.1" data-scroll-direction="horizontal">
+            <div className="page8kananatas">
+              <img src={batik}></img>
+            </div>
+            <div className="page8kananbawah">
+              <h1>
+                TIKAR{" "}
+                <h2>
+                  PANDAN <br />
+                  SERASAN
+                </h2>
+                NATUNA
+              </h1>
+            </div>
           </div>
         </div>
       </div>

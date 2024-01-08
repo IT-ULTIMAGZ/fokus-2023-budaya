@@ -17,8 +17,17 @@ import Page16 from "./components/page16/page16";
 import Page17 from "./components/page17/page17";
 import Page18 from "./components/page18/page18";
 import Page19 from "./components/page19/page19";
+import AOS from "aos";
+import LocomotiveScroll from "locomotive-scroll";
 
 function Page_6() {
+  const locomotiveScroll = new LocomotiveScroll();
+  AOS.init({
+    duration: 1300,
+    offset: 330,
+    once: false,
+  });
+  
   return (
     <div className="app">
       <Cover />

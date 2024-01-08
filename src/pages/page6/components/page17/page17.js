@@ -4,7 +4,10 @@ function page17() {
   return (
     <div className="page17">
       <div className="header17">
-        <div style={{ width: "60%" }}>
+        <div style={{ width: "60%" }}        
+        data-aos="fade-right"
+        data-aos-delay="500"
+        data-aos-offset="100">
           <span className="regular">Mengutip dari </span>
           <span className="regularItalic">volkpop.co</span>
         </div>
@@ -17,8 +20,8 @@ function page17() {
           terdapat dua kategori motif pada kain ini.
         </h1>
         <div className="kalimatisi172" style={{ marginTop: "22%" }}>
-          <span className="regular">berbentuk reptil atau manusia,</span>
-          <span className="regular" style={{ marginLeft: "28%" }}>
+          <span className="regular" data-aos="fade-down">berbentuk reptil atau manusia,</span>
+          <span className="regular" style={{ marginLeft: "28%" }} data-aos="fade-down">
             dengan bentuk <span className="bold">merijam</span> serta{" "}
             <span className="bold">ruit.</span>
           </span>
@@ -31,6 +34,9 @@ function page17() {
             marginTop: "6%",
             marginLeft: "6%",
           }}
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-offset="100"
         >
           Motif merijam memiliki makna sebagai pengingat masyarakat Dayak
           terhadap tiga raja tumbuhan yang dipercaya memiliki kekuatan atas

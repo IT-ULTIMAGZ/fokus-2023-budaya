@@ -4,7 +4,7 @@ import kain from "../../assets/gambar3.png";
 function page16() {
   return (
     <div className="page16">
-      <img className="tenun16" src={kain} alt="" />
+      <img className="tenun16" src={kain} alt="" data-aos="zoom-out"/>
       <div className="isi16">
         <h1
           className="condensedBold kalimatisi161"
@@ -22,6 +22,9 @@ function page16() {
         <p
           className="regular footer16"
           style={{ fontSize: "20px", width: "50%", marginTop: "6%" }}
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-offset="50"
         >
           Motif dan warna pada tenun ikat yang indah memiliki berbagai makna dan
           menyimpan sejumlah pesan dari para leluhur.

@@ -6,18 +6,18 @@ function page10() {
   return (
     <div className="pembungkuspage10">
       <div className="page10kiri">
-        <img src={kaki} alt="MARAGA"></img>
+        <img src={kaki} alt="MARAGA" data-aos="zoom-out"></img>
       </div>
       <div className="page10kanan">
         <div className="page10atas"></div>
         <div className="page10isi">
           <div className="descpage10">
-            <p>
+            <p data-aos="fade-right">
               merupakan permainan ketangkasan dengan menggunakan bola <br />
               yang terbuat dari anyaman rotan yang disebut raga.
             </p>
           </div>
-          <div className="penjelasanpage10">
+          <div className="penjelasanpage10" data-aos="fade-left" data-aos-delay="500" data-aos-offset="100">
             <h1>
               Permainan tradisional yang berasal dari Sulawesi
               <br />

@@ -6,8 +6,8 @@ function page6() {
   return (
     <div className="pembungkuss">
       <div className="page6atas"></div>
-      <div className="page6tengah">
-        <div className="tengahkiri">
+      <div className="page6tengah" data-scroll-container>
+        <div className="tengahkiri" data-scroll data-scroll-speed="0.1" data-scroll-direction="horizontal">
           <div className="tengahkirifoto">
             <img src={daun} alt="UDENG KHAS BALI"></img>
           </div>
@@ -18,20 +18,20 @@ function page6() {
           </h1>
         </div>
         <div className="tengahkanan">
-          <div className="melansir">
+          <div className="melansir" data-aos="fade-left" data-aos-delay="1000">
             <p>
               Melansir dari <br />
               <i> indonesia.go.id,</i>
             </p>
           </div>
           <div className="deskripsiudeng">
-            <h1>
+            <h1 data-aos="fade-zoom-in">
               Udeng merupakan<span> pengikat kepala</span> yang terbuat
               <br /> dari kain dan biasanya digunakan oleh pria Bali.
               <br /> Pengikat kepala ini memiliki makna sebagai simbol
               <br /> dari<span> ngiket manah</span> atau pemusatan pikiran.
             </h1>
-            <p>
+            <p data-aos="fade-down" data-aos-delay="500" data-aos-offset="100">
               Udeng di Bali dapat ditemui dengan berbagai corak dan bentuk yang
               memiliki
               <br /> maknanya masing-masing. Biasanya, udeng memiliki bentuk
