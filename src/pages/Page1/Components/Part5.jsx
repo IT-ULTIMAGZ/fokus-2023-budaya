@@ -56,24 +56,19 @@ const Part5 = () => {
       <div
         className="textwrapper"
         style={{ position: "absolute", right: "10%" }}
-        data-scroll-container
       >
         <img
           src={penulis}
           className="penulis"
           alt="penulis"
-          data-scroll
-          data-scroll-speed="0.1"
-          data-scroll-direction="horizontal"
+          data-aos="fade-zoom-in"
         />
         <img
           src={teks}
           className="teks"
-          style={{ marginTop: "-2vh" }}
+          style={{ marginTop: "2vh" }}
           alt="teks"
-          data-scroll
-          data-scroll-speed="0.5"
-          data-scroll-direction="horizontal"
+          data-aos="fade-down"
         />
       </div>
     </div>

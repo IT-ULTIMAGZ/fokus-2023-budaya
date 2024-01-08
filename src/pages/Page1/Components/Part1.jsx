@@ -26,6 +26,8 @@ const Part1 = () => {
           display: "flex",
           justifyContent: "center",
         }}
+        data-aos="zoom-out"
+        data-aos-delay="500"
       >
         <img
           src={title}
@@ -55,6 +57,8 @@ const Part1 = () => {
           width: "100%",
           // background: "black",
         }}
+        data-aos="fade-zoom-in"
+        data-aos-delay="1200"
       >
         <img src={penulis} alt="penulis" />
         <img

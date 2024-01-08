@@ -9,8 +9,16 @@ import Page7 from './components/page_7/Page7';
 import Page8 from './components/page_8/Page8';
 import Page9 from './components/page_9/Page9';
 import Page10 from './components/page_10/Page10';
+import AOS from "aos";
+import LocomotiveScroll from "locomotive-scroll";
 
 function page_2() {
+  const locomotiveScroll = new LocomotiveScroll();
+  AOS.init({
+    duration: 1000,
+    offset: 330,
+    once: false,
+  });
   return (
     <div >
       <Cover />

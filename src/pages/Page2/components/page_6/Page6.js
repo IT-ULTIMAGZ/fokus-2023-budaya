@@ -1,11 +1,12 @@
 import React from "react";
 import './stylePage6.css';
 import Gambar6 from '../../assets/Asset_11.png'
+
 function page6 () {
     return (
         <div className="background6">
             <div className="tulisan6">
-                <div className="isi6" >
+                <div className="isi6" data-aos="fade-zoom-in">
                     <p style={{fontSize:'1.56vw'}}>Penggunaan dan pemaknaan masyarakat terhadap kain tradisional sejak dahulu membuat kain menjadi <br />
                         warisan negara yang berharga. Salah satu kain tradisional Indonesia yakni batik bahkan diakui dunia karena <br />
                         nilai dan maknanya yang luhur.<br />

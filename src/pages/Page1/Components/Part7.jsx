@@ -24,26 +24,25 @@ const Part6 = () => {
     >
       <div className="whiterightbox" />
       <div className="leftDecoration">
-        <img src={bg} className="props" alt="bg"/>
+        <img src={bg} className="props" alt="bg" />
       </div>
-      
+
       <div
         className="textwrapper"
         style={{ position: "absolute", right: "10%", alignItems: "start" }}
-        data-scroll-container
       >
-        <img src={penulis} className="penulis" alt="penulis" 
-          data-scroll
-          data-scroll-speed="0.05"
-          data-scroll-direction="horizontal"/>
+        <img
+          src={penulis}
+          className="penulis"
+          alt="penulis"
+          data-aos="fade-zoom-in"
+        />
         <img
           src={teks}
           className="teks"
-          style={{height: "56%"}}
+          style={{ height: "56%" }}
           alt="teks"
-          data-scroll
-          data-scroll-speed="0.5"
-          data-scroll-direction="horizontal"
+          data-aos="fade-down"
         />
       </div>
     </div>

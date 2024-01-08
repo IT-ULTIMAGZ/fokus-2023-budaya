@@ -6,10 +6,14 @@ function page9 () {
     return (
         <div className="background9">
             <div className="content9">
-                <div className="image9">
-                    <img src={Gambar9}></img>
+                <div className="image9" data-scroll-container>
+                    <img src={Gambar9}
+                    data-scroll
+                    data-scroll-speed="0.4"
+                    data-scroll-direction="horizontal"></img>
                 </div>
-                <div className="tulisan9"> 
+                <div className="tulisan9"
+                data-aos="fade-left"> 
                     <p style={{fontFamily:'National2Medium',fontSize:'1.68vw',lineHeight:'2vw'}}>Kain tradisional sering digunakan masyarakat saat acara-acara <br />
                         formal, seperti pesta pernikahan, kelulusan, dan sebagainya. <br />
                         Namun, sudah sepantasnya masyarakat, baik muda maupun tua <br />
