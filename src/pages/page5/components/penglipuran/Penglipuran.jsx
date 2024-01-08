@@ -16,7 +16,7 @@ const Penglipuran = () => {
                     kehidupan masyarakatnya yang masih memegang kuat nilai-nilai budaya Bali.</p>
                     
                     <p style={{fontSize:'1.01vw',fontFamily:'National2Light'}}>
-                        Ultimates dapat menginap di DESA <b>PENGLIPURAN</b> , menyusuri desa yang asri dan <br />
+                    <i>Ultimates</i> dapat menginap di DESA <b>PENGLIPURAN</b> , menyusuri desa yang asri dan <br />
                          dikelilingi pohon bambu sambil bersepeda, hingga, mencoba masakan khas desa.     
                     </p>
                 </div>
@@ -29,7 +29,7 @@ const Penglipuran = () => {
                 </div>
 
                 <div className="penglipuranSectionKanan_content">
-                    <p style={{fontFamily:'National2Light',fontSize:'1.38vw'}}>DESA <b>PENGLIPURAN</b> memiliki beberapa bagian area yang dapat Ultimates jelajah.</p>
+                    <p style={{fontFamily:'National2Light',fontSize:'1.38vw'}}>DESA <b>PENGLIPURAN</b> memiliki beberapa bagian area yang dapat  <i>Ultimates</i> jelajah.</p>
                     <p style={{fontFamily:'National2Regular',fontSize:'1.833vw'}}>Mengusung konsep Tri Mandala, <span style={{fontFamily:'National2CompressedMedium'}}>DESA</span>  <b style={{letterSpacing:'1.5px'}}>PENGLIPURAN</b> <br /> memiliki tiga bagian wilayah, yaitu</p>
                     <div>
                         <p>01</p>
@@ -45,7 +45,7 @@ const Penglipuran = () => {
 
                     <div className='penglipuranSectionKanan_deskripsi'>
                         <p style={{fontFamily:'National2Light',fontSize:'1.38vw'}}>
-                        Selain itu, Ultimates juga  dapat melihat masyarakat DESA PENGLIPURAN melakukan ritual keagamaan, <br />
+                        Selain itu,  <i>Ultimates</i> juga  dapat melihat masyarakat DESA PENGLIPURAN melakukan ritual keagamaan, <br />
                          salah satunya Ngusaba. Saat Ngusaba, masyarakat menghaturkan sesaji buah dan jajanan Bali <br /> 
                          sebagai ucapan syukur. Ada pun ritual ini dilakukan dalam rangka menyambut hari raya Nyepi.  
                         </p>

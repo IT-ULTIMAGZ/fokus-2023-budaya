@@ -26,7 +26,7 @@ const cendrawasih = () => {
             </div>
 
             <div className='cendrawasihSectionKanan'>
-                <p>Selain bermain dengan hiu paus, Ultimates dapat mengunjungi gua yang ada di Pulau Mioswaar. Gua tersebut <br />
+                <p>Selain bermain dengan hiu paus,  <i>Ultimates</i> dapat mengunjungi gua yang ada di Pulau Mioswaar. Gua tersebut <br />
                  menyimpan  kerangka leluhur Suku Wandau. Kerangka ini sangat dijaga oleh masyarakat. Sebab, Suku Wandau <br />
                   dipercaya sebagai manusia pertama yang datang ke pulau ini.  </p>
                 <p>

@@ -1,11 +1,17 @@
 import './css/part8.css';
+import AOS from 'aos';
+import LocomotiveScroll from 'locomotive-scroll';
 
 const Part8 = () => {
-
+    AOS.init({
+        duration : 1000,
+        once: false,
+      });
+    const locomotiveScroll = new LocomotiveScroll();
     return (
         <div className="part8Section" id="woroMustikoSiwi">
             <div>
-                <img src="./images/lima-pelestari/3.png" alt="" />
+                <img data-scroll data-scroll-speed='0.5' data-scroll-direction='horizontal' src="./images/lima-pelestari/3.png" alt="" />
             </div>
             <div className='part8SectionKanan' >
                 <p>Selain di bidang pedalangan, <span>WORO </span>  juga mempelajari <b>macapat</b> . <b>Macapat</b> merupakan bentuk <br />

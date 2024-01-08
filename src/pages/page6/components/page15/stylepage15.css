@@ -23,7 +23,6 @@
 
 .footer15 {
   color: #f3f3d3;
-  height: 8vh;
 }
 
   .header15 {
@@ -44,13 +43,13 @@
 
   .footer15 {
     font-size: 1.11vw;
-    margin-top: 8%;
+
   }
 
 
-@media screen and (min-width: 1601px) {
+@media (min-width: 768px) {
   .footer15 {
-    font-size: 1.11vw !important;
-    margin-top: 12%;
+    font-size: 1.11vw;
+    margin-top: 12vh;
   }
 }

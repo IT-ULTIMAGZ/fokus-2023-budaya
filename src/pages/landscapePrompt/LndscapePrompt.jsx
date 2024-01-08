@@ -3,15 +3,20 @@ import React, { useEffect, useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 
 const LandscapePrompt = () => {
-  const [isLandscape, setIsLandscape] = useState(
-    window.matchMedia('(orientation: landscape)').matches
-  );
-  console.log(isLandscape);
-  
-
+  const [isLandscape, setIsLandscape] = useState(()=>{if(window.outerWidth > window.outerHeight){
+    return true;
+  }else {
+    return false;
+  };})
 
   const handleOrientationChange = () => {
-    setIsLandscape(window.matchMedia('(orientation: landscape)').matches);
+    console.log(isLandscape);
+    if(window.outerWidth > window.outerHeight){
+      setIsLandscape(true);
+    }else {
+      setIsLandscape(false);
+    }
+    
   };
 
   useEffect(() => {
@@ -28,15 +33,14 @@ const LandscapePrompt = () => {
             sidescrollPage.style.overflow = 'hidden';
           } 
       }
-    window.addEventListener('orientationchange', handleOrientationChange);
-
-    return () => {
-      window.removeEventListener('orientationchange', handleOrientationChange);
-    };
   }, []);
+  window.addEventListener('orientationchange', handleOrientationChange);
 
   return (
-    <Modal show={!isLandscape} backdrop="static" centered style={{position:'fixed',top:'0',left:'0',width: '100vw',height: '100vh',background: 'rgba(0, 0, 0, 0.8)',}}>
+    <>
+      {isLandscape  ? null
+      : 
+      (<Modal show={true} backdrop="static" centered style={{position:'fixed',top:'0',left:'0',width: '100vw',height: '100vh',background: 'rgba(0, 0, 0, 0.8)',}}>
       <Modal.Header>
         <Modal.Title>Turn Your Device to Landscape</Modal.Title>
       </Modal.Header>
@@ -48,7 +52,11 @@ const LandscapePrompt = () => {
           Refresh
         </Button>
       </Modal.Footer>
-    </Modal>
+    </Modal>) 
+      
+      }
+    </>
+    
   );
 };
 

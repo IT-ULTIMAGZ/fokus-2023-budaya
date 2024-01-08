@@ -27,9 +27,9 @@ const Wakatobi = () => {
                 </p>
                 <div>
                     <p style={{letterSpacing:'0.5px'}}>
-                        Dengan datang ke DESA WAKATOBI, Ultimates dapat mengenal dekat <br /> 
+                        Dengan datang ke DESA WAKATOBI,  <i>Ultimates</i> dapat mengenal dekat <br /> 
                         Suku Bajo. Suku Bajo dikenal dalam segala bentuk aktivitas <br />
-                        bahari, sehingga Ultimates dapat ikut merasakan petualangan suku <br />
+                        bahari, sehingga  <i>Ultimates</i> dapat ikut merasakan petualangan suku <br />
                         Bajo di laut biru, seperti menggunakan perahu tradisional Bajo <br />
                         dan mengamati lumba-lumba di sekitar. 
                     </p>

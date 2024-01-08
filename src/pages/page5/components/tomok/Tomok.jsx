@@ -60,7 +60,7 @@ const Tomok = () => {
                     <br /><br />
                     <p style={{fontSize:'1.68vw',fontFamily:'National2CondensedLight'}}>
                     Lalu, patung ini juga dimainkan pada <br />
-                    pementasan SIGALEGALE yang Ultimates  bisa <br />
+                    pementasan SIGALEGALE yang  <i>Ultimates</i>  bisa <br />
                     saksikan jika datang ke DESA TOMOK ini. 
                     </p>
                 </div>

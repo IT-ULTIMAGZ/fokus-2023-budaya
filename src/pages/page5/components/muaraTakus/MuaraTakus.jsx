@@ -29,7 +29,7 @@ function MuaraTakus(props) {
       initial={{ width: "0px",opacity:0 }} 
       animate={{ width: "200vw",opacity:1 }}
       transition={{ duration: 1.5 }}
-      data-aos='fade-in' data-aos-duration= '1000'id='muaratakus' className=' flex-row justify-center align-center bgPage2' style={{backgroundImage: 'url(./images/tengok-ragam-real/Page 2/bg pg2.png)'}}>
+    className=' flex-row justify-center align-center bgPage2' style={{backgroundImage: 'url(./images/tengok-ragam-real/Page 2/bg pg2.png)'}}>
 
       <div  style={{height:'80vh'}}className='sidescroll-content-page flex-column justify-around align-center'>
         <img src="./images/tengok-ragam-real/Page 2/aset bg pg2.png" className='gantunganPage2' alt="" />
@@ -39,12 +39,12 @@ function MuaraTakus(props) {
         <div style={{textAlign:'center', width:'90vw'}} class='flex-column justify-center align-center'>
           <p style={{fontSize:'2.5vw',fontFamily:'National2CondensedMedium'}}>
             Destinasi sejarah budaya Indonesia kuno yang berada di pinggir sungai <br />
-            Kampar, Desa Muara Takus, Riau. Melansir dari kompas.com, nama <br />
+            Kampar, Desa Muara Takus, Riau. Melansir dari <i>kompas.com</i>, nama <br />
             MUARA TAKUS memiliki arti candi tua yang berada di muara sungai.
           </p>
 
           <p style={{fontSize:'1.21vw',fontFamily:'National2Light'}}>Maka dari itu, <strong><i>Ultimates</i></strong> dapat menemukan suasana <br />
-        yang tenang dengan hamparan pepohonan hijau</p>
+        yang tenang dengan hamparan pepohonan hijau.</p>
         </div>
        
       </div>
@@ -62,7 +62,7 @@ function MuaraTakus(props) {
           <p class='sidescroll-content-desc' style={{fontSize:'1.38vw',fontFamily:'National2Light'}}> <i style={{fontFamily:'National2CondensedMediumItalic'}}>Ultimates</i> dapat melihat bentuk <br />
             stupa sebagai lambang dari <br />
             Buddha Gautama di CANDI <br />
-            <b style={{fontWeight:500}}><i>MUARA</i></b> <strong style={{fontWeight:800}}>TAKUS</strong>
+            <b style={{fontWeight:500}}><i>MUARA</i></b> <strong style={{fontWeight:800}}>TAKUS.</strong>
           </p>
         </div>
 

@@ -31,8 +31,8 @@ function page5() {
             <br />
             menerapkannya dalam kehidupan sehari-hari. Berikut adalah lima
             <br />
-            produk budaya tradisional Indonesia (benda dan tak benda) yang
-            <br /> dapat Ultimates terapkan dalam kegiatan sehari-hari.
+            produk budaya tradisional Indonesia benda dan tak benda yang
+            <br /> dapat  <i>Ultimates</i> terapkan dalam kegiatan sehari-hari.
           </p>
         </div>
       </div>

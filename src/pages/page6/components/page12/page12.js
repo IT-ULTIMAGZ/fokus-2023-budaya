@@ -31,7 +31,7 @@ function page12() {
             marginLeft: "40%",
           }}
         >
-          Namun permainan unik ini dapat menjadi opsi menarik saat Ultimates
+          Namun permainan unik ini dapat menjadi opsi menarik saat  <i>Ultimates</i>
           bermain bola.
         </p>
       </div>
