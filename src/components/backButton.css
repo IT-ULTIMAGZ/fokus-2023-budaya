@@ -1,0 +1,35 @@
+@keyframes scale {
+    25% {
+      transform: scale(1.2);
+    }
+    50% {
+      transform: scale(1.0);
+    }
+    75% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1.0);
+    }
+  }
+
+@keyframes spin {
+    0% {
+        transform: rotate(360deg);
+    }100% {
+        transform: rotate(0deg);
+    }
+  }
+@keyframes shake {
+    0% {
+        transform: translateX(0px);
+    }25% {
+        transform: translateX(5px);
+    }50% {
+        transform: translateX(0px);
+    }75% {
+        transform: translateX(5px);
+    }100% {
+        transform: translateX(0px);
+    }
+}

@@ -13,23 +13,38 @@
 }
 
 .header17 {
-  width: 32.5%;
+  /* width: 32.5%; */
   height: 18%;
   padding-top: 9%;
   padding-left: 10%;
+}
+.jenisMotif {
+  display:flex;
+  gap:15vw;
+  margin-top: 7vh;
+}
+.jenisMotif >img {
+  height:25vh;
 }
 
 .isi17 {
   margin-left: 0.5%;
   margin-top: 8%;
-  height: 60%;
+  /* height: 60%; */
+}
+.isi17SectionBawah  {
+  display: flex;
+  margin-top:7vh;
+}
+.isi17SectionBawah >img {
+  height:calc((48/1080)*100vh);
 }
   .header17 {
     font-size: 0.833vw !important;
   }
 
   .kalimatisi171 {
-    font-size: 3.953vw !important;
+    font-size:calc(88/1920*100vw)
   }
 
   .kalimatisi172 {
@@ -37,8 +52,8 @@
   }
 
   .kalimatisi173 {
+    margin-top: 0px;
     font-size: 1.11vw !important;
-    margin-top: 1.5% !important;
     margin-left: 4% !important;
   }
 

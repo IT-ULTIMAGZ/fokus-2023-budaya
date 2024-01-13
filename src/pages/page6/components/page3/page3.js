@@ -5,83 +5,75 @@ import kaki from "../../assets/gambar1.png";
 import tas from "../../assets/gambar2.png";
 import kain from "../../assets/gambar3.png";
 import batik from "../../assets/gambar4_1.png";
+import text01 from '../../assets/01.svg';
+import text02 from '../../assets/02.svg';
+import text03 from '../../assets/03.svg';
+import text04 from '../../assets/04.svg';
+import text05 from '../../assets/05.svg';
+import udengBali from "../../assets/udengBali.svg";
+import tikarPandan from "../../assets/tikarPandan.svg";
+import aragaSulawesiPutih from "../../assets/aragaSulawesiPutih.svg";
+import nokenPapua from "../../assets/nokenPapua.svg";
+import tenunIkat from "../../assets/tenunIkat.svg";
+import LocomotiveScroll from "locomotive-scroll";
 
-function page3() {
+const page3 =()=> {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className="boxxes">
-      <div className="undeng panjang">
-        <div className="judul3" data-aos="fade-down">
-          <h1>01</h1>
+    <div className="boxxes" data-scroll-container>
+      <div className="undeng panjang" data-scroll-section>
+        <div className="judul3">
+          <img src={text01} className='textNumber'  alt=''/>
         </div>
-        <div className="gambarudeng gambarr" data-scroll-container>
-          <img src={daun} alt="UDENG"
-          data-scroll
-          data-scroll-speed="0.07"></img>
+        <div className="gambarudeng gambarr" data-scroll data-scroll-speed='0.4'>
+          <img src={daun} alt="UDENG" ></img>
         </div>
-        <div className="desc" data-aos="fade-up" data-aos-offset="100">
-          <h1>
-            UDENG <br /> <h2>KHAS</h2> BALI
-          </h1>
+        <div className="desc">
+          <img src={udengBali} className="textTitle"/>
         </div>
       </div>
       <div className="tikar panjang">
-        <div className="judul3" data-aos="fade-down">
-          <h1>02</h1>
+        <div className="judul3" >
+          <img src={text02} className='textNumber' alt=''/>
         </div>
-        <div className="gambarr gambartikar" data-scroll-container> 
-          <img src={batik} alt="Tikar"
-          data-scroll
-          data-scroll-speed="0.07"></img>
+        <div className="gambarr gambartikar">
+          <img src={batik} alt="Tikar" data-scroll data-scroll-speed='0.2'></img>
         </div>
-        <div className="desc" data-aos="fade-up" data-aos-offset="100">
-          <h1>
-            TIKAR <br /> <h2>PANDAN <br /> SERASAN</h2> NATUNA
-          </h1>
+        <div className="desc">
+        <img src={tikarPandan} style={{width:'15vw'}} className="textTitle"/>
         </div>
       </div>
       <div className="araga panjang">
-        <div className="judul3" data-aos="fade-down">
-          <h1>03</h1>
+        <div className="judul3">
+          <img src={text03} className='textNumber' alt=''/>
         </div>
-        <div className="gambarr gambararaga" data-scroll-container>
-          <img src={kaki} alt="ARAGA"
-          data-scroll
-          data-scroll-speed="0.07"></img>
+        <div className="gambarr gambararaga">
+          <img src={kaki} style={{width:'14vw'}} data-scroll data-scroll-speed='0.4' alt="ARAGA"></img>
         </div>
-        <div className="desc" data-aos="fade-up" data-aos-offset="100">
-          <h1>
-            A'RAGA <br /><h2>SULAWESI <br /> SELATAN</h2>
-          </h1>
+        <div className="desc">
+        <img src={aragaSulawesiPutih} className="textTitle"/>
         </div>
       </div>
       <div className="noken panjang">
-        <div className="judul3" data-aos="fade-down">
-          <h1>04</h1>
+        <div className="judul3">
+          <img src={text04} className='textNumber' alt=''/>
         </div>
-        <div className="gambarr gambarnoken" data-scroll-container>
-          <img src={tas} alt="NOKEN"
-          data-scroll
-          data-scroll-speed="0.07"></img>
+        <div className="gambarr gambarnoken">
+          <img src={tas} data-scroll data-scroll-speed='0.3' alt="NOKEN"></img>
         </div>
-        <div className="desc" data-aos="fade-up" data-aos-offset="100">
-          <h1>
-            NOKEN <br /> <h2>KHAS</h2> PAPUA
-          </h1>
+        <div className="desc">
+          <img src={nokenPapua} className="textTitle"/>
         </div>
       </div>
       <div className="tenun panjang">
-        <div className="judul3" data-aos="fade-down">
-          <h1>05</h1>
+        <div className="judul3">
+          <img src={text05} className='textNumber' alt=''/>
         </div>
-        <div className="gambarr gambartenun" data-scroll-container>
-          <img src={kain} alt="tenun"
-          data-scroll
-          data-scroll-speed="0.07"></img>
+        <div className="gambarr gambartenun">
+          <img src={kain} data-scroll data-scroll-speed='0.4' alt="tenun"></img>
         </div>
-        <div className="desc" data-aos="fade-up" data-aos-offset="100">
-          <h1>
-            TENUN <br /> IKAT <br /><h2>DAYAK <br /> SINTANG</h2> 
-          </h1>
+        <div className="desc">
+          <img src={tenunIkat} className="textTitle"/>
         </div>
       </div>
     </div>

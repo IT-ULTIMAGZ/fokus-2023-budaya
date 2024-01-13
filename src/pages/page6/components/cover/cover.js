@@ -1,28 +1,38 @@
 import React from "react";
 import "./stylecover.css";
-
+import telisik from "../../assets/telisik.svg";
+import budaya from "../../assets/budaya.svg";
+import bendaTakBenda from "../../assets/bendaTakbenda.svg";
+import indonesia from "../../assets/indonesia.svg";
+import untuk from "../../assets/untuk.svg";
+import kehidupanSehariHari from "../../assets/kehidupanSehariHari.svg";
+import AOS from "aos";
 function cover() {
+  AOS.init({
+    duration : 1000,
+    once: false,
+  });
   return (
     <div className="box">
       <div className="baris1 baris">
         <div className="telisik5">
-          <h1 data-aos="fade-right">TELISIK 5 WARISAN</h1>
+          <img src={telisik} data-aos='fade-right-custom'/>
         </div>
         <div className="budaya">
-          <h1 data-aos="fade-down">BUDAYA</h1>
+          <img src={budaya} data-aos='fade-left-custom'/>
         </div>
       </div>
       <div className="baris2 baris">
         <div className="batik1"></div>
         <div className="benda">
-          <h1 data-aos="fade-zoom-in">BENDA & TAK BENDA</h1>
+          <img src={bendaTakBenda} data-aos-delay='300' data-aos='fade-right-custom'/>
         </div>
         <div className="namaorg">
-          <div className="namapenulis" data-aos="fade-left" data-aos-delay="500">
+          <div className="namapenulis" data-aos='fade-left-custom'>
             <p>Penulis:</p>
             <h5>Wynnie Saputri Jansen</h5>
           </div>
-          <div className="namapenulis" data-aos="fade-left" data-aos-delay="500" >
+          <div className="namapenulis" data-aos='fade-left-custom'>
             <p>Editor:</p>
             <h5>Michael Ludovico</h5>
           </div>
@@ -30,16 +40,16 @@ function cover() {
       </div>
       <div className="baris3 baris">
         <div className="indonesia">
-          <h1 data-aos="fade-right">INDONESIA</h1>
+          <img  src={indonesia} data-aos='fade-right-custom' data-aos-delay='600' alt=''/>
         </div>
         <div className="untuk">
-          <h1 data-aos="fade-up">UNTUK</h1>
+          <img src={untuk}  data-aos='fade-left-custom' data-aos-delay='600' alt=''/>
         </div>
       </div>
-      <div className="baris4 baris" data-aos="fade-left" data-aos-offset="1 00px">
+      <div className="baris4 baris">
         <div className="batik2"></div>
         <div className="kehidupan">
-          <h1>KEHIDUPAN SEHARI-HARI</h1>
+         <img alt='' data-aos='fade-left-custom' data-aos-delay='900' src={kehidupanSehariHari}/>
         </div>
       </div>
     </div>

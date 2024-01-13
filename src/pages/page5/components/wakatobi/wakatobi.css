@@ -29,20 +29,26 @@
 }
 
 .wakatobiSection p {
-    font-family:'National2Light';
+    font-family:'National2CompressedMedium';
     color:rgb(245,244,212);
     text-align: center;
-    font-size: 1.38vw;
+    font-size: 1.4584vw;
 
 }
 .wakatobiSection b {
-    font-family: National2XBold;
+    font-family: National2Black;
+    font-weight: normal;
+
+}
+.wakatobiSection i {
+    font-family: National2MediumItalic;
+    font-weight: normal;
 
 }
 .wakatobiSectionBawah {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     flex-direction: row;
     gap: 5vw;
 }
@@ -51,3 +57,23 @@
     justify-content: start;
     flex-direction: column;
 }
+
+.wakatobiTitle p {
+    -webkit-text-stroke-width:0.2083vw;
+    -webkit-text-stroke-color:black;
+    text-shadow:0px 0.46875vw 0px #000;
+    font-size:calc((122 / 1920) * 100vw);
+    font-family:'National2CondensedBlackItalic';
+    line-height:0.9;
+}
+
+/* @media(max-height:500px){
+    .wakatobiTitle p {
+        -webkit-text-stroke-width:'4px';
+        -webkit-text-stroke-color:'black';
+        text-shadow:'0px  0px #000';
+        font-size:'calc((122 / 1920) * 100vw)';
+        font-family:'National2CondensedBlackItalic';
+        line-height:'0.9'
+    }
+} */

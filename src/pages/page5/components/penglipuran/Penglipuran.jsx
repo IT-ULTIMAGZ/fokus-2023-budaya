@@ -41,7 +41,6 @@ const Penglipuran = () => {
                         <img src="./images/tengok-ragam-real/Page 3/aset5 pg3.png" alt="" />
                         <img src="./images/tengok-ragam-real/Page 3/aset6 pg3.png" alt="" />
                     </div>
-                    <br /><br /><br />
 
                     <div className='penglipuranSectionKanan_deskripsi'>
                         <p style={{fontFamily:'National2Light',fontSize:'1.38vw'}}>

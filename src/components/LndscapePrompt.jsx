@@ -45,7 +45,9 @@ const LandscapePrompt = () => {
         <Modal.Title>Turn Your Device to Landscape</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <p>For a better experience, please turn your mobile phone to landscape mode.</p>
+        <p>Please turn your mobile phone to landscape mode.</p>
+        <br/>
+        <p style={{fontSize:'12px'}}>Note : Some features are unavailable on mobile platform. For the best experience, it is recommended to read from laptop or desktop device</p>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="primary" onClick={() => window.location.reload()}>

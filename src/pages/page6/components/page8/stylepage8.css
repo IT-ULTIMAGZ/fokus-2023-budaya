@@ -19,22 +19,25 @@
   width: 100%;
   /* background: aqua; */
   display: flex;
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
 
 .page8isiatas {
   width: 100%;
-  height: 62%;
+  /* height: 62%; */
   /* background-color: aqua; */
-  padding: 7% 5% 5% 9%;
 }
 
 .page8isiatas h1 {
   font-family: National2Condensedbold;
   font-size: 2.91vw;
   line-height: 1;
-  letter-spacing: 3px;
+  letter-spacing: calc((3/1920)*100vw);
   /* font-weight: bolder; */
   color: #ee4f54;
+  margin-left: 8vw;
 }
 
 .page8isiatas h1 span {
@@ -48,7 +51,7 @@
 
 .page8isibawah {
   width: 100%;
-  height: 38%;
+  /* height: 38%; */
   display: flex;
 }
 
@@ -85,8 +88,13 @@
 .page8kiri {
   height: 100%;
   width: 79.2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10vh;
+
   /* background: aqua; */
-  /* display: flex; */
 }
 
 .page8kanan {
@@ -121,7 +129,9 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
-
+.page8kananbawah >img {
+  width:15vw;
+}
 .page8kananbawah h1 {
   font-family: National2XBold;
   font-size: 3.81vw;

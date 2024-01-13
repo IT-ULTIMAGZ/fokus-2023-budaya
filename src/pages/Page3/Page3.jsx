@@ -12,43 +12,19 @@ import Part9 from "./Part9";
 import Part10 from "./Part10";
 import Part11 from "./Part11";
 import Part12 from "./Part12";
+import BackButton from "../../components/BackButton";
 
 const Page3 = () => {
-//   const [isScrolling, setIsScrolling] = useState(false);
-//   const [currentElement, setCurrentElement] = useState(null);
-//   const [listElement, setListElement] = useState(["part2", "part3", "part4", "part5", "part6", "part7"]);
-
-//   useEffect(() => {
-//     const handleScroll = () => {
-//       console.log("scrolling");
-
-//       if (isScrolling) return;
-
-//       const currentElement = scrollSpy.getElement();
-//       const nextElement = currentElement.nextElement;
-//       console.log(nextElement);
-
-//       setIsScrolling(true);
-
-//       scroller.scrollTo(nextElement, {
-//         duration: 800,
-//         smooth: "easeInOutQuart",
-//         offset: -50,
-//         onSpy: () => {
-//           setIsScrolling(false);
-//         },
-//       });
-//     };
-
-//     window.addEventListener("scroll", handleScroll);
-
-//   return () => {
-//     window.removeEventListener("scroll", handleScroll);
-//   };
-//   }, [isScrolling]);
 
   return (
     <div style={{width:'100vw',overflowX:'hidden'}}>
+      <BackButton
+        style={{
+          bottom: "calc(72/1920*100vw)",
+          left: "50%",
+          zIndex: "100",
+          transform: "translateX(-50%)",
+      }}/>
       <Element name="part1">
         <Part1 />
       </Element>

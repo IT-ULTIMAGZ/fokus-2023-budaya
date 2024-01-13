@@ -4,30 +4,62 @@
     background-size: 100vw 100vh;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.page13Right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:21vw;
+    gap:7vh;
+}
+.page13Right >:nth-child(2){
+    width:12vw;
 }
 
 .tas13{
-    width: 12%;
+    width: 12vw;
+    height: auto;
     float: right;
-    margin-top: 3.5%;
+    margin-top: 8vh;
     margin-right: 4%;
 }
 
 .isi13{
     color: #056b48;
     padding-top: 4.5%;
-    width: 75%;
-    height: 50%;
-    margin-left: 4%;
+    width: 79vw;
+}
+.isi13 > h1{
+    margin-left: 8vh;
+}
+.isi13 > p{
+    margin-left: 8vh;
+}
+.kalimatisi13{
+    font-size: 4.21vw !important;
+    width: 80% !important;
 }
 
-@media screen and (max-width: 1600px){
-    .kalimatisi13{
-        font-size: 3.81vw !important;
-        width: 80% !important;
-    }
+.footer13{
+    font-size: 1.11vw !important;
+    margin-top: 4vh !important;
+}
 
-    .footer13{
-        font-size: 1.11vw !important;
+@media (min-width:1080px){
+    .tas13{
+        width: 10vw;
+        height: auto;
+        float: right;
+        margin-top: 8vh;
+        margin-right: 4%;
+    }
+    .page13Right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:21vw;
+        gap:7vh;
     }
 }

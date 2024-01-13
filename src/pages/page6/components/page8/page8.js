@@ -1,15 +1,23 @@
 import React from "react";
 import "./stylepage8.css";
 import batik from "../../assets/gambar4_1.png";
+import tikarPandan from '../../assets/tikarPandan.svg';
+import AOS from "aos";
+import LocomotiveScroll from "locomotive-scroll";
 
 function page8() {
+  AOS.init({
+    duration: 1000,
+    once: false,
+  });
+  const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className="pembungkuspage8">
       <div className="page8atas"></div>
       <div className="page8isi">
         <div className="page8kiri">
           <div className="page8isiatas">
-            <h1 data-aos="fade-zoom-in">
+            <h1 data-aos='fade-right-custom'>
               Tikar pandan adalah kerajinan tangan khas
               <br />
               masyarakat <span>kabupaten Natuna, Riau</span>. Sesuai
@@ -25,8 +33,8 @@ function page8() {
                 <br /> <i>anambasnews.com,</i>{" "}
               </p>
             </div>
-            <div className="page8bawahkanan" data-aos="fade-left" data-aos-delay="500">
-              <p>
+            <div className="page8bawahkanan">
+              <p data-aos='fade-up-pop'>
                 kabupaten Natuna terkenal akan kekayaan pandannya. Masyarakat{" "}
                 <br />
                 setempat sudah secara turun temurun memanfaatkan tanaman
@@ -40,21 +48,12 @@ function page8() {
             </div>
           </div>
         </div>
-        <div className="page8kanan" data-scroll-container>
-          <div data-scroll data-scroll-speed="0.1" data-scroll-direction="horizontal">
-            <div className="page8kananatas">
-              <img src={batik}></img>
-            </div>
-            <div className="page8kananbawah">
-              <h1>
-                TIKAR{" "}
-                <h2>
-                  PANDAN <br />
-                  SERASAN
-                </h2>
-                NATUNA
-              </h1>
-            </div>
+        <div className="page8kanan" data-scroll data-scroll-speed='0.7'>
+          <div className="page8kananatas">
+            <img src={batik}></img>
+          </div>
+          <div className="page8kananbawah">
+            <img src={tikarPandan}/>
           </div>
         </div>
       </div>

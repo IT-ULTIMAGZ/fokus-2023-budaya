@@ -19,7 +19,7 @@
 
 }
 .penglipuranSection b {
-    font-family: National2XBold;
+    font-family: National2Black;
 
 }
 .penglipuranSectionKiri {
@@ -35,6 +35,10 @@
 }
 .penglipuranSectionKiri >div {
     margin-top: 10vh;
+    /* width:25.040104167vw */
+    width:53.7vw;
+    /* width: fit-content; */
+    
 
 }
 
@@ -63,7 +67,9 @@
     margin-left: 5vw;
 }
 
-
+.penglipuranSectionKanan_content {
+    width:69.15vw;
+}
 .penglipuranSectionKanan_content > div{
     display: flex;
     flex-direction: row;
@@ -77,4 +83,5 @@
 }
 .penglipuranSectionKanan_deskripsi {
     flex-direction: column !important;
+    margin-top: 10vh;
 }

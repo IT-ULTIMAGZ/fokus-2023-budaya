@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.06 50.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffaf00;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-width: .75px;
+      }
+
+      .cls-2 {
+        fill: #ef4f55;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="GFX_Asset" data-name="GFX Asset">
+    <g>
+      <polygon class="cls-1" points="50.53 25.38 49.19 26.71 32.37 43.54 25.53 50.38 .53 25.38 25.53 .38 33.66 8.49 40.79 15.64 50.53 25.38"/>
+      <polygon class="cls-2" points="50.53 25.38 49.19 26.71 32.37 43.54 25.53 35.57 18.7 43.55 .53 25.38 10.28 15.62 15.97 21.95 25.53 10.79 35.1 21.95 40.79 15.64 50.53 25.38"/>
+    </g>
+  </g>
+</svg>

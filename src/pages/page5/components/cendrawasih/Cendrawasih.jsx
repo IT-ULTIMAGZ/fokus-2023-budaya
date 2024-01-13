@@ -16,7 +16,7 @@ const cendrawasih = () => {
                     <span  style={{fontFamily:'National2CompressedMedium'}}>TELUK</span>  <b>CENDERAWASIH</b>  memiliki pemandangan hamparan laut biru, <br />
                       warna-warni terumbu karang, dan fauna bawah laut yang mengagumkan. </p>
                     
-                    <p style={{fontSize:'1.01vw',fontFamily:'National2Light'}}>
+                    <p style={{fontSize:'1.01vw',fontFamily:'National2Light',marginTop:'5vh'}}>
                     Salah satu fauna bawah laut yang dapat <i>Ultimates</i>  ajak interaksi adalah hiu paus. Di TAMAN <br />
                      NASIONAL <span>TELUK</span>  <b>CENDERAWASIH</b> , <i style={{fontFamily:'National2BoldItalic'}}>hiu paus</i>  sering muncul ke permukaan rumah terapung <br />
                       tempat menangkap ikan dan berinteraksi dengan nelayan. <i style={{fontFamily:'National2BoldItalic'}}>Hiu paus</i> tidak seperti hiu <br />

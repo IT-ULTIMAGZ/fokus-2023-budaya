@@ -1,3 +1,111 @@
+@font-face {
+  font-family: "National2XBold"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National\ 2\ XBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2regular"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National 2 Regular.otf");
+}
+@font-face {
+  font-family: "National2Medium"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National 2 Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "National2MediumItalic"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National\ 2\ Medium\ Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "National2Light"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National 2 Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "National2Bold";
+  src: local("National 2 Bold"), url("../public/Fonts/National 2 Bold.otf");
+}
+@font-face {
+  font-family: "National2Black";
+  src: local("National 2 Bold"), url("../public/Fonts/National\ 2\ Black.otf");
+}
+@font-face {
+  font-family: "National2BlackItalic";
+  src: local("National 2 Bold"), url("../public/Fonts/National\ 2\ Black\ Italic.otf");
+}
+@font-face {
+  font-family: "National2LightItalic"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National 2 Light Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "National2LightItalic"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National\ 2\ Light\ Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "National2CondensedBold"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National 2 Condensed Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National2CondensedRegular"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National 2 Condensed Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "National2CondensedMedium"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National 2 Condensed Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "National2CondensedMediumItalic"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National\ 2\ Condensed\ Medium\ Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "National2CondensedBlackItalic"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National\ 2\ Condensed\ Black\ Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "National2BoldItalic"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National 2 Condensed Bold Italic.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "National2CompressedRegularItalic"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National\ 2\ Compressed\ Regular\ Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "National2CompressedBold"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National\ 2\ Compressed\ Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "National2CompressedMedium"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National\ 2\ Compressed\ Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "National2CompressedMediumItalic"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National\ 2\ Compressed\ Medium\ Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "National2CompressedXLightItalic"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National\ 2\ Compressed\ XLight\ Italic.otf") format("opentype");
+}
+
+
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -36,6 +144,9 @@ code {
 [data-aos=fade-up-right-custom] {
   transform: translate3d(-20vw,20vw,0);
 }
+[data-aos=fade-up-left-custom] {
+  transform: translate3d(20vw,20vw,0);
+}
 
 
 [data-aos=fade-up-custom] {
@@ -44,7 +155,12 @@ code {
 [data-aos=fade-up-custom].animated {
   transform: translate3d(0, 0, 0);
 }
-
+[data-aos=fade-down-custom] {
+  transform: translate3d(0, -40vh, 0);
+}
+[data-aos=fade-down-custom].animated {
+  transform: translate3d(0, 0, 0);
+}
 [data-aos=fade-up-pop] {
   transform: translate3d(0, 40vh, 0) scaleY(0);
 }

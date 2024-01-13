@@ -9,7 +9,7 @@
 }
 
 .header15 {
-  padding-top: 3%;
+  padding-top: 5vh;
   padding-left: 15%;
   width: 30%;
   height: 10%;
@@ -20,7 +20,12 @@
   margin-left: 5%;
   /* height: 71%; */
 }
-
+.isi15SectionAtas {
+  height: 71vh;
+}
+.isi15Atas {
+  padding-top: 7vh;
+}
 .footer15 {
   color: #f3f3d3;
 }
@@ -45,11 +50,8 @@
     font-size: 1.11vw;
 
   }
-
-
-@media (min-width: 768px) {
-  .footer15 {
-    font-size: 1.11vw;
-    margin-top: 12vh;
-  }
+.isi15SectionBawah {
+  height: 29vh;
+  display:flex;
+  align-items: center;
 }

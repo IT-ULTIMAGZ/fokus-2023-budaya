@@ -16,11 +16,18 @@
 }
 
 .isi14 {
-  margin-left: 6.7%;
-  margin-top: 3.5%;
-  height: 60%;
+
 }
 
+.isi14 >:first-child{
+  margin-left: 6.7%;
+  height: 58.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:5vh;
+  
+}
 .footer14 {
   color: #f3f3d3;
   height: 15%;
@@ -35,12 +42,19 @@
     font-size: 3.958vw !important;
   }
 
-  .kalimatisi142 {
-    font-size: 3.958vw !important;
-    margin-top: 9% !important;
-  }
-
   .footer14 {
+    margin-top:auto;
+    margin-bottom: auto;
     font-size: 1.67vw !important;
-    margin-top: 7% !important;
   }
+.page14Title {
+  display: flex;
+}
+.page14Title img {
+  height:10vh;
+}
+.tasNoken {
+  display: flex;
+  align-items: center;
+  height:22vh;
+}

@@ -32,7 +32,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap:20vh;
+    gap:25vh;
 }
 
 .part5Section_textKiri > :first-child {
@@ -53,7 +53,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap:25vh;
+    gap:30vh;
     font-size: 1.2vw;
 }
 .part5Section_textKanan > :nth-child(2) {

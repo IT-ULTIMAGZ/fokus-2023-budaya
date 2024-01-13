@@ -9,23 +9,21 @@
   padding-left: 3vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  /* align-items: center; */
 }
-
+.page18SectionAtas {
+  height: 76vh;
+  gap:7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page18SectionBawah {
+  height: 24vh;
+  display: flex;
+  align-items: center;
+}
 .kalimatisi183 {
   color: #ed5455;
+  margin-left: 25vw;
 }
-  /* .kalimatisi181 {
-    font-size: 90px !important;
-  }
-
-  .kalimatisi182 {
-    font-size: 16px !important;
-  }
-
-  .kalimatisi183 {
-    font-size: 16px !important;
-    margin-top: 5.5%;
-  } */
 

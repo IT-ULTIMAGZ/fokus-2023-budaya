@@ -20,30 +20,23 @@ const Part2 = () => {
         <div className="pelestariPart2" >
             <div className="pelestariContainer" id="direction" data-scroll-container>
             <img
-            data-scroll
-            data-scroll-speed="0.7"
-            data-scroll-direction="horizontal"
+            data-aos='fade-up-custom'
             src="./images/lima-pelestari/1.png"
             onClick={() => scrollToElement('naomiSusilowati')}
             className="ilustrasiPelestari ilus1 ilus_img"
             alt=""
           />
           <img
-            data-scroll
-            data-scroll-speed="0.1"
-            style={{ transform: 'translate3d(0,15vh,0)' }}
-            data-aos-delay="500"
-            data-aos-easing="ease-out"
+            data-aos='fade-down'
+            data-aos-delay='300'
             src="./images/lima-pelestari/4.png"
             onClick={() => scrollToElement('darrylSanggelorang')}
             className="ilustrasiPelestari ilus2 ilus_img"
             alt=""
           />
           <img
-            data-scroll
-            data-scroll-speed="0.3"
-            style={{ transform: 'translate3d(0,27vh,0)' }}
-            data-aos-delay="500"
+          data-aos='fade-left-custom'
+          data-aos-delay='600'
             src="./images/lima-pelestari/3.png"
             onClick={() => scrollToElement('woroMustikoSiwi')}
             className="ilustrasiPelestari ilus3 ilus_img"
@@ -51,18 +44,17 @@ const Part2 = () => {
           />
           <div className="ilus4Frame" data-scroll-section>
             <img
+              data-aos='zoom-in-custom'
+              data-aos-delay='900'
               src="./images/lima-pelestari/2.png"
-              data-scroll
-              data-scroll-speed="0.2"
               onClick={() => scrollToElement('lilisSuryani')}
               className="ilustrasiPelestari ilus4"
               alt=""
             />
             <img
+              data-aos='fade-up-pop'
+              data-aos-delay='1200'
               src="./images/lima-pelestari/5.png"
-              data-scroll
-              data-scroll-speed="0.4"
-              style={{ transform: 'translate3d(0,-10vh,0)' }}
               onClick={() => scrollToElement('abahEngkus')}
               className="ilustrasiPelestari ilus5"
               alt=""

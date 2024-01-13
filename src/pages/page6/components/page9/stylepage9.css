@@ -21,52 +21,46 @@
   /* background-color: aqua; */
   padding: 4% 3.7% 3.7% 3.7%;
 }
+.page9isi > img {
+  width:77.5vw;
+}
 
 .page9isi h1 {
   font-family: National2Condensedbold;
   font-size: 3.47vw;
   line-height: 1;
-  letter-spacing: 3.2px;
+  letter-spacing: calc((3.2/1920)*100vw);
+  /* letter-spacing: 3.2px; */
   /* font-weight: bolder; */
   color: #096b48;
   margin-top: 5%;
 }
 
 .page9isi p {
-  font-family: National2Regular;
+  font-family: National2Medium;
   font-size: 1.04vw;
-  line-height: 1;
-  letter-spacing: 1px;
+  line-height: 1.5;
+  /* letter-spacing: 1px; */
   /* font-weight: bolder; */
   color: #096b48;
+}
+.page9IsiBawah {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8vh;
+  gap:2vw;
+}
+.page9IsiBawah >img {
+  height: calc((48/1080)*100vh);
+  margin-top:-3vh;
 }
 
 .isibagianbawah {
-  font-family: National2Regular;
-  font-size: 1.04vw;
-  line-height: 1;
-  letter-spacing: 1px;
-  /* font-weight: bolder; */
+  /* font-family: National2Medium; */
+  font-size: 1.21vw;
+  line-height: 1.5;
+
   color: #096b48;
-  margin-top: 19vh;
-  margin-left: 39%;
-}
-
-@media screen and (min-width: 1600px){
-  /* .isibagianbawah{
-    margin-top: 13.5% !important;
-  } */
-  .page9isi p{
-    /* font-size: 20px !important; */
-  }
-
-  .page9isi h1{
-    /* font-size: 60px !important; */
-    margin-top: 6% !important;
-  }
-}
-@media screen and (max-height: 720px) {
-  .isibagianbawah{
-    margin-top: 26vh !important;
-  }
+  /* margin-left: 39%; */
 }

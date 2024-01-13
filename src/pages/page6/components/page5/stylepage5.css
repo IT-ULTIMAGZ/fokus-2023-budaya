@@ -39,28 +39,20 @@
   height: 67.3%;
   /* background: wheat; */
 }
-
-.page5bawah h1 {
-  font-family: National2bold;
-  font-size: 6.59vw;
-  line-height: 1;
-  letter-spacing: 3px;
-  /* font-weight: bolder; */
-  color: #f4f3d2;
-  text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000,
-    0 5px 0 #000, 0 6px 0 #000, 0 7px 0 #000, 0 8px 0 #000, 0 9px 0 #000;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+.page5bawah img{
+  height:40vh;
+  width:auto;
 }
 
 .hello {
   margin-top: 5%;
   margin-left: 23%;
-  font-family: National2;
+  font-family: National2Light;
   font-size: 1.21vw;
   line-height: 1;
   letter-spacing: 1px;
-  color: #c2d6b5;
+  color: rgb(244,243,210);
+  /* letter-spacing: calc((2/1920)*100vw); */
 }
 
 /* @media screen and (min-width: 1600px) {

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384.58 131.23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f4f3d3;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: National2-Bold, 'National 2';
+        font-size: 119px;
+        font-weight: 700;
+        letter-spacing: -.04em;
+        stroke: #000;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="TFX">
+    <g>
+      <g>
+        <text class="cls-2" transform="translate(-5 112.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+        <text class="cls-2" transform="translate(-4.5 111.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+        <text class="cls-2" transform="translate(-4 110.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+        <text class="cls-2" transform="translate(-3.5 109.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+        <text class="cls-2" transform="translate(-3 108.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+        <text class="cls-2" transform="translate(-2.5 107.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+        <text class="cls-2" transform="translate(-2 106.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+        <text class="cls-2" transform="translate(-1.5 105.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+        <text class="cls-2" transform="translate(-1 104.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+        <text class="cls-2" transform="translate(-.5 103.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+        <text class="cls-2" transform="translate(0 102.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+        <text class="cls-2" transform="translate(.5 101.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+        <text class="cls-2" transform="translate(1 100.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+      </g>
+      <text class="cls-1" transform="translate(1 100.25)"><tspan x="0" y="0">UNTUK</tspan></text>
+    </g>
+  </g>
+</svg>

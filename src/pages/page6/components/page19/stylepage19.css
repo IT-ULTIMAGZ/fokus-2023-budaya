@@ -14,26 +14,47 @@
   background-size: 100vw 100vh;
   width: 100vw;
   height: 100vh;
+  padding:1.5%;
   color: #f3f3d3;
-  padding-top: 5vh;
-  padding-left: 4vw;
 }
-
+.page19Section1 {
+  height:16vh;
+  width:33.6vw;
+  display: flex;
+  align-items: center;
+  margin-left: 3vw;
+}
+.page19Section2 {
+  height:19vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.page19Section3 {
+  height:31vh;
+  width:50vw;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.page19Section4 {
+  height:28.6vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
 .kalimatisi192 {
-  margin-top: 5vh;
-  margin-right: 19vw;
-  float: right;
+  margin-left: 3vw;
+  width:45.5vw;
 }
 
 .kalimatisi193 {
   color: #056b48;
-  margin-top: 23vh;
-  height: 15%;
+  margin-left: 3vw;
 }
 
 .kalimatisi194 {
   float: right;
-  margin-top: 17vh;
   margin-right: 14vw;
 }
 

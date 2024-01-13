@@ -21,7 +21,18 @@
   font-family: "National2Light"; /* Specify the desired font-family name */
   src: url("../../../public/Fonts/National 2 Light.otf") format("opentype");
 }
-
+@font-face {
+  font-family: "National2Bold";
+  src: local("National 2 Bold"), url("../../../public/Fonts/National 2 Bold.otf");
+}
+@font-face {
+  font-family: "National2Black";
+  src: local("National 2 Bold"), url("../../../public/Fonts/National\ 2\ Black.otf");
+}
+@font-face {
+  font-family: "National2BlackItalic";
+  src: local("National 2 Bold"), url("../../../public/Fonts/National\ 2\ Black\ Italic.otf");
+}
 @font-face {
   font-family: "National2LightItalic"; /* Specify the desired font-family name */
   src: url("../../../public/Fonts/National 2 Light Italic.otf") format("opentype");
@@ -56,7 +67,12 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family: "National2CondensedBlackItalic"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National\ 2\ Condensed\ Black\ Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: "National2BoldItalic"; /* Specify the desired font-family name */
   src: url("../../../public/Fonts/National 2 Condensed Bold Italic.otf")
@@ -65,8 +81,8 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "National2Bold";
-  src: local("National 2 Bold"), url("../../../public/Fonts/National 2 Bold.otf");
+  font-family: "National2CompressedRegularItalic"; /* Specify the desired font-family name */
+  src: url("../../../public/Fonts/National\ 2\ Compressed\ Regular\ Italic.otf") format("opentype");
 }
 
 @font-face {
@@ -265,6 +281,8 @@ body {
 
 .empty-pg5 {
   /* padding: 5vw; */
+  margin-top: 7vh;
+  margin-left:9.5vw;
 }
 
 .pg5-content-list {
@@ -294,8 +312,6 @@ body {
 .page5-hero-text img {
   width:40vw;
   height: auto;
-  margin-left: 5vw;
-  margin-top: 5vw;
 }
 #pg5-judul {
   /* transform: scale(0.8); */
@@ -314,4 +330,29 @@ body {
 .sidescroll-content-hero {
   text-align: center;
   max-width: 500px;
+}
+.clickHereCommand {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: translateX(50%);
+  font-family: National2Regular;
+  font-size: calc(20/1920*100vw);
+  
+}
+.clickHereCommand >img {
+  width:calc(60/1920*100vw);
+  animation: breath 1s ease-in-out infinite;
+}
+
+@keyframes breath {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

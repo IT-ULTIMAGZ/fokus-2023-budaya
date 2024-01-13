@@ -3,7 +3,7 @@ import './css/part12.css';
 const Part12 = () => {
     return (
         <div className="part12Section">
-            <div>
+            <div data-aos='fade-right-custom'>
                 <p>Mulai dari dewasa hingga remaja, mereka semua turut serta dalam <br />
                     menekuni kebudayaan tradisional Indonesia. Hal ini menunjukkan bahwa seni </p>
             </div>

@@ -16,10 +16,7 @@ function Page4No6() {
     'gap':'5vw',
     'width':'100vw',
     'height':'100vh',
-
   }
-
-
   return(
     <div class='page ' style={styles}>
       {/* <div style={{display:'flex',height:'fit-content'}}> */}
@@ -29,7 +26,6 @@ function Page4No6() {
         </div>
         <img data-aos='fade-up-custom' data-aos-delay='300' style={{width:'20vw',height:'auto'}}src="/images/tengok-ragam/Text/Page 6/budaya pecah telur.png" alt="" />
       {/* </div> */}
-
     </div>
   )
 }

@@ -5,12 +5,27 @@
 
 .ilus1 {
     grid-area: ilus1;
-    padding: 60px 0px;
+    padding:calc(100/1920*100vw) 0px;
 }
 .ilus2 {
     grid-area: ilus2;
     padding:5% 0% 3.5% 0%;
+    width:114% !important;
+    margin-top: 2.5vh;
+    margin-left: -0.5vw;
 }
+.ilus1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.ilus2:hover {
+    transform: scale(1.1) !important;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 
 
 .ilus3 {
@@ -43,7 +58,7 @@
     margin-right: -18%;
     aspect-ratio: 1/1;
 }
-.ilus1:hover, .ilus2:hover, .ilus3:hover, .ilus4:hover, .ilus5:hover {
+.ilus3:hover, .ilus4:hover, .ilus5:hover {
     transform: scale(1.1);
     transition: 0.5s;
     cursor: pointer;
@@ -97,7 +112,11 @@
 }
 .ilus_img {
     width: 100%;
-    height: 100%;
+    height: auto;
 
     /* object-fit: cover; */
+}
+
+.ilus2 {
+
 }

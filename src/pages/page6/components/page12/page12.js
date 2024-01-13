@@ -1,12 +1,17 @@
 import "./stylepage12.css";
 import bola from "../../assets/gambar1.png";
+import AOS from "aos";
 
 function page12() {
+  AOS.init({
+    duration: 1000,
+    once: false,
+  });
   return (
     <div className="page12">
-      <img className="bola" src={bola} alt="" data-aos="zoom-out"/>
+      <img className="bola" src={bola} data-aos='flip-right'alt="" />
       <div className="isi12">
-        <p className="condensedRegular header12" style={{ fontSize: "50px" }} data-aos="fade-down" data-aos-delay="300">
+        <p className="condensedRegular header12" style={{ fontSize: "50px" }} data-aos='fade-left-custom'>
           A'raga masih bertahan sampai saat ini,
         </p>
         <h1
@@ -17,8 +22,7 @@ function page12() {
             lineHeight: "1",
             marginTop: "3%",
           }}
-          data-aos="fade-right"
-          data-aos-delay="700"
+          data-aos='fade-left-custom' data-aos-delay='500'
         >
           tetapi lebih sering <br /> dimainkan di <br /> sanggar-sanggar atau{" "}
           <br />
@@ -32,9 +36,7 @@ function page12() {
             marginTop: "6%",
             marginLeft: "40%",
           }}
-          data-aos="fade-in"
-          data-aos-delay="1000"
-          data-aos-offset="100"
+          data-aos='fade-left-custom' data-aos-delay='800'
         >
           Namun permainan unik ini dapat menjadi opsi menarik saat  <i>Ultimates</i>
           bermain bola.

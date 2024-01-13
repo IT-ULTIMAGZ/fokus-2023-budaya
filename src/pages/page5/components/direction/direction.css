@@ -1,0 +1,66 @@
+.directionOverlay {
+    position:fixed;
+    width:12vw;
+    height:fit-content;
+    background-color: rgb(245,244,213,0.9);
+    opacity:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+    top:2vh;
+    left:50%;
+    transform: translateX(-50%);
+    padding:1vh;
+    border-radius: 20px;
+}
+.directionOverlay > img {
+    width: 5vw;
+    height: auto;
+    animation: wiggleAnimation 1s ease-in-out infinite;
+}
+.directionOverlay >p {
+    font-family: National2Regular;
+    font-size: calc(20/1920*100vw);
+}
+.directionOverlay >button {
+    font-size: calc(24/1920*100vw);
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 0.2vw;
+    border-radius: 12px;
+    border: none;
+    background-color: red;
+    padding: 0px 0.5vw;
+    color : rgb(245,244,213,0.9);
+    font-size: calc(20/1920*100vw);
+}
+.directionOverlay >hr {
+    width: 100%;
+    border: 1px solid black;
+    margin: 0;
+    margin-top: 1vh;
+}
+@keyframes wiggleAnimation {
+    0% {
+      transform: translateX(0px);
+    }
+    25% {
+      transform: translateX(5px);
+    }
+    50% {
+      transform: translateX(0px);
+    }
+    75% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+@media (max-height:520px){
+    .directionOverlay {
+        border-radius: 10px;
+    }
+} 

@@ -12,16 +12,23 @@ import Part7 from "./Components/Part7";
 import Part8 from "./Components/Part8";
 import Part9 from "./Components/Part9";
 import Part10 from "./Components/Part10";
+import BackButton from "../../components/BackButton";
 
 const Page1 = () => {
   const locomotiveScroll = new LocomotiveScroll();
   AOS.init({
     duration: 1300,
-    offset: 330,
     once: false,
   });
   return (
     <div>
+      <BackButton
+        style={{
+          bottom: "calc(72/1920*100vw)",
+          left: "50%",
+          zIndex: "100",
+          transform: "translateX(-50%)",
+      }}/>
       <Part1 />
       <Part2 />
       <Part3 />

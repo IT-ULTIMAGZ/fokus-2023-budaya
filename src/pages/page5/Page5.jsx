@@ -6,6 +6,8 @@ import Wakatobi from "./components/wakatobi/Wakatobi";
 import End from "./components/end/End";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import BackButton from "../../components/BackButton";
+import Direction from "./components/direction/Direction";
 
 import './rubrik5.css';
 // import AOS from 'aos';
@@ -46,6 +48,8 @@ function Page5() {
   }
   
   function handleScroll(scroll){
+    document.querySelector('.clickHereCommand').style.display = 'none';
+    console.log(scroll);
     if(scroll === 1){
       scroll01 === false ? setScroll01(true) : setScroll01(false);
     }else if(scroll === 2){
@@ -60,6 +64,7 @@ function Page5() {
     }else if(scroll === 6){
       scroll06 === false ? setScroll06(true) : setScroll06(false);
     }
+    console.log(scroll02);
     setScrollPosition(scroll);
 
   }
@@ -80,27 +85,31 @@ function Page5() {
 
   return (
     <div className='master flex-row page5' style={{height:'100vh',overflowY:'hidden'}}>
+      <BackButton style={{position:'fixed',bottom:'calc(72/1920*100vw)',left:'calc(72/1920*100vw)'}}></BackButton>
+      <Direction />
         <div className='sidescroll-page '>
             <div className="sidescroll-hero flex-row justify-between">
               <img className='bg-img-sidescroll' src='./images/tengok-ragam-real/Page 1/bg pg1.png'></img>
               <div className='page5-hero-text'>
                 <div className='empty-pg5'>
                   <img id='pg5-judul' src='./images/tengok-ragam-real/Page 1/judul pg1.png'></img>
-                  <div style={{color:'white'}} className="flex-row justify-around align-center">
+                  <div style={{color:'white',gap:'3vw',marginTop:'2vh'}} className="flex-row align-center justify-center">
                     <div style={{gap:'10px'}}className="flex-row justify-around align-center">
-                      <p style={{fontFamily:'National2Light',fontSize:'0.83vw'}}>PENULIS</p>
-                      <p style={{fontSize:'2.01vw',fontFamily:'National2Light'}}>Ruth Yushiana</p>
+                      <p style={{fontFamily:'National2Light',fontSize:'0.61vw'}}>PENULIS</p>
+                      <p style={{fontSize:'1.38vw',fontFamily:'National2Light'}}>Ruth Yushiana</p>
                     </div>
                     <div style={{gap:'10px'}} className="flex-row justify-around align-center">
-                      <p style={{fontFamily:'National2Light',fontSize:'0.83vw'}}>EDITOR</p>
-                      <p style={{fontSize:'2.01vw',fontFamily:'National2Light'}}>Michael Ludovico</p>
+                      <p style={{fontFamily:'National2Light',fontSize:'0.61vw'}}>EDITOR</p>
+                      <p style={{fontSize:'1.38vw',fontFamily:'National2Light'}}>Michael Ludovico</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div 
-                // style={{ transform: `translateX(-${scrollPosition * 100}%)` }}
-                className='pg5-content-list'>
+              <div className='pg5-content-list'>
+                <div className='clickHereCommand'>
+                  <img src='./images/tengok-ragam-real/click.png'/>
+                  <p>Click to expand</p>
+                </div>  
                 {scroll01 === false ? (
                   <img
                     data-section='muaratakus'
@@ -113,7 +122,7 @@ function Page5() {
                 ) : (
                   <MuaraTakus scroll={true} />
                 )}
-                {scroll02 === false ? (<img data-section ='desapenglipuran' className='content-preview' onClick={()=>handleScroll(2)}  src='./images/tengok-ragam-real/Page 1/aset2 pg1.png'></img>):(<Penglipuran scroll={true} />)}
+                {scroll02 === false ? (<img data-section ='desapenglipuran' className='content-preview' onClick={()=>handleScroll(2)}  src='./images/tengok-ragam-real/Page 1/aset2 pg1.png'></img>):(<Penglipuran onClick={()=>{handleScroll(2)}} scroll={true} />)}
                 {scroll03 === false ? (<img data-section ='desatomok' className='content-preview' onClick={()=>handleScroll(3)} src='./images/tengok-ragam-real/Page 1/aset3 pg1.png'></img>):(<Tomok scroll={true} />)}
                 {scroll04 === false ? (<img data-section='cenderawasih' className='content-preview'onClick={()=>handleScroll(4)}  src='./images/tengok-ragam-real/Page 1/aset4 pg1.png'></img>):(<Cendrawasih scroll={true} />)}
                 {scroll05 === false ? (<img data-section='wakatobi' className='content-preview'onClick={()=>handleScroll(5)}  src='./images/tengok-ragam-real/Page 1/aset5 pg 1.png'></img>):(<Wakatobi scroll={true} />)}

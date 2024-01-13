@@ -11,16 +11,17 @@ import Page9 from './components/page_9/Page9';
 import Page10 from './components/page_10/Page10';
 import AOS from "aos";
 import LocomotiveScroll from "locomotive-scroll";
+import BackButton from "../../components/BackButton";
 
 function page_2() {
   const locomotiveScroll = new LocomotiveScroll();
   AOS.init({
     duration: 1000,
-    offset: 330,
     once: false,
   });
   return (
-    <div >
+    <div style={{position:'relative',width:'100vw',overflow:'hidden'}}>
+      <BackButton style={{position:'fixed',bottom:'calc(72/1920*100vw)',left:'calc(72/1920*100vw)'}}/>
       <Cover />
       <Page1 />
       <Page2 />

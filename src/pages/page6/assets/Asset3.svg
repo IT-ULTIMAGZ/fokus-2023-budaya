@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 652 257.99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffaf00;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #f4f3d3;
+      }
+
+      .cls-3 {
+        fill: #ef4f55;
+      }
+
+      .cls-4 {
+        fill: #0a6b49;
+      }
+    </style>
+  </defs>
+  <g id="GFX_Asset" data-name="GFX Asset">
+    <g>
+        <polygon class="cls-4" points="401 206.99 501 206.99 451 156.99 401 206.99"/>
+        <polygon class="cls-1" points="451 256.99 501 206.99 401 206.99 451 256.99"/>
+        <path class="cls-2" d="m451,182.25c-13.67,0-24.75,11.08-24.75,24.75h49.49c0-13.67-11.08-24.75-24.75-24.75Z"/>
+        <path class="cls-3" d="m451,231.74c13.67,0,24.75-11.08,24.75-24.75h-49.49c0,13.67,11.08,24.75,24.75,24.75Z"/>
+    </g>
+  </g>
+</svg>
