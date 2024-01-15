@@ -1,12 +1,10 @@
 import React from "react";
-import LocomotiveScroll from "locomotive-scroll";
 import garis from "../Assets/bg/SUPERGRAFIS PAGE3-4.png";
 import koin1 from "../Assets/illust/Q_COIN_1.png";
 import koin2 from "../Assets/illust/Q_COIN_2.png";
 import koin3 from "../Assets/illust/Q_COIN_3.png";
 
 const Part3 = () => {
-  const locomotiveScroll = new LocomotiveScroll();
   return (
     <div
       className="mainbg"

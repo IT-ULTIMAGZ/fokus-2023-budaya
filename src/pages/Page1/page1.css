@@ -1,3 +1,57 @@
+:root {
+  --primary: rgb(244, 242, 211);
+  --secondary: rgb(251, 168, 43);
+}
+
+@font-face {
+  font-family: MyriadPro;
+  src: url(./Assets/font/MyriadPro-Regular.otf);
+}
+
+@font-face {
+  font-family: National2;
+  src: url(./Assets/font/National\ 2\ Regular.otf);
+}
+
+@font-face {
+  font-family: National2;
+  src: url(./Assets/font/National\ 2\ Medium.otf);
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: National2;
+  src: url(./Assets/font/National\ 2\ Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: National2;
+  src: url(./Assets/font/National\ 2\ XBold.otf);
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: National2Black;
+  src: url(./Assets/font/National\ 2\ Black.otf);
+}
+
+@font-face {
+  font-family: National2Narrow;
+  src: url(./Assets/font/National\ 2\ Narrow\ Bold.otf);
+}
+
+@font-face {
+  font-family: National2Condensed;
+  src: url(./Assets/font/National\ 2\ Condensed\ Regular.otf);
+}
+
+@font-face {
+  font-family: National2Condensed;
+  src: url(./Assets/font/National\ 2\ Condensed\ Bold.otf);
+  font-weight: bold;
+}
+
 .mainbg {
   width: 100vw;
   max-width: 100vw;
@@ -25,6 +79,33 @@
   }
 } */
 
+.mainbg h1 {
+  font-family: National2Condensed;
+  font-weight: bold;
+  font-size: 15vh;
+  color: var(--primary);
+  -webkit-text-stroke-width: 0.5vh;
+  -webkit-text-stroke-color: black;
+}
+
+.mainbg h1 i {
+  color: var(--secondary) !important;
+}
+
+.titleCreator h3 {
+  font-family: MyriadPro;
+  color: var(--primary);
+  font-size: 4vh;
+  display: flex;
+  align-items: center;
+}
+
+.titleCreator span {
+  display: inline-block;
+  text-align: center;
+  font-size: 2vh;
+  margin-right: 10px;
+}
 
 .bgkoin {
   position: relative;
@@ -71,25 +152,27 @@
 .wrapperkoin {
   width: 75%;
   height: 100%;
-  /* margin: auto; */
   z-index: 2;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: end;
+  height: fit-content;
 }
 
 .headerkoin {
-  margin-top: 25%;
-  width: 50%;
-  height: 50%;
-  object-fit: contain;
-  object-position: center;
+  margin-top: 30%;
+  font-size: 23vh !important;
+  font-family: National2 !important;
+  font-weight: bold;
 }
 
 .tekskoin {
-  margin-top: -25%;
-  width: 100%;
+  min-height: 38vh;
+  font-size: 3.5vh;
+  color: var(--primary);
+  font-family: National2;
+  font-weight: MyriadPro !important;
+  text-align: justify;
 }
 
 .titleCreator img {
@@ -138,7 +221,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   z-index: 2;
 }
 
@@ -192,10 +275,76 @@
 }
 
 .penulis {
-  height: 8%;
+  width: 65%;
+  font-size: 7.8vh !important;
+  -webkit-text-stroke-width: 0.3vh !important;
+  margin-bottom: 2%;
 }
 
 .teks {
+  width: 55%;
   height: 65%;
-  margin-top: -5%;
+  color: var(--primary);
+  font-family: MyriadPro;
+  font-size: 3vh;
+  margin-right: 8%;
+  line-height: 130%;
+}
+
+.textSection {
+  display: flex;
+  align-items: start;
+  margin-bottom: 2%;
+}
+
+.textSection img {
+  margin-top: 1.5%;
+  margin-right: 17px;
+  height: 5px;
+  width: auto;
+}
+
+@media screen and (min-width: 64em) {
+  .textSection img {
+    height: 10px;
+  }
+}
+
+.teks .noBullet img{
+  visibility: hidden;
+}
+
+.teks .unique {
+  font-family: National2;
+  font-weight: bold;
+}
+
+.teks span {
+  -webkit-text-stroke-width: 0.12vh;
+  -webkit-text-stroke-color: black;
+  color: var(--secondary);
+}
+
+.regularFont {
+  color: inherit !important;
+  font-family: MyriadPro !important;
+  font-weight: normal !important;
+}
+
+.black {
+  color: black;
+}
+
+.same {
+  color: inherit !important;
+  font-weight: bold !important;
+}
+
+.bolderText {
+  color: inherit !important;
+  font-weight: bolder !important;
+}
+
+.primary {
+  color: var(--primary) !important;
 }

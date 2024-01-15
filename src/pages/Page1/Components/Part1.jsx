@@ -1,8 +1,5 @@
 import React from "react";
 import bg from "../Assets/illust/BG_PAGE_1.png";
-import title from "../Assets/text/PAGE 1_1.png";
-import penulis from "../Assets/text/PAGE_1_2.png";
-import editor from "../Assets/text/PAGE_1_3.png";
 import panah from "../Assets/text/PAGE_1_4.png";
 
 const Part1 = () => {
@@ -23,26 +20,27 @@ const Part1 = () => {
         style={{
           marginTop: "2%",
           position: "relative",
-          display: "flex",
-          justifyContent: "center",
+          // display: "flex",
+          // justifyContent: "center",
         }}
         data-aos="zoom-out"
         data-aos-delay="500"
       >
-        <img
-          src={title}
-          alt="judul"
-          style={{ width: "90%" }}
-        />
+        <h1>
+          SEBERAPA DEKAT
+          <i style={{ marginLeft: "95px" }}>ULTIMATES</i>
+          <br />
+          DENGAN BUDAYA NUSANTARA?
+        </h1>
         <img
           src={panah}
           className="panah"
           alt="panah"
           style={{
-            height: "22%",
+            height: "5vh",
             position: "absolute",
-            left: "51.5%",
-            top: "8%",
+            left: "55.8%",
+            top: "19%",
           }}
         />
       </div>
@@ -60,12 +58,14 @@ const Part1 = () => {
         data-aos="fade-zoom-in"
         data-aos-delay="1200"
       >
-        <img src={penulis} alt="penulis" />
-        <img
-          src={editor}
-          alt="editor"
-          style={{ marginLeft: "5%" }}
-        />
+        <h3>
+          <span>PENULIS</span>
+          Felix Abraham Surya
+        </h3>
+        <h3 style={{ marginLeft: "5%" }}>
+          <span>EDITOR</span>
+          Alycia Catelyn
+        </h3>
       </div>
     </div>
   );

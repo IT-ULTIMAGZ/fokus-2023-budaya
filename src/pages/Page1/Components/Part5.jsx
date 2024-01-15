@@ -1,75 +1,64 @@
 import React from "react";
-import LocomotiveScroll from "locomotive-scroll";
 import bg from "../Assets/bg/BG_PAGE_5.png";
-import penulis from "../Assets/text/PAGE_5_1.png";
-import teks from "../Assets/text/PAGE_5_2.png";
-import stepLadder from "../Assets/illust/Step_and_Ladder.png";
-import stepYellowHor from "../Assets/illust/Step_horizontal.png";
-import stepWhiteHor from "../Assets/illust/Step_white_horizontal.png";
-import stepGreen from "../Assets/illust/Step_Green.png";
-import stepWhite from "../Assets/illust/Step_White.png";
+import bullet from "../Assets/text/WHITE_BULLETS.png";
 
 const Part5 = () => {
-  const locomotiveScroll = new LocomotiveScroll();
-  
   return (
     <div
       className="mainbg"
       style={{
         background: "#096B49",
         position: "relative",
-        // backgroundImage: `url(${bg})`,
-        // backgroundPosition: "center",
-        // backgroundSize: "contain",
-        // display: "flex",
-        // flexDirection: "column",
-        // justifyContent: "center",
-        // alignItems: "center",
       }}
     >
       <div className="whiterightbox" />
       <div className="leftDecoration">
         <img src={bg} className="props" alt="bg" />
-        {/* <img src={stepLadder} className="doubleBlock" alt="kotak" />
-        <div className="merge">
-          <img className="doubleBlock" src={stepYellowHor} alt="kotak" />
-          <img
-            className="mirrored doubleBlock"
-            src={stepWhiteHor}
-            alt="kotak"
-          />
-        </div> */}
       </div>
-      {/* <div className="bottomBlocks">
-        <div style={{ display: "flex", flexDirection: "column-reverse" }}>
-          <img className="singleBlock" src={stepGreen} alt="kotak" />
-        </div>
-        <div style={{ display: "flex", flexDirection: "column-reverse" }}>
-          <img className="singleBlock" src={stepWhite} alt="kotak" />
-        </div>
-        <div style={{ display: "flex", flexDirection: "column-reverse" }}>
-          <img className="singleBlock" src={stepGreen} alt="kotak" />
-          <img className="singleBlock" style={{marginLeft: "7%", marginBottom: "-2%"}} src={stepWhite} alt="kotak" />
-        </div>
-      </div> */}
 
       <div
         className="textwrapper"
-        style={{ position: "absolute", right: "10%" }}
       >
-        <img
-          src={penulis}
-          className="penulis"
-          alt="penulis"
-          data-aos="fade-zoom-in"
-        />
-        <img
-          src={teks}
-          className="teks"
-          style={{ marginTop: "2vh" }}
-          alt="teks"
-          data-aos="fade-down"
-        />
+        <h1 className="penulis" data-aos="fade-zoom-in">
+          DANIEL NICHOLLAS, UMN, AKUNTANSI 2021
+        </h1>
+        <div className="teks" data-aos="fade-down">
+          <div className="textSection">
+            <img src={bullet} alt="bullet"/>
+            <p>
+              Saya merasa bangga karena dengan beraneka ragam budaya tersebut,
+              kita dapat mengalami perbedaan. Dari perbedaan itu dapat
+              mengembangkan berbagai ide yang beraneka ragam pula. Hal itu guna
+              mengembangkan sekaligus memperluas pengetahuan dan kesatuan dalam
+              negara
+            </p>
+          </div>
+          <div className="textSection unique">
+            <img src={bullet} alt="bullet" />
+            <p>
+              BUDAYA KITA SEKARANG INI SEDANG MENGALAMI <span>PENURUNAN.</span> MENURUT SAYA
+              HAL ITU DIAKIBATKAN MASYARAKAT YANG SUDAH MULAI <span>KURANG PEDULI </span>
+              TERHADAP BUDAYA SENDIRI, APALAGI MASUKNYA BUDAYA LUAR NEGARA YANG
+              TERUS-MENERUS.
+            </p>
+          </div>
+          <div className="textSection noBullet">
+            <img src={bullet} alt="bullet" />
+            <p>
+              Di era sekarang, banyak budaya yang sudah tidak lagi dikembangkan
+              karena dari masyarakatnya sendiri merasa bahwa budaya-budaya
+              tradisional kurang sesuai dengan apa yang mereka percayai, atau
+              sudah tidak sesuai dengan zaman sekarang.
+            </p>
+          </div>
+          <div className="textSection">
+            <img src={bullet} alt="bullet" />
+            <p>
+              Tantangannya adalah keinginan masyarakatnya sendiri untuk
+              mengembangkan budaya nusantara.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

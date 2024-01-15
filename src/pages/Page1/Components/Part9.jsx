@@ -1,13 +1,10 @@
 import React from "react";
-import LocomotiveScroll from "locomotive-scroll";
 import bg from "../Assets/bg/BG_PAGE_9.png";
-import teks from "../Assets/text/PAGE_9.png";
 import stepWhite from "../Assets/illust/Step_White.png";
 import stepGreen from "../Assets/illust/Step_Green.png";
+import bullet from "../Assets/text/WHITE_BULLETS.png";
 
 const Part6 = () => {
-  const locomotiveScroll = new LocomotiveScroll();
-
   return (
     <div
       className="mainbg"
@@ -38,22 +35,43 @@ const Part6 = () => {
       <div
         className="textwrapper"
         style={{
-          position: "absolute",
-          marginTop: "2%",
+          marginTop: "10%",
           right: "15%",
-          alignItems: "start",
         }}
         data-scroll-container
       >
-        <img
-          src={teks}
+        <div
           className="teks"
-          style={{ height: "50%" }}
-          alt="teks"
           data-scroll
           data-scroll-speed="0.2"
           data-scroll-direction="horizontal"
-        />
+        >
+          <div className="textSection noBullet">
+            <img src={bullet} alt="bullet" />
+            <p>
+              Tidak sedikit anak muda Indonesia di zaman sekarang yang
+              menghasilkan karya dengan masih tetap menambahkan unsur
+              kebudayaan Indonesia, sehingga secara tidak langsung bisa lebih
+              mengenalkan budaya Indonesia ke kancah internasional.
+            </p>
+          </div>
+          <div className="textSection unique noBullet">
+            <img src={bullet} alt="bullet" />
+            <p>
+              BUDAYA NUSANTARA KITA YANG UNIK PUN MENJADI DAYA TARIK BAGI
+              WISATAWAN <span className="bolderText">LOKAL</span> MAUPUN <span className="bolderText">INTERNASIONAL.</span>
+            </p>
+          </div>
+          <div className="textSection noBullet">
+            <img src={bullet} alt="bullet" />
+            <p>
+              Budaya kita juga dapat memperkuat hubungan dan kesatuan seluruh
+              masyarakat Indonesia. Alhasil, penting bagi kita sebagai
+              masyarakat Indonesia untuk terus menghargai dan melestarikan
+              budaya nusantara Indonesia meski dihadapi perubahan zaman.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

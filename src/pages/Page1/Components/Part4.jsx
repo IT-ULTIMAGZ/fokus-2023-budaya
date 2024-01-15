@@ -1,16 +1,7 @@
 import React from "react";
-import LocomotiveScroll from "locomotive-scroll";
 import garis from "../Assets/bg/SUPERGRAFIS PAGE3-4.png";
-import logo1 from "../Assets/text/PAGE_4_1.png";
-import logo2 from "../Assets/text/PAGE_4_2.png";
-import logo3 from "../Assets/text/PAGE_4_3.png";
-import teks1 from "../Assets/text/PAGE_4_4.png";
-import teks2 from "../Assets/text/PAGE_4_5.png";
-import teks3 from "../Assets/text/PAGE_4_6.png";
 
 const Part3 = () => {
-  const locomotiveScroll = new LocomotiveScroll();
-
   return (
     <div
       className="mainbg"
@@ -28,8 +19,11 @@ const Part3 = () => {
           data-scroll-speed="0.6"
           data-scroll-direction="horizontal"
         >
-          <img className="headerkoin" src={logo1} alt="koin" />
-          <img className="tekskoin" src={teks1} alt="koin" />
+          <h1 className="headerkoin">01</h1>
+          <h3 className="tekskoin">
+            Budaya Tanah Air sangat beragam mulai dari ujung Sabang sampai
+            Merauke. Apakah kamu bangga dengan keberagaman budaya Indonesia?
+          </h3>
         </div>
       </div>
       <div className="spacerkoin" />
@@ -41,8 +35,12 @@ const Part3 = () => {
           data-scroll-speed="0.5"
           data-scroll-direction="horizontal"
         >
-          <img className="headerkoin" src={logo2} alt="koin" />
-          <img className="tekskoin" src={teks2} alt="koin" />
+          <h1 className="headerkoin">02</h1>
+          <h3 className="tekskoin">
+            Apa persepsi kamu mengenai budaya nusantara Indonesia? Entah itu
+            seni, tari, lagu, pakaian. Dan apakah budaya kita masih relevan bila
+            dilihat di era modern seperti saat ini?
+          </h3>
         </div>
       </div>
       <div className="spacerkoin" />
@@ -54,8 +52,12 @@ const Part3 = () => {
           data-scroll-speed="0.4"
           data-scroll-direction="horizontal"
         >
-          <img className="headerkoin" src={logo3} alt="koin" />
-          <img className="tekskoin" src={teks3} alt="koin" />
+          <h1 className="headerkoin">03</h1>
+          <h3 className="tekskoin">
+            Menurut kamu, apa tantangan terbesar bagi anak muda Indonesia untuk
+            menjaga atau melestarikan budaya nusantara di tengah gempuran
+            globalisasi?
+          </h3>
         </div>
       </div>
     </div>

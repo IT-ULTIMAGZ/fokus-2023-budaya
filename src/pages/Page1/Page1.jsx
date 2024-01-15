@@ -21,7 +21,7 @@ const Page1 = () => {
     once: false,
   });
   return (
-    <div>
+    <div style={{overflowX: "hidden"}}>
       <BackButton
         style={{
           bottom: "calc(72/1920*100vw)",
