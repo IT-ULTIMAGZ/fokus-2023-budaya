@@ -30,7 +30,7 @@ const Part5 = () => {
               kita dapat mengalami perbedaan. Dari perbedaan itu dapat
               mengembangkan berbagai ide yang beraneka ragam pula. Hal itu guna
               mengembangkan sekaligus memperluas pengetahuan dan kesatuan dalam
-              negara
+              negara.
             </p>
           </div>
           <div className="textSection unique">

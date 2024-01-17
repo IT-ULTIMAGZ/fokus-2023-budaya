@@ -39,7 +39,7 @@ const Part6 = () => {
           <div className="textSection unique">
             <img src={bullet} alt="bullet" />
             <p>
-              TANTANGAN TERBESAR BAGI ANAK MUDA INDONESIA YAKNI ADANYA PEN-GARUH
+              TANTANGAN TERBESAR BAGI ANAK MUDA INDONESIA YAKNI ADANYA PENGARUH
               DARI BUDAYA ASING YANG MASUK MELALUI{" "}
               <span className="primary">
                 MEDIA,TEKNOLOGI, DAN JUGA INTERAKSI

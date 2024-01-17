@@ -21,7 +21,7 @@ const Part3 = () => {
         >
           <h1 className="headerkoin">01</h1>
           <h3 className="tekskoin">
-            Budaya Tanah Air sangat beragam mulai dari ujung Sabang sampai
+            Budaya tanah air sangat beragam mulai dari ujung Sabang sampai
             Merauke. Apakah kamu bangga dengan keberagaman budaya Indonesia?
           </h3>
         </div>
