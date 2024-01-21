@@ -17,7 +17,7 @@ function page6 () {
                     </p>
                     <p style={{fontSize:'1.56vw'}}>Namun, perlu diingat kembali bahwa ada berbagai macam kain dari setiap wilayah di Indonesia selain batik.<br />
                         Oleh karena itu, Kementerian Pendidikan dan Kebudayaan menetapkan 33 kain tradisional dari berbagai<br />
-                        daerah sebagai warisan budaya tak benda pada 2017<br />
+                        daerah sebagai warisan budaya tak benda pada 2017.<br />
                     </p>
                 </div>
                 <div className="image6">

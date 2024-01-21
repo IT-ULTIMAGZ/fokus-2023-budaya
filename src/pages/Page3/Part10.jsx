@@ -13,7 +13,7 @@ const Part10 = () => {
 
             <div>
                 <p data-aos='fade-up-right-custom'><b>SASADU <span>ON THE</span> SEA</b>  merupakan tari tradisional yang <br />
-                    menggabungkan empat tari asal maluku, yaitu Tari Soya-Soya, <br />
+                    menggabungkan empat tari asal Maluku, yaitu Tari Soya-Soya, <br />
                     Tari Cakalele, Tari Sara Dabi-Dabi, dan Tari Legu Salai.  </p>
                 <p data-aos='fade-up-left-custom' data-aos-delay='300'> Berkat keaktifannya dalam melestarikan tari tradisional Indonesia, <br />
                    <span>DARYL</span> menerima penghargaan <b>anugerah kebudayaan dan <br />

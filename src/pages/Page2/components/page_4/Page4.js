@@ -28,9 +28,9 @@ function page4() {
             <i
               style={{ fontFamily: "National2LightItalic", fontSize: "1.56vw" }}
             >
-              batam.tribunnews.com
+              batam.tribunnews.com,
             </i>{" "}
-            , hal ini disebabkan perkembangan tradisi <br />
+            hal ini disebabkan perkembangan tradisi <br />
             Cina yang melambangkan warna merah sebagai keberanian dan <br />
             emas sebagai kekayaan, kejayaan, dan kemakmuran.
           </p>{" "}

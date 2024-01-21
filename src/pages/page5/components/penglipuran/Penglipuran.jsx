@@ -16,7 +16,7 @@ const Penglipuran = () => {
                     kehidupan masyarakatnya yang masih memegang kuat nilai-nilai budaya Bali.</p>
                     
                     <p style={{fontSize:'1.01vw',fontFamily:'National2Light'}}>
-                    <i>Ultimates</i> dapat menginap di DESA <b>PENGLIPURAN</b> , menyusuri desa yang asri dan <br />
+                    <i>Ultimates</i> dapat menginap di DESA <b>PENGLIPURAN</b>, menyusuri desa yang asri dan <br />
                          dikelilingi pohon bambu sambil bersepeda, hingga, mencoba masakan khas desa.     
                     </p>
                 </div>
@@ -46,7 +46,7 @@ const Penglipuran = () => {
                         <p style={{fontFamily:'National2Light',fontSize:'1.38vw'}}>
                         Selain itu,  <i>Ultimates</i> juga  dapat melihat masyarakat DESA PENGLIPURAN melakukan ritual keagamaan, <br />
                          salah satunya Ngusaba. Saat Ngusaba, masyarakat menghaturkan sesaji buah dan jajanan Bali <br /> 
-                         sebagai ucapan syukur. Ada pun ritual ini dilakukan dalam rangka menyambut hari raya Nyepi.  
+                         sebagai ucapan syukur. Ada pun ritual ini dilakukan dalam rangka menyambut Hari Raya Nyepi.  
                         </p>
                         <br />
                         <p style={{fontFamily:'National2Light',fontSize:'1.38vw'}}>

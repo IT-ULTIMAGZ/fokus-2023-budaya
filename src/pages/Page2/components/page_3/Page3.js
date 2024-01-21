@@ -51,7 +51,7 @@ function page3() {
               karena itu, <br />
               terdapat beberapa corak batik yang hanya bisa dikenakan oleh
               keluarga <br />
-              bangsawan, seperti batik parang keluarga Keraton Yogyakarta
+              bangsawan, seperti batik parang keluarga Keraton Yogyakarta.
             </p>
           </div>
         </div>

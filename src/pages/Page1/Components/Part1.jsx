@@ -26,9 +26,9 @@ const Part1 = () => {
         data-aos="zoom-out"
         data-aos-delay="500"
       >
-        <h1>
+        <h1 style={{fontSize:'calc(143,75/1920*100vw)',textAlign:'justify'}}>
           SEBERAPA DEKAT
-          <i style={{ marginLeft: "95px" }}>ULTIMATES</i>
+          <i style={{ marginLeft: "calc(120/1920*100vw)" }}>ULTIMATES</i>
           <br />
           DENGAN BUDAYA NUSANTARA?
         </h1>
@@ -37,10 +37,11 @@ const Part1 = () => {
           className="panah"
           alt="panah"
           style={{
-            height: "5vh",
+            height: "auto",
             position: "absolute",
-            left: "55.8%",
-            top: "19%",
+            left: "56.4%",
+            top: "6vh",
+            width:'7vw'
           }}
         />
       </div>

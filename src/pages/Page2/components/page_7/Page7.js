@@ -44,7 +44,7 @@ function page7() {
               fontSize: "1.38vw",
               lineHeight: "1",
               color: "rgb(9,107,71)",
-              marginTop: "5vh",
+              marginTop: "4vh",
             }}
           >
             Selain kain-kain tersebut, masih banyak kain di Indonesia yang corak

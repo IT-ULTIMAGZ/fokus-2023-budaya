@@ -12,7 +12,7 @@ const Part4 = () => {
         <div className="part4Section" id="naomiSusilowati">
             <div className="textAtas">
                 <p data-aos='fade-left-custom'>Motif <b>Batik Lasem</b> merupakan perpaduan dari budaya <b> Tionghoa dan Jawa</b>, <br />
-                dilansir dari mediaindonesia.com. Batik ini juga dikenal sebagai <br />
+                dilansir dari media indonesia.com. Batik ini juga dikenal sebagai <br />
                 <b>Batik Tiga Negeri </b>  karena melewati tiga kali proses pewarnaan. </p>
 
                 <p data-aos='fade-right-custom'>

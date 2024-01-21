@@ -75,10 +75,13 @@
 }
 @font-face {
   font-family: "National2BoldItalic"; /* Specify the desired font-family name */
-  src: url("../public/Fonts/National 2 Condensed Bold Italic.otf")
-    format("opentype");
+  src: url("../public/Fonts/National 2 Condensed Bold Italic.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+  font-family: "National2XBoldItalic"; /* Specify the desired font-family name */
+  src: url("../public/Fonts/National\ 2\ XBold\ Italic.otf") format("opentype");
 }
 @font-face {
   font-family: "National2CompressedRegularItalic"; /* Specify the desired font-family name */

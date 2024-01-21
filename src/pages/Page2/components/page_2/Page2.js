@@ -31,7 +31,7 @@ function page2() {
           memiliki cara tersendiri untuk memproduksi, membuat corak, dan
           memanfaatkan kain sesuai kebudayaan <br />
           setempat. Oleh karena itu, kain merupakan salah satu budaya Indonesia
-          yang agung dan luhur
+          yang agung dan luhur.
         </p>
       </div>
     </div>

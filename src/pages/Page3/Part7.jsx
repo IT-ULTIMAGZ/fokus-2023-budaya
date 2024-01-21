@@ -9,7 +9,7 @@ const Part7 = () => {
         <div className="part7Section">
             <div className="part7Section_textKiri">
                 <p data-aos='fade-right-custom'>Akhirnya, setelah 23 tahun bekerja sebagai karyawan,<span>LILIS</span> <br /> memutuskan untuk </p>
-                <p data-aos='fade-up-pop'>Meskipun merupakan keturunan Jawa, <span>LILIS</span> memproduksi <b>batik <br />tulis</b> 
+                <p data-aos='fade-up-pop'>Meskipun merupakan keturunan Jawa, <span>LILIS</span> memproduksi <b>batik <br />tulis </b>
                      dengan motif Kalimantan, tempat di mana <span>LILIS</span>  belajar <br /> 
                     membatik. Biasanya, ia menggunakan corak khas <br />
                     <b>Kalimantan Timur</b>  yang mana terdapat ukiran Dayak, ikan dan <br />
@@ -19,7 +19,7 @@ const Part7 = () => {
                 <p data-aos='fade-left-custom'>Menurut <span>LILIS</span>, batik Kalimantan memiliki warna yang lebih <br /> cerah seperti </p>
                 <div>
                     <p  data-aos='fade-up-pop'>Berbeda dari batik Jawa yang cenderung menggunakan warna lebih <br /> 
-                        tenang seperti cokelat, dikutip dari <i>diskominfo.kaltimprov.go.id</i> .</p>
+                        tenang seperti cokelat, dikutip dari <i>diskominfo.kaltimprov.go.id.</i></p>
                     
 
                     <p  data-aos='fade-up-pop'>Selama membuka bisnis batiknya sendiri, <span>LILIS</span> juga sering mengikuti <br />

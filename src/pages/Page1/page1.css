@@ -80,9 +80,8 @@
 } */
 
 .mainbg h1 {
-  font-family: National2Condensed;
-  font-weight: bold;
-  font-size: 15vh;
+  font-family: National2CondensedBold;
+  font-size: calc(143.75/1920*100vw);
   color: var(--primary);
   -webkit-text-stroke-width: 0.5vh;
   -webkit-text-stroke-color: black;

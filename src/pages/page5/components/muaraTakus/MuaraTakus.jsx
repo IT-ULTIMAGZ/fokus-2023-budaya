@@ -54,7 +54,7 @@ function MuaraTakus(props) {
         <div style={{width:'45vw',height:'80vh'}} className='flex-column justify-around align-center'>
           <p class='sidescroll-content-hero' style={{fontFamily:"National2CondensedMedium",fontSize:'1.833vw'}}>CANDI <b style={{fontFamily:"National2MediumItalic"}}><i>MUARA</i></b> <b style={{fontWeight:800}}>TAKUS </b> <br />
              diketahui dibangun pada sekitar <br />
-            abad ke – 4 hingga abad ke – 11, <br/>
+            abad ke–4 hingga abad ke-11, <br/>
             yakni pada masa kerajaan Sriwijaya.
           </p>
 

@@ -14,7 +14,7 @@ const Part8 = () => {
                 <img data-scroll data-scroll-speed='0.5' data-scroll-direction='horizontal' src="./images/lima-pelestari/3.png" alt="" />
             </div>
             <div className='part8SectionKanan' >
-                <p data-aos='fade-up-custom'>Selain di bidang pedalangan, <span>WORO </span>  juga mempelajari <b>macapat</b> . <b>Macapat</b> merupakan bentuk <br />
+                <p data-aos='fade-up-custom'>Selain di bidang pedalangan, <span>WORO </span>  juga mempelajari <b>macapat</b>. <b>Macapat</b> merupakan bentuk <br />
                 puisi Jawa tradisional yang biasanya ada dalam pertunjukan wayang, dilansir dari <i>detik.com.</i></p>
                 <br />
 

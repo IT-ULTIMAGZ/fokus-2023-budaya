@@ -7,6 +7,7 @@ const Part11 = () => {
             <div data-scroll data-scroll-speed='0.6'>
                 <img src="./images/lima-pelestari/5.png" alt="" />
             </div>
+            {/* <div style={{position:'absolute',top:'-20vh',left:'48.2vw', color:'rgb(9,107,72)',fontSize:'calc(90/1920*100vw)'}}>.</div> */}
             <div className='part11SectionKanan' >
                 <p data-aos='fade-up-custom'>Pada saat ia mencapai usia kepala dua, tepatnya pada 1975, Abah Engkus menyelenggarakan <br />
                     pameran pencak silat di Jepang bersama dengan ayahnya dan anggota PPSI lainnya. <br />

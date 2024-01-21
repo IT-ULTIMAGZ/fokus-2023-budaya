@@ -13,7 +13,7 @@ const End = () => {
             </div>
 
             <div className='endSectionBawah'>
-                <p style={{fontFamily:'National2Rgular',fontSize:'2.01vw'}}>
+                <p style={{fontFamily:'National2Rgular',fontSize:'calc(40/1080*100vh)'}}>
                     Kelima tempat di atas menjadi contoh pariwisata budaya yang tersebar
                 </p>
                 <img src="./images/tengok-ragam-real/Page 7/aset1 pg7.png" alt="" />

@@ -34,7 +34,7 @@ const cendrawasih = () => {
                     kelestarian budayanya. Salah satu bentuknya adalah dengan tradisi sasi.  
                 </p>
                 <p>
-                Dilansir dari telukcenderawasihnationalpark.com, sasi adalah tradisi pembatasan suatu area yang tidak boleh <br />
+                Dilansir dari <i>teluk cenderawasihnationalpark.com,</i> sasi adalah tradisi pembatasan suatu area yang tidak boleh <br />
                 diakses dan diambil sumber daya alamnya (SDA) oleh orang-orang pada jangka waktu tertentu. Setelah periode <br />
                  jangka waktu yang ditentukan selesai, area tersebut dapat diakses dan SDA dapat diambil untuk kebutuhan <br />
                   masyarakat sekitar. Melalui tradisi ini, keadaan di alamnya tetap bersih sehingga wisatawan dapat merasakan <br />

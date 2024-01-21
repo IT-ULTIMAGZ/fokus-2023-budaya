@@ -12,7 +12,10 @@ function Page4No3() {
     'backgroundSize':'100vw 100vh',
     'width':'100vw',
     'height':'100vh',
-    'padding':'40px'
+    'padding':'40px',
+    'justifyContent':'end',
+    'marginRight':'10vw',
+    'gap':'4vh'
   }
 
   const empty = {
@@ -21,9 +24,9 @@ function Page4No3() {
   }
 
   return(
-    <div class='page flex-row justify-center' style={styles}>
+    <div class='page flex-row' style={styles}>
       {/* <div class='empty' style={empty}></div> */}
-      <div class='page4no3-images flex-column justify-center'>
+      <div class='page4no3-images flex-column justify-center' style={{gap:'4vh',marginRight:'7vw'}}>
         <img data-aos='fade-right-custom' data-aos-duration='1000' src='/images/tengok-ragam/Text/Page 3/Asset 18.png' style={{width:'50vw'}}></img>
         <img data-aos='fade-up-left' data-aos-duration='500' data-aos-delay='800' src='/images/tengok-ragam/Text/Page 3/Asset 19.png' style={{width:'50vw'}}></img>
 

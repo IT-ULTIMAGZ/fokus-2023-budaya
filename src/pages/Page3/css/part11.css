@@ -24,6 +24,7 @@
     width: 100vw;
     flex-direction: row-reverse;
     gap:2vw;
+    position: relative;
 }
 .part11Section > :first-child {
     width: fit-content;

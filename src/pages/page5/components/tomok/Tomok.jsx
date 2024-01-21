@@ -18,7 +18,7 @@ const Tomok = () => {
                         <span>DESA</span> <b>TOMOK</b> terletak di pulau Samosir, <br />
                         Danau Toba, Sumatera Utara. Masyarakat <br />
                         yang tinggal di sana adalah <b>Suku Batak  <br />
-                        Toba </b>. Melansir <i style={{fontFamily:'National2CompressedXLightItalic'}}>pariwisataindonesia.id</i> , wisatawan <br /> 
+                        Toba.</b> Melansir <i style={{fontFamily:'National2CompressedXLightItalic'}}>pariwisataindonesia.id,</i> wisatawan <br /> 
                         yang baru datang ke <span>DESA</span> <b>TOMOK</b> akan <br />
                         disambut oleh <b>tari tor-tor</b>  yang dilakukan <br />
                         oleh masyarakat setempat.
@@ -39,7 +39,7 @@ const Tomok = () => {
                         Lalu, <i>Ultimates</i> juga <br />
                         dapat melihat
                     </p>
-                    <img src="./images/tengok-ragam-real/Page 4/aset3 pg4.png" alt="" />
+                    <img src="./images/tengok-ragam-real/Page 4/aset3 pg4.svg" alt="" />
                     <br /><br />
                     <p style={{fontSize:'2.01vw',lineHeight:'1.4'}}>
                         Melansir dari detik.com, konon PATUNG <br />
@@ -56,7 +56,7 @@ const Tomok = () => {
                         </p>
 
                     <img src="./images/tengok-ragam-real/Page 4/aset4 pg4.png" alt="" />
-                    <img src="./images/tengok-ragam-real/Page 4/aset5 pg4.png" alt="" />
+                    <img src="./images/tengok-ragam-real/Page 4/aset5 pg4.svg" alt="" />
                     <br /><br />
                     <p style={{fontSize:'1.68vw',fontFamily:'National2CondensedLight'}}>
                     Lalu, patung ini juga dimainkan pada <br />
