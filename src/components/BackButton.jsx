@@ -30,7 +30,7 @@ const BackButton = (props) => {
 
   return (
     <div style={{ position: 'fixed',zIndex:'100',...props.style }}>
-      <a href="/">
+      <a href="/articles/budaya">
         <img
           src="./images/Back Button.svg"
           alt="back-button"
