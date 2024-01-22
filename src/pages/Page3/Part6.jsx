@@ -15,7 +15,7 @@ const Part6 = () => {
                 <img src="./images/lima-pelestari/2.png" alt="" />
             </div>
             <div data-aos='fade-left-custom' className='part6SectionKanan' >
-                <p>Perjalanan batiknya dimulai saat ia bekerja di <b> Batik Tulis Mitaka</b> <br /> milik Sani Rachman sebagai buruh mencanting pada 1990.</p>
+                <p>Perjalanan batiknya dimulai saat ia bekerja di <b> Batik Tul Mitaka</b> <br /> milik Sani Rachman sebagai buruh mencanting pada 1990.</p>
             </div>
         </div>
     )

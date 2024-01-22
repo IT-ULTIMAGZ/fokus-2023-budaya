@@ -23,8 +23,8 @@ function Page4No1() {
       <img 
         style={{width: '60vw'}}
         data-aos-once="false"
-        data-aos='zoom-out-custom'  src='/images/tengok-ragam/Text/Page 1/Asset 16.png'/>
-      <img data-aos='fade-right-custom'  src='/images/tengok-ragam/Text/Page 1/Asset 15.png' style={{width:'50vw'}}/>
+        data-aos='zoom-out-custom'  src='./images/tengok-ragam/Text/Page 1/Asset 16.png'/>
+      <img data-aos='fade-right-custom'  src='./images/tengok-ragam/Text/Page 1/Asset 15.png' style={{width:'50vw'}}/>
 
     </div>
   )

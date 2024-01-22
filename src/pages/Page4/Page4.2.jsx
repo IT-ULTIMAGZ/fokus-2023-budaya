@@ -1,7 +1,7 @@
 function Page4No2() {
   return(
     <div class='page' style={{
-      'backgroundImage':'url("images/tengok-ragam/ilustrasi/Cover.jpg")',
+      'backgroundImage':'url("./images/tengok-ragam/ilustrasi/Cover.jpg")',
       'backgroundPosition' : 'center',
       'backgroundSize':'100vw 100vh',
       'width':'100vw',

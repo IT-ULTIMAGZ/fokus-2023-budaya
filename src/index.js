@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Page1 from './pages/Page1/Page1';
 import Page2 from './pages/Page2/Page2';
 import Page3 from './pages/Page3/Page3';
@@ -17,37 +18,37 @@ import LandscapePrompt from './components/LndscapePrompt';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/articles/budaya/",
     element: <Home />,
     errorElement: <div>Error 404 Page Not Found</div>
   },
   {
-    path: "Budaya-Bangsa-Yang-Tidak-Lekang-Oleh-Waktu",
+    path: "/articles/budaya/Budaya-Bangsa-Yang-Tidak-Lekang-Oleh-Waktu",
     element: <Page4 />,
     errorElement: <div>Error 404 Page Not Found</div>
   },
   { 
-    path: "Seberapa-Dekat-Ultimates-Dengan-Sejarah",
+    path: "/articles/budaya/Seberapa-Dekat-Ultimates-Dengan-Sejarah",
     element: <Page1 />,
     errorElement: <div>Error 404 Page Not Found</div>
   },
   {
-    path:"Lihat-Semangat-5-Pelestari",
+    path:"/articles/budaya/Lihat-Semangat-5-Pelestari",
     element: <Page3 />,
     errorElement: <div>Error 404 Page Not Found</div>
   },
   {
-    path: "Telisik-5-Warisan-Budaya",
+    path: "/articles/budaya/Telisik-5-Warisan-Budaya",
     element: <Page_6 />,
     errorElement: <div>Error 404 Page Not Found</div>
   },
   {
-    path: "Warisan-Agung-nan-Luhur-Nusantara",
+    path: "/articles/budaya/Warisan-Agung-nan-Luhur-Nusantara",
     element: <Page2 />,
     errorElement: <div>Error 404 Page Not Found</div>
   },
   {
-    path: "Tengok-Ragam-Budaya-Unik-Indonesia",
+    path: "/articles/budaya/Tengok-Ragam-Budaya-Unik-Indonesia",
     element: <Page5 />,
     errorElement: <div>Error 404 Page Not Found</div>
   }

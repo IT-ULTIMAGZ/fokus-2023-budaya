@@ -59,7 +59,7 @@ function page3() {
           <img
             src={Gambar3}
             data-scroll
-            data-scroll-speed="0.1"
+            data-scroll-speed="0.4"
             data-scroll-direction="horizontal"
           ></img>
         </div>
